@@ -1,38 +1,47 @@
 import { NextResponse } from "next/server";
-import jwt from "jsonwebtoken";
-import {
-    AUTH_PASSWORD,
-    JWT_SECRET,
-    TOKEN_EXPIRATION,
-} from "@/app/config/authConfig";
+import bcrypt from "bcryptjs"; // Optional, in case you want to hash passwords later
+import jwt from "jsonwebtoken"; // For creating a token
 
-export async function POST(req) {
+// Example hardcoded email and password
+const users = [
+    {
+        email: "user@example.com",
+        password: "password123", // In a real app, this should be hashed
+    },
+];
+
+export async function POST(request) {
     try {
-        const { password } = await req.json();
+        const { email, password } = await request.json();
 
-        if (!password) {
+        // Find user by email
+        const user = users.find((user) => user.email === email);
+        if (!user) {
             return NextResponse.json(
-                { error: "Password is required" },
-                { status: 400 }
-            );
-        }
-
-        if (password !== AUTH_PASSWORD) {
-            return NextResponse.json(
-                { error: "Invalid password" },
+                { error: "Invalid email or password" },
                 { status: 401 }
             );
         }
 
-        // Generate a JWT token
-        const token = jwt.sign({ user: "authenticated" }, JWT_SECRET, {
-            expiresIn: TOKEN_EXPIRATION,
+        // Validate password
+        if (user.password !== password) {
+            return NextResponse.json(
+                { error: "Invalid email or password" },
+                { status: 401 }
+            );
+        }
+
+        // Create a JWT token
+        const token = jwt.sign({ email: user.email }, "myjwtsecret", {
+            expiresIn: "1h",
         });
 
-        return NextResponse.json({ token }, { status: 200 });
+        // Return the token
+        return NextResponse.json({ token });
     } catch (error) {
+        console.error(error);
         return NextResponse.json(
-            { error: "Something went wrong" },
+            { error: "An error occurred" },
             { status: 500 }
         );
     }
