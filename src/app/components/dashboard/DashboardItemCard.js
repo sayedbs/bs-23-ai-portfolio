@@ -10,7 +10,7 @@ import {
     CardHeader,
 } from "@/components/ui/card";
 
-function DashboardItemCard() {
+function DashboardItemCard({ openDetailsModal, title, content }) {
     return (
         <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
@@ -29,11 +29,14 @@ function DashboardItemCard() {
                     <div></div>
                 </CardHeader>
                 <CardContent className="px-6 py-0">
-                    <h2 className="text-2xl font-bold mb-3">Card Title</h2>
-                    <p className="text-gray-700">Card Content</p>
+                    <h2 className="text-2xl font-bold mb-3">{title}</h2>
+                    <p className="text-gray-700">{content}</p>
                 </CardContent>
                 <CardFooter className="px-6 py-10 flex justify-between items-center">
-                    <Button className="bg-indigo-500 text-white hover:bg-indigo-600 px-10">
+                    <Button
+                        className="bg-indigo-500 text-white hover:bg-indigo-600 px-10"
+                        onClick={() => openDetailsModal()}
+                    >
                         View Details
                     </Button>
                 </CardFooter>
