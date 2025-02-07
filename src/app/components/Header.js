@@ -15,6 +15,9 @@ function Header() {
     console.log(pathname);
 
     const isActive = (path) => {
+        if (path === "/computer-vision" && pathname === "/") {
+            return true;
+        }
         return pathname === path;
     };
 
