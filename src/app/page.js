@@ -56,7 +56,7 @@ export default function Dashboard() {
                 <div className="mt-[150px]">
                     <Header />
 
-                    <div className="grid grid-cols-4 gap-5">
+                    <div className="grid grid-cols-3 lg:grid-cols-4 gap-5">
                         <DashboardItemCard
                             openDetailsModal={openDetailsModal}
                             title="Maruboshi OM CMS"
