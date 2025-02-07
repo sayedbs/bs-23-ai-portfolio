@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Loader2 } from "lucide-react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function Login() {
     const [email, setEmail] = useState("");
@@ -58,91 +59,138 @@ export default function Login() {
 
     return (
         <div className="h-screen bg-cover bg-center bg-[url('/images/login.jpg')] flex items-center justify-center">
-            {/* Animated Card */}
-            <motion.div
-                className="w-full max-w-sm bg-white shadow-lg rounded-xl overflow-hidden"
-                initial={{ opacity: 0, y: -100 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8 }}
-            >
-                <Card className="p-6">
-                    <CardContent>
-                        {/* Title Section */}
-                        <motion.h2
-                            className="text-3xl font-bold text-center text-gray-800 mb-4"
+            {/* Inner Box with Two Columns */}
+            <div className="w-full max-w-5xl bg-white bg-opacity-80 rounded-lg p-8 min-h-64">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    {/* Left Column (Image & Text) */}
+                    <div className="flex items-center justify-center">
+                        <motion.div
+                            className="text-center space-y-4"
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
-                            transition={{ duration: 1 }}
+                            transition={{ duration: 3 }}
                         >
-                            BS23 - AI Portfolio
-                        </motion.h2>
-                        <p className="text-gray-500 text-center mb-6">
-                            Please sign in to view projects.
-                        </p>
-
-                        {/* Form Section */}
-                        <form onSubmit={handleSubmit} className="space-y-4">
-                            {/* Email Input */}
-                            <motion.div
-                                initial={{ opacity: 0 }}
-                                animate={{ opacity: 1 }}
-                                transition={{ duration: 1, delay: 0.3 }}
-                            >
-                                <Input
-                                    type="email"
-                                    placeholder="Enter email address"
-                                    value={email}
-                                    onChange={(e) => setEmail(e.target.value)}
-                                    className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-indigo-500"
+                            <h2 className="text-4xl font-bold text-gray-800 flex items-center justify-center space-x-2">
+                                <Image
+                                    src="/bs23logo.png"
+                                    alt="Logo"
+                                    width={45}
+                                    height={45}
                                 />
-                            </motion.div>
+                                <span style={{ color: "#00A0DE" }}>
+                                    Brain Station 23
+                                </span>
+                            </h2>
+                            <p className="text-lg text-gray-500">
+                                Showcasing innovative AI projects that redefine
+                                technology and creativity.
+                            </p>
+                        </motion.div>
+                    </div>
 
-                            {/* Password Input */}
-                            <motion.div
-                                initial={{ opacity: 0 }}
-                                animate={{ opacity: 1 }}
-                                transition={{ duration: 1, delay: 0.5 }}
-                            >
-                                <Input
-                                    type="password"
-                                    placeholder="Enter password"
-                                    value={password}
-                                    onChange={(e) =>
-                                        setPassword(e.target.value)
-                                    }
-                                    className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-indigo-500"
-                                />
-                            </motion.div>
+                    {/* Right Column (Login Form) */}
+                    <div className="flex items-center justify-center">
+                        <motion.div
+                            className="w-full max-w-sm overflow-hidden"
+                            initial={{ opacity: 0, y: -100 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            transition={{ duration: 0.8 }}
+                        >
+                            <Card className="p-6 bg-opacity-80">
+                                <CardContent>
+                                    {/* Title Section */}
+                                    <motion.h2
+                                        className="text-3xl font-bold text-center text-gray-800 mb-4"
+                                        initial={{ opacity: 0 }}
+                                        animate={{ opacity: 1 }}
+                                        transition={{ duration: 1 }}
+                                    >
+                                        Login
+                                    </motion.h2>
+                                    <p className="text-gray-500 text-center mb-6">
+                                        Please sign in to view projects.
+                                    </p>
 
-                            {/* Error Message */}
-                            {error && (
-                                <p className="text-red-500 text-sm text-center mt-2">
-                                    {error}
-                                </p>
-                            )}
+                                    {/* Form Section */}
+                                    <form
+                                        onSubmit={handleSubmit}
+                                        className="space-y-4"
+                                    >
+                                        {/* Email Input */}
+                                        <motion.div
+                                            initial={{ opacity: 0 }}
+                                            animate={{ opacity: 1 }}
+                                            transition={{
+                                                duration: 1,
+                                                delay: 0.3,
+                                            }}
+                                        >
+                                            <Input
+                                                type="email"
+                                                placeholder="Enter email address"
+                                                value={email}
+                                                onChange={(e) =>
+                                                    setEmail(e.target.value)
+                                                }
+                                                className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-indigo-500"
+                                            />
+                                        </motion.div>
 
-                            {/* Submit Button */}
-                            <motion.div
-                                initial={{ opacity: 0 }}
-                                animate={{ opacity: 1 }}
-                                transition={{ duration: 1, delay: 0.7 }}
-                            >
-                                <Button
-                                    type="submit"
-                                    className="w-full py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500"
-                                    disabled={loading}
-                                >
-                                    {loading ? (
-                                        <Loader2 className="animate-spin w-5 h-5" />
-                                    ) : (
-                                        "Login"
-                                    )}
-                                </Button>
-                            </motion.div>
-                        </form>
-                    </CardContent>
-                </Card>
-            </motion.div>
+                                        {/* Password Input */}
+                                        <motion.div
+                                            initial={{ opacity: 0 }}
+                                            animate={{ opacity: 1 }}
+                                            transition={{
+                                                duration: 1,
+                                                delay: 0.5,
+                                            }}
+                                        >
+                                            <Input
+                                                type="password"
+                                                placeholder="Enter password"
+                                                value={password}
+                                                onChange={(e) =>
+                                                    setPassword(e.target.value)
+                                                }
+                                                className="w-full px-4 py-3 border rounded-lg focus:ring-2 focus:ring-indigo-500"
+                                            />
+                                        </motion.div>
+
+                                        {/* Error Message */}
+                                        {error && (
+                                            <p className="text-red-500 text-sm text-center mt-2">
+                                                {error}
+                                            </p>
+                                        )}
+
+                                        {/* Submit Button */}
+                                        <motion.div
+                                            initial={{ opacity: 0 }}
+                                            animate={{ opacity: 1 }}
+                                            transition={{
+                                                duration: 1,
+                                                delay: 0.7,
+                                            }}
+                                        >
+                                            <Button
+                                                type="submit"
+                                                className="w-full py-3 bg-indigo-600 text-white font-semibold rounded-lg hover:bg-indigo-700 focus:ring-2 focus:ring-indigo-500"
+                                                disabled={loading}
+                                            >
+                                                {loading ? (
+                                                    <Loader2 className="animate-spin w-5 h-5" />
+                                                ) : (
+                                                    "Login"
+                                                )}
+                                            </Button>
+                                        </motion.div>
+                                    </form>
+                                </CardContent>
+                            </Card>
+                        </motion.div>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
