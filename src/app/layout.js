@@ -3,8 +3,8 @@ import ProtectedRoute from "./components/ProtectedRoute";
 import "./globals.css";
 
 export const metadata = {
-    title: "My Portfolio",
-    description: "Portfolio with protected login",
+    title: "BS23 - AI Portfolio",
+    description: "Showcasing cutting-edge AI projects",
 };
 
 export default function RootLayout({ children }) {
