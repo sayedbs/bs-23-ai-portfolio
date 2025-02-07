@@ -3,6 +3,9 @@ import Header from "../components/Header";
 
 import { Box, Lock, Search, Settings, Sparkles } from "lucide-react";
 import { GlowingEffect } from "../components/Card";
+import { GlareCard } from "../components/GlareCard";
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 function Dashboard2() {
     return (
@@ -51,6 +54,37 @@ function Dashboard2() {
                     description="I'm writing the code as I record this, no shit."
                 />
             </ul>
+
+            <h2 className="mt-20 text-white text-[40px] bg-black">Card example 2</h2>
+            <div className="grid grid-cols-3 gap-20">
+            <GlareCard className="flex flex-col items-start justify-end py-8 px-6 rounded-lg">
+                <Image className="mb-auto" src={"/images/ai.webp"} alt="Card image" width={"400"} height={"200"} />
+                
+                <div className="pt-4">
+                    <p className="font-bold text-white text-lg">The greatest trick</p>
+                    <p className="font-normal text-base text-neutral-200 mt-4">
+                      The greatest trick the devil ever pulled was to convince the world
+                      that he didn&apos;t exist.
+                    </p>
+                </div>
+
+                <Button className="my-4">Button</Button>
+              </GlareCard>
+              <GlareCard className="flex flex-col items-start justify-end py-8 px-6 rounded-lg">
+                <Image className="mb-auto" src={"/images/ai.webp"} alt="Card image" width={"400"} height={"200"} />
+                
+                <div className="pt-4">
+                    <p className="font-bold text-white text-lg">The greatest trick</p>
+                    <p className="font-normal text-base text-neutral-200 mt-4">
+                      The greatest trick the devil ever pulled was to convince the world
+                      that he didn&apos;t exist.
+                    </p>
+                </div>
+
+                <Button className="my-4">Button</Button>
+              </GlareCard>
+
+              </div>
         </div>
     );
 }
