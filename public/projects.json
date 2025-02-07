@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "AI Project 1",
+        "description": "This is a project about AI",
+        "image": "ai-project-1.jpg",
+        "category": "Computer Vision"
+    },
+    {
+        "id": 3,
+        "title": "AI Project 1",
+        "description": "This is a project about AI",
+        "image": "ai-project-1.jpg",
+        "category": "Artificial Intelligence"
+    },
+    {
+        "id": 3,
+        "title": "AI Project 1",
+        "description": "This is a project about AI",
+        "image": "ai-project-1.jpg",
+        "category": "Chatbot"F
+    }
+]

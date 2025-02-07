@@ -2,6 +2,9 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
+import Header from "./components/Header";
+import DashboardItemCard from "./components/dashboard/DashboardItemCard";
+import AnimatedModalDemo from "./components/dashboard/ProjectDetailsModal";
 
 export default function Dashboard() {
     const [message, setMessage] = useState("");
@@ -34,10 +37,28 @@ export default function Dashboard() {
     };
 
     return (
-        <div>
-            <h1>Dashboard</h1>
-            <p>{message}</p>
-            <button onClick={logout}>Logout</button>
+        <div
+            className="p-3 min-h-[100vh]"
+            style={{
+                backgroundImage: "url('/images/computervision.jpg')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+            }}
+        >
+            <div className="max-w-[1500px] mx-auto">
+                <div className="mt-[150px]">
+                    <Header />
+
+                    <div className="grid grid-cols-4 gap-5">
+                        <DashboardItemCard />
+                        <DashboardItemCard />
+                        <DashboardItemCard />
+                        <DashboardItemCard />
+                    </div>
+                </div>
+                <AnimatedModalDemo />
+            </div>
         </div>
     );
 }
