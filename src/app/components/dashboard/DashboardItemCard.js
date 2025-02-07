@@ -17,7 +17,7 @@ function DashboardItemCard() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
         >
-            <Card className="transform transition-transform hover:scale-105 hover:shadow-lg bg-black bg-opacity-30 border-2 border-gray-800 hover:bg-white hover:text-gray-900 text-gray-300 hover:shadow-indigo-500/50 rounded-lg overflow-hidden backdrop-blur-3xl group">
+                        <Card className="transform transition-transform hover:scale-105 hover:shadow-lg bg-black bg-opacity-30 border-2 border-gray-800 hover:bg-white hover:text-gray-900 text-gray-300 hover:shadow-indigo-500/50 rounded-lg overflow-hidden backdrop-blur-3xl group transition-colors duration-300">
                 <CardHeader className="p-3 bg-gray-900 h-[200px] flex items-center justify-center">
                     <Image
                         src="/images/upe-nd-now.png"
@@ -36,8 +36,13 @@ function DashboardItemCard() {
                     </p>
                 </CardContent>
                 <CardFooter className="p-6 flex justify-between items-center">
-                    <Button className="bg-indigo-500 text-white max-w-[150px] ml-auto group-hover:bg-gray-800 p-4 rounded-full flex items-center justify-center">
-                        View Details <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" > <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /> </svg>
+                    <Button className="bg-indigo-500 text-white max-w-[180px] ml-auto hover:bg-gray-800 p-4 rounded-full flex items-center justify-center transition-transform duration-300">
+                        <span className="hover:translate-x-1 flex items-center transition-transform duration-300">
+                            View Details 
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor"> 
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /> 
+                            </svg>
+                        </span>
                     </Button>
                 </CardFooter>
             </Card>
