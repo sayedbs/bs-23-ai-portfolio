@@ -1,9 +1,8 @@
-"use client";
-import React, { useEffect, useState } from "react";
-import Header from "../components/Header";
-import DashboardItemCard from "../components/dashboard/DashboardItemCard";
+import React, { use, useEffect, useState } from "react";
+import Header from "./Header";
+import DashboardItemCard from "./dashboard/DashboardItemCard";
 
-const ArtificialIntelligence = () => {
+const ComputerVisionComponent = () => {
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
@@ -11,7 +10,7 @@ const ArtificialIntelligence = () => {
             .then((res) => res.json())
             .then((data) => {
                 const filteredProjects = data.filter(
-                    (project) => project.type === "Artificial Intelligence"
+                    (project) => project.type === "Computer Vision"
                 );
                 setProjects(filteredProjects);
             });
@@ -19,9 +18,9 @@ const ArtificialIntelligence = () => {
 
     return (
         <div
-            className="p-3 min-h-[100vh]"
+            className="p-3  min-h-[100vh]"
             style={{
-                backgroundImage: "url('/images/ai-1.jpg')",
+                backgroundImage: "url('/images/computervision.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
@@ -45,4 +44,4 @@ const ArtificialIntelligence = () => {
     );
 };
 
-export default ArtificialIntelligence;
+export default ComputerVisionComponent;

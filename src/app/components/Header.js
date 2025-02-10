@@ -1,18 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { usePathname } from "next/navigation";
 import Image from "next/image";
+import { motion } from "framer-motion";
+import "./header.css";
 
 function Header() {
     const router = useRouter();
     const pathname = usePathname();
+    const [showPlane, setShowPlane] = useState(true);
 
     const logout = () => {
         localStorage.removeItem("token");
         router.push("/login");
     };
-
-    console.log(pathname);
 
     const isActive = (path) => {
         if (path === "/computer-vision" && pathname === "/") {
@@ -20,6 +21,12 @@ function Header() {
         }
         return pathname === path;
     };
+
+    useEffect(() => {
+        setTimeout(() => {
+            setShowPlane(false);
+        }, 6000);
+    }, []);
 
     return (
         <header className="absolute top-0 right-0 left-0 z-50 p-3 flex justify-between items-center">
@@ -107,6 +114,42 @@ function Header() {
                     Logout
                 </button>
             </div>
+
+            {pathname === "/" && showPlane ? (
+                <>
+                    <div className="home__plane">
+                        <motion.div
+                            animate={{ y: [0, 12, 0] }}
+                            transition={{ repeat: Infinity, duration: 0.6 }}
+                        >
+                            <motion.div
+                                animate={{ x: ["120%", "-120%"] }}
+                                // animate={{ x: ["50%"] }}
+                                transition={{ duration: 12 }}
+                                className="plane-container"
+                            >
+                                <Image
+                                    src="/images/plane.png"
+                                    alt="Logo"
+                                    width={350}
+                                    height={200}
+                                    className="header-plane"
+                                />
+                                <Image
+                                    src="/images/bs23banner.png"
+                                    alt="Logo"
+                                    width={550}
+                                    height={200}
+                                    style={{ marginLeft: "-25px" }}
+                                    className="img-fluid plane-text"
+                                />
+                            </motion.div>
+                        </motion.div>
+                    </div>
+                </>
+            ) : (
+                <></>
+            )}
         </header>
     );
 }

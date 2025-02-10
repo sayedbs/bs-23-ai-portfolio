@@ -5,11 +5,11 @@ import { useRouter } from "next/navigation";
 import Header from "./components/Header";
 import DashboardItemCard from "./components/dashboard/DashboardItemCard";
 import ProjectDetailsModal from "./components/dashboard/ProjectDetailsModal";
+import ComputerVisionComponent from "./components/ComputerVision";
 
 export default function Dashboard() {
     const [message, setMessage] = useState("");
     const router = useRouter();
-    const [isOpen, setIsOpen] = useState(false);
 
     useEffect(() => {
         const token = localStorage.getItem("token");
@@ -37,37 +37,9 @@ export default function Dashboard() {
         router.push("/login");
     };
 
-    const openDetailsModal = () => {
-        console.log("Opening modal");
-        setIsOpen(true);
-    };
-
     return (
-        <div
-            className="p-3 min-h-[100vh]"
-            style={{
-                backgroundImage: "url('/images/computervision.jpg')",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-            }}
-        >
-            <div className="max-w-[1500px] mx-auto">
-                <div className="mt-[150px]">
-                    <Header />
-
-                    <div className="grid grid-cols-3 lg:grid-cols-4 gap-5">
-                        <DashboardItemCard
-                            openDetailsModal={openDetailsModal}
-                            title="Maruboshi OM CMS"
-                            content={
-                                "A project for Maroboshi OM, involving data transformation...."
-                            }
-                        />
-                    </div>
-                </div>
-                <ProjectDetailsModal isOpen={isOpen} setIsOpen={setIsOpen} />
-            </div>
-        </div>
+        <>
+            <ComputerVisionComponent />
+        </>
     );
 }

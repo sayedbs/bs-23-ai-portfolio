@@ -1,0 +1,21 @@
+header {
+    position: relative;
+}
+.home__plane {
+    position: absolute;
+    width: 100%;
+    height: 30vh;
+    top: 30px;
+    right: 0;
+    overflow: hidden;
+}
+.home__plane img {
+    width: 350px;
+}
+.home__plane img.plane-text {
+    width: 550px;
+}
+.plane-container {
+    display: flex;
+    align-items: center;
+}

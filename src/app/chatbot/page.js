@@ -1,9 +1,22 @@
 "use client";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Header from "../components/Header";
 import DashboardItemCard from "../components/dashboard/DashboardItemCard";
 
-const ComputerVision = () => {
+const Chatbot = () => {
+    const [projects, setProjects] = useState([]);
+
+    useEffect(() => {
+        fetch("projects.json")
+            .then((res) => res.json())
+            .then((data) => {
+                const filteredProjects = data.filter(
+                    (project) => project.type === "Chatbot"
+                );
+                setProjects(filteredProjects);
+            });
+    }, []);
+
     return (
         <div
             className="p-3 min-h-[100vh]"
@@ -19,12 +32,12 @@ const ComputerVision = () => {
                     <Header />
 
                     <div className="grid grid-cols-3 lg:grid-cols-4 gap-5">
-                        <DashboardItemCard />
-                        <DashboardItemCard />
-                        <DashboardItemCard />
-                        <DashboardItemCard />
-                        <DashboardItemCard />
-                        <DashboardItemCard />
+                        {projects.map((project) => (
+                            <DashboardItemCard
+                                key={project.id}
+                                project={project}
+                            />
+                        ))}
                     </div>
                 </div>
             </div>
@@ -32,4 +45,4 @@ const ComputerVision = () => {
     );
 };
 
-export default ComputerVision;
+export default Chatbot;

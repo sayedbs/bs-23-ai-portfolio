@@ -1,23 +1,116 @@
 [
     {
         "id": 1,
-        "title": "AI Project 1",
-        "description": "This is a project about AI",
-        "image": "ai-project-1.jpg",
-        "category": "Computer Vision"
+        "title": "Toyota Hilux OM",
+        "type": "Chatbot",
+        "thumbnail": "/",
+        "description": "We developed a customer support app for Toyota Hilux vehicles, featuring an AI-powered Owner’s Manual (OM). This solution enhances user experience by providing instant support, troubleshooting assistance, and relevant information through a multilingual chatbot, voice assistant, and advanced search features. Our system enables faster issue resolution, improved accessibility, and personalized recommendations, making vehicle ownership more convenient and efficient.",
+        "length": "long-term digital transformation process.",
+        "features": [
+            "General FAQ",
+            "Supports Voice Assistant",
+            "Supports 19 Languages",
+            "Formatted Responses (Images, Tables)",
+            "Counter Question Handling",
+            "Analytics on FAQ",
+            "Real-Time Data Updates (Data: XML to JSON conversion for faster updates)",
+            "Personalization (Targeted recommendations for better user retention & sales)"
+        ],
+        "tech": [
+            "Chatbot & AI: OpenAI (GenAI)",
+            "Backend: .NET Web API",
+            "Cloud & Hosting: Microsoft Azure",
+            "Frontend & Mobile: Flutter",
+            "Analytics & Monitoring: Firebase Analytics, Crashlytics"
+        ],
+        "benefits": [
+            "10× Faster customer support response",
+            "2× Increase in app usage",
+            "69% Higher User Retention",
+            "37% Growth in Accessory Sales",
+            "Better Insights through Analytics"
+        ],
+        "audience": [
+            "Toyota Hilux Owners",
+            "Toyota Service Centers",
+            "Automotive Support Teams"
+        ],
+        "youtube": "https://www.youtube.com/embed/oEbzihhL2RU"
+    },
+    {
+        "id": 2,
+        "title": "Toyota Hilux OM 2",
+        "type": "Computer Vision",
+        "thumbnail": "/",
+        "description": "We developed a customer support app for Toyota Hilux vehicles, featuring an AI-powered Owner’s Manual (OM). This solution enhances user experience by providing instant support, troubleshooting assistance, and relevant information through a multilingual chatbot, voice assistant, and advanced search features. Our system enables faster issue resolution, improved accessibility, and personalized recommendations, making vehicle ownership more convenient and efficient.",
+        "length": "long-term digital transformation process.",
+        "features": [
+            "General FAQ",
+            "Supports Voice Assistant",
+            "Supports 19 Languages",
+            "Formatted Responses (Images, Tables)",
+            "Counter Question Handling",
+            "Analytics on FAQ",
+            "Real-Time Data Updates (Data: XML to JSON conversion for faster updates)",
+            "Personalization (Targeted recommendations for better user retention & sales)"
+        ],
+        "tech": [
+            "Chatbot & AI: OpenAI (GenAI)",
+            "Backend: .NET Web API",
+            "Cloud & Hosting: Microsoft Azure",
+            "Frontend & Mobile: Flutter",
+            "Analytics & Monitoring: Firebase Analytics, Crashlytics"
+        ],
+        "benefits": [
+            "10× Faster customer support response",
+            "2× Increase in app usage",
+            "69% Higher User Retention",
+            "37% Growth in Accessory Sales",
+            "Better Insights through Analytics"
+        ],
+        "audience": [
+            "Toyota Hilux Owners",
+            "Toyota Service Centers",
+            "Automotive Support Teams"
+        ],
+        "youtube": "https://www.youtube.com/embed/oEbzihhL2RU"
     },
     {
         "id": 3,
-        "title": "AI Project 1",
-        "description": "This is a project about AI",
-        "image": "ai-project-1.jpg",
-        "category": "Artificial Intelligence"
-    },
-    {
-        "id": 3,
-        "title": "AI Project 1",
-        "description": "This is a project about AI",
-        "image": "ai-project-1.jpg",
-        "category": "Chatbot"F
+        "title": "Toyota Hilux OM 3",
+        "type": "Artificial Intelligence",
+        "thumbnail": "/",
+        "description": "We developed a customer support app for Toyota Hilux vehicles, featuring an AI-powered Owner’s Manual (OM). This solution enhances user experience by providing instant support, troubleshooting assistance, and relevant information through a multilingual chatbot, voice assistant, and advanced search features. Our system enables faster issue resolution, improved accessibility, and personalized recommendations, making vehicle ownership more convenient and efficient.",
+        "length": "long-term digital transformation process.",
+        "features": [
+            "General FAQ",
+            "Supports Voice Assistant",
+            "Supports 19 Languages",
+            "Formatted Responses (Images, Tables)",
+            "Counter Question Handling",
+            "Analytics on FAQ",
+            "Real-Time Data Updates (Data: XML to JSON conversion for faster updates)",
+            "Personalization (Targeted recommendations for better user retention & sales)"
+        ],
+        "tech": [
+            "Chatbot & AI: OpenAI (GenAI)",
+            "Backend: .NET Web API",
+            "Cloud & Hosting: Microsoft Azure",
+            "Frontend & Mobile: Flutter",
+            "Analytics & Monitoring: Firebase Analytics, Crashlytics"
+        ],
+        "benefits": [
+            "10× Faster customer support response",
+            "2× Increase in app usage",
+            "69% Higher User Retention",
+            "37% Growth in Accessory Sales",
+            "Better Insights through Analytics"
+        ],
+        "audience": [
+            "Toyota Hilux Owners",
+            "Toyota Service Centers",
+            "Automotive Support Teams"
+        ],
+        "youtube": "https://www.youtube.com/embed/oEbzihhL2RU"
     }
 ]
