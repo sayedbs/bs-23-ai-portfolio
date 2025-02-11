@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { Loader2 } from "lucide-react";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 
 export default function Login() {
     const [email, setEmail] = useState("");
@@ -15,6 +16,8 @@ export default function Login() {
     const [error, setError] = useState("");
     const [loading, setLoading] = useState(false);
     const router = useRouter();
+    const textEffectWords =
+        "Showcasing innovative AI projects that redefine technology and creativity.";
 
     useEffect(() => {
         const token = localStorage.getItem("token");
@@ -60,7 +63,7 @@ export default function Login() {
     return (
         <div className="h-screen bg-cover bg-center bg-[url('/images/login.jpg')] flex items-center justify-center">
             {/* Inner Box with Two Columns */}
-            <div className="w-full max-w-5xl bg-white bg-opacity-80 rounded-lg p-8 min-h-64">
+            <div className="w-full max-w-[90%] sm:max-w-[600px] lg:max-w-5xl bg-white bg-opacity-80 rounded-lg p-8 min-h-64">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                     {/* Left Column (Image & Text) */}
                     <div className="flex items-center justify-center">
@@ -82,8 +85,7 @@ export default function Login() {
                                 </span>
                             </h2>
                             <p className="text-lg text-gray-500">
-                                Showcasing innovative AI projects that redefine
-                                technology and creativity.
+                                <TextGenerateEffect words={textEffectWords} />
                             </p>
                         </motion.div>
                     </div>
@@ -190,6 +192,36 @@ export default function Login() {
                         </motion.div>
                     </div>
                 </div>
+            </div>
+
+            <div className="home__plane">
+                <motion.div
+                    animate={{ y: [0, 12, 0] }}
+                    transition={{ repeat: Infinity, duration: 0.6 }}
+                >
+                    <motion.div
+                        animate={{ x: ["120%", "-120%"] }}
+                        // animate={{ x: ["50%"] }}
+                        transition={{ duration: 12 }}
+                        className="plane-container"
+                    >
+                        <Image
+                            src="/images/plane.png"
+                            alt="Logo"
+                            width={350}
+                            height={200}
+                            className="header-plane"
+                        />
+                        <Image
+                            src="/images/bs23banner.png"
+                            alt="Logo"
+                            width={550}
+                            height={200}
+                            style={{ marginLeft: "-25px" }}
+                            className="img-fluid plane-text"
+                        />
+                    </motion.div>
+                </motion.div>
             </div>
         </div>
     );

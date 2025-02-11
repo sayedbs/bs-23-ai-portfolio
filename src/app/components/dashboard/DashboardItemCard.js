@@ -1,15 +1,22 @@
 import React, { useEffect, useState } from "react";
-import { GlareCard } from "../GlareCard";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
+// import {
+//     Card,
+//     CardContent,
+//     CardFooter,
+//     CardHeader,
+// } from "./../../../@/components/ui/card";
+import ProjectDetailsModal from "./ProjectDetailsModal";
+import "./DashboardItemCard.css";
+import { Button } from "../../../../@/components/ui/button";
 import {
     Card,
     CardContent,
     CardFooter,
     CardHeader,
 } from "@/components/ui/card";
-import ProjectDetailsModal from "./ProjectDetailsModal";
+import ProjectModal from "./ProjectModal";
 
 function DashboardItemCard({ project }) {
     const [isOpen, setIsOpen] = useState(false);
@@ -19,28 +26,26 @@ function DashboardItemCard({ project }) {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
         >
-            <Card className="transform hover:shadow-2xl bg-black bg-opacity-30 border-2 border-gray-800 hover:bg-white hover:text-gray-900 text-gray-300 hover:shadow-indigo-500/50 rounded-lg overflow-hidden backdrop-blur-3xl group transition-colors duration-300 hover:border-[#6366f1]">
+            <Card className="transform hover:shadow-2xl bg-black bg-opacity-30 border-2 border-gray-800 hover:bg-gray-300 hover:text-gray-900 text-gray-300 hover:shadow-indigo-500/50 rounded-lg overflow-hidden backdrop-blur-3xl group transition-colors duration-300 hover:border-[#6366f1]">
                 <CardHeader className="p-3 bg-gray-900 h-[200px] flex items-center justify-center">
                     <Image
                         src="/images/upe-nd-now.png"
                         width={100}
                         height={50}
                         alt="Thumbnail"
-                        className="rounded-lg"
+                        className="rounded-lg group-hover:scale-105 transition-transform duration-300"
                     />
                 </CardHeader>
-                <CardContent className="px-6 py-0 pt-5 text-sm ">
-                    <h2 className="text-3xl font-bold mb-3 ">
+                <CardContent className="px-3 lg:px-6 py-0 pt-5 text-sm ">
+                    <h2 className="text-3xl font-bold mb-3 two-line-title-ellipsis">
                         {project.title}
                     </h2>
 
-                    <p className="group-hover:translate-x-2 transition-transform duration-300 ">
-                        {project.description.length > 200
-                            ? `${project.description.slice(0, 200)}...`
-                            : project.description}
+                    <p className="group-hover:translate-x-2 text-md transition-transform duration-300 three-line-ellipsis">
+                        {project.description}
                     </p>
                 </CardContent>
-                <CardFooter className="p-6 flex justify-between items-center">
+                <CardFooter className="p-3 lg:p-6 flex justify-between items-center">
                     <Button
                         onClick={() => setIsOpen(true)}
                         className="bg-indigo-500 text-white max-w-[180px] ml-auto hover:bg-gray-800 group-hover:bg-gray-800 p-4 rounded-full flex items-center justify-center transition-transform duration-300"
@@ -66,7 +71,7 @@ function DashboardItemCard({ project }) {
                 </CardFooter>
             </Card>
 
-            <ProjectDetailsModal
+            <ProjectModal
                 isOpen={isOpen}
                 setIsOpen={setIsOpen}
                 project={project}

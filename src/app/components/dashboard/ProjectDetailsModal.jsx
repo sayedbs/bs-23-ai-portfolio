@@ -77,7 +77,7 @@ export default function ProjectDetailsModal({ isOpen, setIsOpen, project }) {
                                                     className="flex items-center"
                                                 >
                                                     <svg
-                                                        className="w-4 h-4 mr-2 text-green-500"
+                                                        className="w-4 h-4 mr-2 text-green-500 min-w-[16px] mb-auto mt-2"
                                                         fill="none"
                                                         stroke="currentColor"
                                                         viewBox="0 0 24 24"
@@ -108,7 +108,7 @@ export default function ProjectDetailsModal({ isOpen, setIsOpen, project }) {
                                                     className="flex items-center"
                                                 >
                                                     <svg
-                                                        className="w-4 h-4 mr-2 text-green-500"
+                                                        className="w-4 h-4 mr-2 text-green-500  min-w-[16px] mb-auto mt-2"
                                                         fill="none"
                                                         stroke="currentColor"
                                                         viewBox="0 0 24 24"
@@ -138,7 +138,7 @@ export default function ProjectDetailsModal({ isOpen, setIsOpen, project }) {
                                                 className="flex items-center"
                                             >
                                                 <svg
-                                                    className="w-4 h-4 mr-2 text-green-500"
+                                                    className="w-4 h-4 mr-2 text-green-500 min-w-[16px] mb-auto mt-2"
                                                     fill="none"
                                                     stroke="currentColor"
                                                     viewBox="0 0 24 24"
@@ -154,37 +154,6 @@ export default function ProjectDetailsModal({ isOpen, setIsOpen, project }) {
                                                 {feature}
                                             </li>
                                         ))}
-                                    </ul>
-                                </div>
-                                <div>
-                                    <h5 className="font-semibold mb-2 text-lg mt-8">
-                                        Target Audience:
-                                    </h5>
-                                    <ul className="list-none space-y-1">
-                                        {project.audience.map(
-                                            (feature, index) => (
-                                                <li
-                                                    key={index}
-                                                    className="flex items-center"
-                                                >
-                                                    <svg
-                                                        className="w-4 h-4 mr-2 text-green-500"
-                                                        fill="none"
-                                                        stroke="currentColor"
-                                                        viewBox="0 0 24 24"
-                                                        xmlns="http://www.w3.org/2000/svg"
-                                                    >
-                                                        <path
-                                                            strokeLinecap="round"
-                                                            strokeLinejoin="round"
-                                                            strokeWidth={2}
-                                                            d="M5 13l4 4L19 7"
-                                                        />
-                                                    </svg>
-                                                    {feature}
-                                                </li>
-                                            )
-                                        )}
                                     </ul>
                                 </div>
                                 <div>
