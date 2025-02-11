@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import Header from "../components/Header";
 import DashboardItemCard from "../components/dashboard/DashboardItemCard";
 
-const ArtificialIntelligence = () => {
+const DataAnalysis = () => {
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
@@ -21,7 +21,7 @@ const ArtificialIntelligence = () => {
         <div
             className="min-h-[100vh]"
             style={{
-                backgroundImage: "url('/images/ai-1.jpg')",
+                backgroundImage: "url('/images/data.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
@@ -46,4 +46,4 @@ const ArtificialIntelligence = () => {
     );
 };
 
-export default ArtificialIntelligence;
+export default DataAnalysis;

@@ -8,7 +8,6 @@ import ProjectModal from "./dashboard/ProjectModal";
 function Header() {
     const router = useRouter();
     const pathname = usePathname();
-    const [showPlane, setShowPlane] = useState(true);
 
     const logout = () => {
         localStorage.removeItem("token");
@@ -22,14 +21,8 @@ function Header() {
         return pathname === path;
     };
 
-    useEffect(() => {
-        setTimeout(() => {
-            setShowPlane(false);
-        }, 10000);
-    }, []);
-
     return (
-        <header className="absolute top-0 right-0 left-0 z-50 p-3 flex justify-between items-center">
+        <header className="sticky top-0 right-0 left-0 z-50 p-3 flex justify-between items-center bg-opacity-90 backdrop-blur-lg">
             <Image
                 className=""
                 src={"/images/bs23.png"}
@@ -87,6 +80,22 @@ function Header() {
                         Chatbot
                     </span>
                 </button>
+                <button
+                    className={`relative px-4 py-2 rounded-full transition duration-300 ${
+                        isActive("/data-analysis")
+                            ? "bg-blue-500 bg-opacity-50"
+                            : "bg-opacity-20"
+                    } hover:bg-white hover:bg-opacity-30 active:bg-opacity-50`}
+                    style={{
+                        transformStyle: "preserve-3d",
+                        backdropFilter: "blur(10px)",
+                    }}
+                    onClick={() => router.push("/data-analysis")}
+                >
+                    <span className="relative block text-white dark:text-white">
+                        Data Analysis
+                    </span>
+                </button>
             </div>
 
             <div>
@@ -104,7 +113,7 @@ function Header() {
                     >
                         <path
                             fillRule="evenodd"
-                            d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-2a.5.5 0 0 0-1 0z"
+                            d="M10 12.5a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v2a.5.5 0 0 0 1 0v-2A1.5 1.5 0 0 0 9.5 2h-8A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-1 0z"
                         />
                         <path
                             fillRule="evenodd"

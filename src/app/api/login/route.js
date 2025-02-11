@@ -37,7 +37,7 @@ export async function POST(request) {
 
         // Create a JWT token
         const token = jwt.sign({ email: user.email }, "myjwtsecret", {
-            expiresIn: "1h",
+            expiresIn: "12h",
         });
 
         // Return the token
