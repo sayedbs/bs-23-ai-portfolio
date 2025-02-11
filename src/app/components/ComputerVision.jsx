@@ -18,7 +18,7 @@ const ComputerVisionComponent = () => {
 
     return (
         <div
-            className="p-3  min-h-[100vh]"
+            className="min-h-[100vh]"
             style={{
                 backgroundImage: "url('/images/computervision.jpg')",
                 backgroundSize: "cover",
@@ -26,17 +26,20 @@ const ComputerVisionComponent = () => {
                 backgroundRepeat: "no-repeat",
             }}
         >
-            <div className="max-w-[1500px] mx-auto">
-                <div className="mt-[150px]">
+            <div className="">
+                <div>
                     <Header />
-
-                    <div className="grid grid-cols-3 lg:grid-cols-4  gap-5">
-                        {projects.map((project) => (
-                            <DashboardItemCard
-                                key={project.id}
-                                project={project}
-                            />
-                        ))}
+                    <div className="max-w-[1500px] mx-auto p-4">
+                        <div className="grid grid-cols-3 lg:grid-cols-4 gap-5">
+                            {projects.map((project) => (
+                                <>
+                                    <DashboardItemCard
+                                        key={project.id}
+                                        project={project}
+                                    />
+                                </>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </div>

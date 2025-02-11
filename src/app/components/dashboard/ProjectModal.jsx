@@ -57,6 +57,25 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
 
                         <div className="space-y-4">
                             <h3 className="text-lg font-semibold tracking-tight">
+                                Demo Video
+                            </h3>
+                            <div className="relative aspect-video rounded-lg overflow-hidden bg-black/5 dark:bg-white/5">
+                                <iframe
+                                    width="100%"
+                                    height="100%"
+                                    src={`https://www.youtube.com/embed/${project.videoId}`}
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
+                                ></iframe>
+                            </div>
+                        </div>
+
+                        <Separator className="bg-border/50" />
+
+                        <div className="space-y-4">
+                            <h3 className="text-lg font-semibold tracking-tight">
                                 Features
                             </h3>
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -121,7 +140,7 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                             <h3 className="text-lg font-semibold tracking-tight">
                                 Target Audience
                             </h3>
-                            <div className="grid gap-2">
+                            <div className="grid gap-2 pb-8">
                                 {project.audience.map((target, i) => (
                                     <div
                                         key={i}
@@ -133,21 +152,6 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                                         </span>
                                     </div>
                                 ))}
-                            </div>
-                        </div>
-
-                        <Separator className="bg-border/50" />
-
-                        <div className="space-y-4">
-                            <h3 className="text-lg font-semibold tracking-tight">
-                                Demo Video
-                            </h3>
-                            <div className="relative aspect-video rounded-lg overflow-hidden bg-black/5 dark:bg-white/5">
-                                <div className="absolute inset-0 flex items-center justify-center">
-                                    <p className="text-sm text-muted-foreground">
-                                        Video placeholder
-                                    </p>
-                                </div>
                             </div>
                         </div>
                     </div>
