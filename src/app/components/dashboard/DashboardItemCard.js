@@ -19,7 +19,10 @@ function DashboardItemCard({ project }) {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
         >
-            <Card className="transform hover:shadow-2xl bg-black bg-opacity-30 border-2 border-gray-800 hover:bg-gray-300 hover:text-gray-900 text-gray-300 hover:shadow-indigo-500/50 rounded-lg overflow-hidden backdrop-blur-3xl group transition-colors duration-300 hover:border-[#6366f1]">
+            <Card
+                onClick={() => setIsOpen(true)}
+                className="transform hover:shadow-2xl bg-black bg-opacity-30 border-2 border-gray-800 hover:bg-gray-300 hover:text-gray-900 text-gray-300 hover:shadow-indigo-500/50 rounded-lg overflow-hidden backdrop-blur-3xl group transition-colors duration-300 hover:border-[#6366f1]"
+            >
                 <CardHeader className="p-3 bg-gray-900 h-[200px] flex items-center justify-center">
                     <Image
                         src="/images/placeholder.png"

@@ -50,14 +50,14 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                 <ScrollArea className="h-full">
                     <div className="px-6 py-4 space-y-8">
                         <div className="prose prose-gray dark:prose-invert max-w-none">
-                            <p className="text-muted-foreground leading-relaxed">
+                            <p className="text-muted-foreground leading-relaxed text-justify">
                                 {project.description}
                             </p>
                         </div>
 
                         <div className="space-y-4">
                             <h3 className="text-lg font-semibold tracking-tight">
-                                Features
+                                🚀 Features
                             </h3>
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                                 {project.features.map((feature, i) => (
@@ -104,7 +104,7 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
 
                         <div className="space-y-4">
                             <h3 className="text-lg font-semibold tracking-tight">
-                                Business Benefits
+                                💡 Business Benefits
                             </h3>
                             <div className="grid sm:grid-cols-2 gap-4">
                                 {project.benefits.map((benefit, i) => (
@@ -125,7 +125,7 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
 
                         <div className="space-y-4 pb-8">
                             <h3 className="text-lg font-semibold tracking-tight">
-                                Tech Stack
+                                🛠️ Tech Stack
                             </h3>
                             <div className="flex flex-wrap gap-2">
                                 {project.tech.map((tech, i) => (
@@ -143,7 +143,7 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                             <>
                                 <div className="space-y-4">
                                     <h3 className="text-lg font-semibold tracking-tight">
-                                        Target Audience
+                                        🎯 Target Audience
                                     </h3>
                                     <div className="grid gap-2 pb-8">
                                         {project.audience.map((target, i) => (
