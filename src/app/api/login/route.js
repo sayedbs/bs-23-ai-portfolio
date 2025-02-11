@@ -8,6 +8,10 @@ const users = [
         email: "user@example.com",
         password: "password123", // In a real app, this should be hashed
     },
+    {
+        email: "admin@brainstation-23.com",
+        password: "BS@bd23",
+    },
 ];
 
 export async function POST(request) {
