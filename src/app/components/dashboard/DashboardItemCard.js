@@ -1,13 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
-// import {
-//     Card,
-//     CardContent,
-//     CardFooter,
-//     CardHeader,
-// } from "./../../../@/components/ui/card";
-import ProjectDetailsModal from "./ProjectDetailsModal";
 import "./DashboardItemCard.css";
 import { Button } from "../../../../@/components/ui/button";
 import {
@@ -29,9 +22,9 @@ function DashboardItemCard({ project }) {
             <Card className="transform hover:shadow-2xl bg-black bg-opacity-30 border-2 border-gray-800 hover:bg-gray-300 hover:text-gray-900 text-gray-300 hover:shadow-indigo-500/50 rounded-lg overflow-hidden backdrop-blur-3xl group transition-colors duration-300 hover:border-[#6366f1]">
                 <CardHeader className="p-3 bg-gray-900 h-[200px] flex items-center justify-center">
                     <Image
-                        src="/images/upe-nd-now.png"
-                        width={100}
-                        height={50}
+                        src="/images/placeholder.png"
+                        width={200}
+                        height={100}
                         alt="Thumbnail"
                         className="rounded-lg group-hover:scale-105 transition-transform duration-300"
                     />

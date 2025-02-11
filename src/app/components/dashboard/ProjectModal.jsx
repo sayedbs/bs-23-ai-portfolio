@@ -57,28 +57,9 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
 
                         <div className="space-y-4">
                             <h3 className="text-lg font-semibold tracking-tight">
-                                Demo Video
-                            </h3>
-                            <div className="relative aspect-video rounded-lg overflow-hidden bg-black/5 dark:bg-white/5">
-                                <iframe
-                                    width="100%"
-                                    height="100%"
-                                    src={`https://www.youtube.com/embed/${project.videoId}`}
-                                    title="YouTube video player"
-                                    frameBorder="0"
-                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowFullScreen
-                                ></iframe>
-                            </div>
-                        </div>
-
-                        <Separator className="bg-border/50" />
-
-                        <div className="space-y-4">
-                            <h3 className="text-lg font-semibold tracking-tight">
                                 Features
                             </h3>
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                                 {project.features.map((feature, i) => (
                                     <div
                                         key={i}
@@ -98,6 +79,29 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                             </div>
                         </div>
 
+                        {project.youtube ? (
+                            <div className="space-y-4">
+                                <h3 className="text-lg font-semibold tracking-tight">
+                                    Demo Video
+                                </h3>
+                                <div className="relative aspect-video rounded-lg overflow-hidden bg-black/5 dark:bg-white/5">
+                                    <iframe
+                                        width="100%"
+                                        height="100%"
+                                        src={`https://www.youtube.com/embed/${project.videoId}`}
+                                        title="YouTube video player"
+                                        frameBorder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen
+                                    ></iframe>
+                                </div>
+                            </div>
+                        ) : (
+                            <></>
+                        )}
+
+                        <Separator className="bg-border/50" />
+
                         <div className="space-y-4">
                             <h3 className="text-lg font-semibold tracking-tight">
                                 Business Benefits
@@ -108,7 +112,7 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                                         key={i}
                                         className="p-4 rounded-lg border bg-card hover:bg-accent transition-colors group"
                                     >
-                                        <div className="text-xl font-bold text-primary group-hover:text-primary/80 transition-colors">
+                                        <div className="font-medium font-bold text-primary group-hover:text-primary/80 transition-colors">
                                             {benefit.title}
                                         </div>
                                         <div className="text-sm text-muted-foreground">
@@ -119,7 +123,7 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                             </div>
                         </div>
 
-                        <div className="space-y-4">
+                        <div className="space-y-4 pb-8">
                             <h3 className="text-lg font-semibold tracking-tight">
                                 Tech Stack
                             </h3>
@@ -135,25 +139,30 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                                 ))}
                             </div>
                         </div>
-
-                        <div className="space-y-4">
-                            <h3 className="text-lg font-semibold tracking-tight">
-                                Target Audience
-                            </h3>
-                            <div className="grid gap-2 pb-8">
-                                {project.audience.map((target, i) => (
-                                    <div
-                                        key={i}
-                                        className="flex items-center gap-2 group"
-                                    >
-                                        <div className="h-1.5 w-1.5 rounded-full bg-primary/40 group-hover:bg-primary transition-colors" />
-                                        <span className="text-sm text-muted-foreground group-hover:text-foreground transition-colors">
-                                            {target}
-                                        </span>
+                        {project.audience.length > 0 ? (
+                            <>
+                                <div className="space-y-4">
+                                    <h3 className="text-lg font-semibold tracking-tight">
+                                        Target Audience
+                                    </h3>
+                                    <div className="grid gap-2 pb-8">
+                                        {project.audience.map((target, i) => (
+                                            <div
+                                                key={i}
+                                                className="flex items-center gap-2 group"
+                                            >
+                                                <div className="h-1.5 w-1.5 rounded-full bg-primary/40 group-hover:bg-primary transition-colors" />
+                                                <span className="text-sm text-muted-foreground group-hover:text-foreground transition-colors">
+                                                    {target}
+                                                </span>
+                                            </div>
+                                        ))}
                                     </div>
-                                ))}
-                            </div>
-                        </div>
+                                </div>
+                            </>
+                        ) : (
+                            <></>
+                        )}
                     </div>
                 </ScrollArea>
             </DialogContent>

@@ -11,7 +11,7 @@ const DataAnalysis = () => {
             .then((res) => res.json())
             .then((data) => {
                 const filteredProjects = data.filter(
-                    (project) => project.type === "Artificial Intelligence"
+                    (project) => project.type === "Data Analysis"
                 );
                 setProjects(filteredProjects);
             });

@@ -2,9 +2,6 @@
 
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
-import Header from "./components/Header";
-import DashboardItemCard from "./components/dashboard/DashboardItemCard";
-import ProjectDetailsModal from "./components/dashboard/ProjectDetailsModal";
 import ComputerVisionComponent from "./components/ComputerVision";
 
 export default function Dashboard() {
