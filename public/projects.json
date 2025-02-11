@@ -7,14 +7,38 @@
         "description": "Upendnow is a powerful platform designed as a co-pilot for content creators. It automates the entire video production process, allowing creators to effortlessly generate creative briefs, story scripts, storyboards, and even music. By leveraging advanced AI models, it streamlines the production workflow and enhances creative output. The platform is fully automated, enabling content creators to save time and focus on their craft.",
         "length": "5 months",
         "features": [
-            "General FAQ",
-            "Supports Voice Assistant",
-            "Supports 19 Languages",
-            "Formatted Responses (Images, Tables)",
-            "Counter Question Handling",
-            "Analytics on FAQ",
-            "Real-Time Data Updates (Data: XML to JSON conversion for faster updates)",
-            "Personalization (Targeted recommendations for better user retention & sales)"
+            {
+                "title": "General FAQ",
+                "description": "Aa general FAQ section that provides answers"
+            },
+            {
+                "title": "Voice Assistant",
+                "description": "Supports voice assistant for hands-free operation"
+            },
+            {
+                "title": "Supports 19 Languages",
+                "description": "Supports 19 languages for global accessibility"
+            },
+            {
+                "title": "Formatted Responses",
+                "description": "Formatted responses with images and tables for better understanding"
+            },
+            {
+                "title": "Counter Question Handling",
+                "description": "Handles counter questions for complex queries"
+            },
+            {
+                "title": "Analytics on FAQ",
+                "description": "Provides analytics on FAQ usage and performance"
+            },
+            {
+                "title": "Real-Time Data Updates ",
+                "description": "Real-time data updates for faster information retrieval"
+            },
+            {
+                "title": "Personalization",
+                "description": "Personalized recommendations for enhanced user experience"
+            }
         ],
         "tech": [
             "Serverless",
@@ -24,192 +48,100 @@
             "MidJourney"
         ],
         "benefits": [
-            "Enhanced Content Creation Efficiency: The project can significantly streamline the video production process by automating tasks such as scriptwriting and image generation. This can reduce production time and costs.",
-            "Improved Content Quality: By providing in-depth video analysis and relevant web searches, the project can help creators produce more engaging and informative content.",
-            "New Revenue Streams: The project could potentially be monetized through subscriptions, premium features, or partnerships with content creators.",
-            "Competitive Advantage: For businesses that rely heavily on video content, this project could provide a competitive advantage by enabling them to produce high-quality content more efficiently than their competitors."
+            {
+                "title": "Enhanced Content Creation Efficiency",
+                "description": "The project can significantly streamline the video production process by automating tasks such as scriptwriting and image generation. This can reduce production time and costs."
+            },
+            {
+                "title": "Improved Content Quality",
+                "description": "By providing in-depth video analysis and relevant web searches, the project can help creators produce more engaging and informative content."
+            },
+            {
+                "title": "New Revenue Streams",
+                "description": "The project could potentially be monetized through subscriptions, premium features, or partnerships with content creators."
+            },
+            {
+                "title": "Competitive Advantage",
+                "description": "For businesses that rely heavily on video content, this project could provide a competitive advantage by enabling them to produce high-quality content more efficiently than their competitors."
+            }
+        ],
+        "audience": [
+            "Content Creators",
+            "Video Producers",
+            "Digital Marketers"
         ],
         "youtube": "https://www.youtube.com/embed/oEbzihhL2RU"
     },
     {
         "id": 2,
-        "title": "CMC Legal AI",
-        "type": "Artificial Intelligence",
-        "thumbnail": "/",
-        "description": "A project where we rebuilt a client's website for contract creation, including a chatbot for contract-related questions, an admin portal, and a system for reviewing contracts.",
-        "length": "6 months",
-        "features": [
-            "General FAQ",
-            "Supports Voice Assistant",
-            "Supports 19 Languages",
-            "Formatted Responses (Images, Tables)",
-            "Counter Question Handling",
-            "Analytics on FAQ",
-            "Real-Time Data Updates (Data: XML to JSON conversion for faster updates)",
-            "Personalization (Targeted recommendations for better user retention & sales)"
-        ],
-        "tech": [
-            "Flask",
-            "Azure OpenAI",
-            "Angular"
-        ],
-        "benefits": [
-            "Enhanced Content Creation Efficiency: The project can significantly streamline the video production process by automating tasks such as scriptwriting and image generation. This can reduce production time and costs.",
-            "Improved Content Quality: By providing in-depth video analysis and relevant web searches, the project can help creators produce more engaging and informative content.",
-            "New Revenue Streams: The project could potentially be monetized through subscriptions, premium features, or partnerships with content creators.",
-            "Competitive Advantage: For businesses that rely heavily on video content, this project could provide a competitive advantage by enabling them to produce high-quality content more efficiently than their competitors."
-        ],
-        "youtube": "https://www.youtube.com/embed/oEbzihhL2RU"
-    },
-    {
-        "id": 3,
-        "title": "Toyota Hilux OM",
-        "type": "Chatbot",
-        "thumbnail": "/",
-        "description": "We developed a customer support app for Toyota Hilux vehicles, featuring an AI-powered Owner’s Manual (OM). This solution enhances user experience by providing instant support, troubleshooting assistance, and relevant information through a multilingual chatbot, voice assistant, and advanced search features. Our system enables faster issue resolution, improved accessibility, and personalized recommendations, making vehicle ownership more convenient and efficient.",
-        "length": "long-term digital transformation process.",
-        "features": [
-            "General FAQ",
-            "Supports Voice Assistant",
-            "Supports 19 Languages",
-            "Formatted Responses (Images, Tables)",
-            "Counter Question Handling",
-            "Analytics on FAQ",
-            "Real-Time Data Updates (Data: XML to JSON conversion for faster updates)",
-            "Personalization (Targeted recommendations for better user retention & sales)"
-        ],
-        "tech": [
-            "Chatbot & AI: OpenAI (GenAI)",
-            "Backend: .NET Web API",
-            "Cloud & Hosting: Microsoft Azure",
-            "Frontend & Mobile: Flutter",
-            "Analytics & Monitoring: Firebase Analytics, Crashlytics"
-        ],
-        "benefits": [
-            "10× Faster customer support response",
-            "2× Increase in app usage",
-            "69% Higher User Retention",
-            "37% Growth in Accessory Sales",
-            "Better Insights through Analytics"
-        ],
-        "audience": [
-            "Toyota Hilux Owners",
-            "Toyota Service Centers",
-            "Automotive Support Teams"
-        ],
-        "youtube": "https://www.youtube.com/embed/oEbzihhL2RU"
-    },
-    {
-        "id": 4,
-        "title": "CHATBOT 23",
-        "type": "Chatbot",
-        "thumbnail": "/",
-        "description": "The AI-powered chatbot is designed to revolutionize customer support by adapting to business needs. Fully configurable, it can be tailored to meet any specific requirement, enhancing efficiency and personalization in customer interactions.",
-        "length": "",
-        "features": [
-            "General FAQ",
-            "Supports Voice Assistant",
-            "Supports 19 Languages",
-            "Formatted Responses (Images, Tables)",
-            "Counter Question Handling",
-            "Analytics on FAQ",
-            "Real-Time Data Updates (Data: XML to JSON conversion for faster updates)",
-            "Personalization (Targeted recommendations for better user retention & sales)"
-        ],
-        "tech": [
-            "Chatbot & AI: OpenAI (GenAI)",
-            "Backend: .NET Web API",
-            "Cloud & Hosting: Microsoft Azure",
-            "Frontend & Mobile: Flutter",
-            "Analytics & Monitoring: Firebase Analytics, Crashlytics"
-        ],
-        "benefits": [
-            "10× Faster customer support response",
-            "2× Increase in app usage",
-            "69% Higher User Retention",
-            "37% Growth in Accessory Sales",
-            "Better Insights through Analytics"
-        ],
-        "audience": [
-            "Toyota Hilux Owners",
-            "Toyota Service Centers",
-            "Automotive Support Teams"
-        ],
-        "youtube": "https://www.youtube.com/embed/oEbzihhL2RU"
-    },
-    {
-        "id": 5,
-        "title": "OCR on Tickets",
+        "title": "UPENDNOW",
         "type": "Computer Vision",
         "thumbnail": "/",
-        "description": "OCR on Tickets focuses on developing a multi-LLM chatbot solution that extracts and processes information from handwritten tickets using Optical Character Recognition (OCR) technology. Leveraging OpenAI Vision for image-to-text conversion, the system decodes and interprets handwritten content with high accuracy. By integrating Generative AI and Prompt Engineering, the solution enhances data extraction and automates workflows. The FastAPI framework ensures efficient backend processing, while Base64 is utilized for secure image handling.",
-        "length": "",
+        "description": "Upendnow is a powerful platform designed as a co-pilot for content creators. It automates the entire video production process, allowing creators to effortlessly generate creative briefs, story scripts, storyboards, and even music. By leveraging advanced AI models, it streamlines the production workflow and enhances creative output. The platform is fully automated, enabling content creators to save time and focus on their craft.",
+        "length": "5 months",
         "features": [
-            "General FAQ",
-            "Supports Voice Assistant",
-            "Supports 19 Languages",
-            "Formatted Responses (Images, Tables)",
-            "Counter Question Handling",
-            "Analytics on FAQ",
-            "Real-Time Data Updates (Data: XML to JSON conversion for faster updates)",
-            "Personalization (Targeted recommendations for better user retention & sales)"
+            {
+                "title": "General FAQ",
+                "description": "Aa general FAQ section that provides answers"
+            },
+            {
+                "title": "Voice Assistant",
+                "description": "Supports voice assistant for hands-free operation"
+            },
+            {
+                "title": "Supports 19 Languages",
+                "description": "Supports 19 languages for global accessibility"
+            },
+            {
+                "title": "Formatted Responses",
+                "description": "Formatted responses with images and tables for better understanding"
+            },
+            {
+                "title": "Counter Question Handling",
+                "description": "Handles counter questions for complex queries"
+            },
+            {
+                "title": "Analytics on FAQ",
+                "description": "Provides analytics on FAQ usage and performance"
+            },
+            {
+                "title": "Real-Time Data Updates ",
+                "description": "Real-time data updates for faster information retrieval"
+            },
+            {
+                "title": "Personalization",
+                "description": "Personalized recommendations for enhanced user experience"
+            }
         ],
         "tech": [
-            "Chatbot & AI: OpenAI (GenAI)",
-            "Backend: .NET Web API",
-            "Cloud & Hosting: Microsoft Azure",
-            "Frontend & Mobile: Flutter",
-            "Analytics & Monitoring: Firebase Analytics, Crashlytics"
+            "Serverless",
+            "Next.js",
+            "AWS",
+            "OpenAI",
+            "MidJourney"
         ],
         "benefits": [
-            "10× Faster customer support response",
-            "2× Increase in app usage",
-            "69% Higher User Retention",
-            "37% Growth in Accessory Sales",
-            "Better Insights through Analytics"
+            {
+                "title": "Enhanced Content Creation Efficiency",
+                "description": "The project can significantly streamline the video production process by automating tasks such as scriptwriting and image generation. This can reduce production time and costs."
+            },
+            {
+                "title": "Improved Content Quality",
+                "description": "By providing in-depth video analysis and relevant web searches, the project can help creators produce more engaging and informative content."
+            },
+            {
+                "title": "New Revenue Streams",
+                "description": "The project could potentially be monetized through subscriptions, premium features, or partnerships with content creators."
+            },
+            {
+                "title": "Competitive Advantage",
+                "description": "For businesses that rely heavily on video content, this project could provide a competitive advantage by enabling them to produce high-quality content more efficiently than their competitors."
+            }
         ],
         "audience": [
-            "Toyota Hilux Owners",
-            "Toyota Service Centers",
-            "Automotive Support Teams"
-        ],
-        "youtube": "https://www.youtube.com/embed/oEbzihhL2RU"
-    },
-    {
-        "id": 6,
-        "title": "Room Condition and Category Prediction",
-        "type": "Computer Vision",
-        "thumbnail": "/",
-        "description": "The Room Condition and Category Prediction project uses AI to analyze room images in Base64 format, categorizing them into 40+ room types. It also assesses room conditions, such as age, wall damage, and cleanliness. The solution integrates OpenAI Vision, Generative AI, and prompt engineering, with a tech stack that includes Flask and Base64 encoding for accurate classification and analysis.",
-        "length": "",
-        "features": [
-            "General FAQ",
-            "Supports Voice Assistant",
-            "Supports 19 Languages",
-            "Formatted Responses (Images, Tables)",
-            "Counter Question Handling",
-            "Analytics on FAQ",
-            "Real-Time Data Updates (Data: XML to JSON conversion for faster updates)",
-            "Personalization (Targeted recommendations for better user retention & sales)"
-        ],
-        "tech": [
-            "Chatbot & AI: OpenAI (GenAI)",
-            "Backend: .NET Web API",
-            "Cloud & Hosting: Microsoft Azure",
-            "Frontend & Mobile: Flutter",
-            "Analytics & Monitoring: Firebase Analytics, Crashlytics"
-        ],
-        "benefits": [
-            "10× Faster customer support response",
-            "2× Increase in app usage",
-            "69% Higher User Retention",
-            "37% Growth in Accessory Sales",
-            "Better Insights through Analytics"
-        ],
-        "audience": [
-            "Toyota Hilux Owners",
-            "Toyota Service Centers",
-            "Automotive Support Teams"
+            "Content Creators",
+            "Video Producers",
+            "Digital Marketers"
         ],
         "youtube": "https://www.youtube.com/embed/oEbzihhL2RU"
     }
