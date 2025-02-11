@@ -94,9 +94,9 @@ export default function Login() {
                     <div className="flex items-center justify-center xl:mt-0 mt-[75px]">
                         <motion.div
                             className="w-full max-w-sm overflow-hidden"
-                            initial={{ opacity: 0, y: -100 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.8 }}
+                            initial={{ scale: 0.9, y: -50, opacity: 0 }}
+                            animate={{ scale: 1, opacity: 1, y: 0 }}
+                            transition={{ duration: 0.3, delay: 1.5 }}
                         >
                             <div className="p-6 rounded-xl bg-white backdrop-blur-md shadow-lg">
                                 <CardContent>
