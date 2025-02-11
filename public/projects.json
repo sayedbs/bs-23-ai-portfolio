@@ -39,19 +39,23 @@
         "benefits": [
             {
                 "title": "Automation of Content Creation",
-                "description": "Automates tasks like scriptwriting and image generation. Reduces production time and costs."
+                "description": "Automates tasks like scriptwriting and image generation. Reduces production time and costs.",
+                "icon": "⚙️"
             },
             {
                 "title": "Improved Content Quality",
-                "description": "Uses in-depth video analysis. Conducts relevant web searches for better information. Helps creators produce more engaging and informative content."
+                "description": "Uses in-depth video analysis. Conducts relevant web searches for better information. Helps creators produce more engaging and informative content.",
+                "icon": "✨"
             },
             {
                 "title": "Revenue Opportunities",
-                "description": "Enables subscriptions and premium features. Supports potential partnerships for monetization."
+                "description": "Enables subscriptions and premium features. Supports potential partnerships for monetization.",
+                "icon": "💰"
             },
             {
                 "title": "Competitive Advantage",
-                "description": "Helps businesses produce high-quality content efficiently. Provides an edge over competitors in video content creation."
+                "description": "Helps businesses produce high-quality content efficiently. Provides an edge over competitors in video content creation.",
+                "icon": "🏆"
             }
         ],
         "audience": [],
@@ -80,19 +84,23 @@
         "benefits": [
             {
                 "title": "Automation of Content Creation",
-                "description": "Automates tasks like scriptwriting and image generation, reducing production time and costs."
+                "description": "Automates tasks like scriptwriting and image generation, reducing production time and costs.",
+                "icon": "⚙️"
             },
             {
                 "title": "Improved Content Quality",
-                "description": "Uses in-depth video analysis and conducts relevant web searches for better information. Helps creators produce more engaging and informative content."
+                "description": "Uses in-depth video analysis and conducts relevant web searches for better information. Helps creators produce more engaging and informative content.",
+                "icon": "✨"
             },
             {
                 "title": "Revenue Opportunities",
-                "description": "Enables subscriptions and premium features while supporting potential partnerships for monetization."
+                "description": "Enables subscriptions and premium features while supporting potential partnerships for monetization.",
+                "icon": "💰"
             },
             {
                 "title": "Competitive Advantage",
-                "description": "Helps businesses produce high-quality content efficiently, providing an edge over competitors in video content creation."
+                "description": "Helps businesses produce high-quality content efficiently, providing an edge over competitors in video content creation.",
+                "icon": "🏆"
             }
         ],
         "audience": [],
@@ -119,14 +127,17 @@
         "benefits": [
             {
                 "title": "Processed Documents",
+                "icon": "📄",
                 "description": "Processed 5000+ HTML documents, automating data handling."
             },
             {
                 "title": "Cost Savings",
+                "icon": "💰",
                 "description": "$500k+ in processing saved by reducing manual effort."
             },
             {
                 "title": "Reduced Manual Effort",
+                "icon": "⚙️",
                 "description": "Significant cut in manual data conversion, speeding up processing."
             }
         ],
@@ -174,19 +185,23 @@
         "benefits": [
             {
                 "title": "Cost Reduction",
-                "description": "20x reduction in costs through automation and optimization."
+                "description": "20x reduction in costs through automation and optimization.",
+                "icon": "💸"
             },
             {
                 "title": "Faster Report Generation",
-                "description": "Reports generated faster, reducing turnaround time."
+                "description": "Reports generated faster, reducing turnaround time.",
+                "icon": "⏱️"
             },
             {
                 "title": "Accuracy Improvement",
-                "description": "Significant improvement in accuracy of reports and data."
+                "description": "Significant improvement in accuracy of reports and data.",
+                "icon": "📈"
             },
             {
                 "title": "Increased Officer Availability",
-                "description": "More officer time available due to reduced manual tasks."
+                "description": "More officer time available due to reduced manual tasks.",
+                "icon": "👮"
             }
         ],
         "audience": [],
@@ -235,23 +250,28 @@
         "benefits": [
             {
                 "title": "Faster Customer Support",
-                "description": "10× faster response time in customer support."
+                "description": "10× faster response time in customer support.",
+                "icon": "⚡"
             },
             {
                 "title": "Increased App Usage",
-                "description": "2× increase in app usage."
+                "description": "2× increase in app usage.",
+                "icon": "📈"
             },
             {
                 "title": "Higher User Retention",
-                "description": "69% higher user retention."
+                "description": "69% higher user retention.",
+                "icon": "🔄"
             },
             {
                 "title": "Growth in Accessory Sales",
-                "description": "37% growth in accessory sales."
+                "description": "37% growth in accessory sales.",
+                "icon": "💼"
             },
             {
                 "title": "Better Insights",
-                "description": "Improved insights through analytics."
+                "description": "Improved insights through analytics.",
+                "icon": "🔍"
             }
         ],
         "audience": [],
@@ -294,19 +314,23 @@
         "benefits": [
             {
                 "title": "Lead Conversion Increase",
-                "description": "20% increase in lead conversions."
+                "description": "20% increase in lead conversions.",
+                "icon": "📈"
             },
             {
                 "title": "Revenue Fluctuation Reduction",
-                "description": "30% reduction in revenue fluctuations."
+                "description": "30% reduction in revenue fluctuations.",
+                "icon": "📉"
             },
             {
                 "title": "Query Response Time Decrease",
-                "description": "50% decrease in query response time."
+                "description": "50% decrease in query response time.",
+                "icon": "⏱️"
             },
             {
                 "title": "Faster Email Responses",
-                "description": "25% faster email responses, improving client satisfaction."
+                "description": "25% faster email responses, improving client satisfaction.",
+                "icon": "✉️"
             }
         ],
         "audience": [],
@@ -346,19 +370,23 @@
         "benefits": [
             {
                 "title": "Manual Data Processing Time Reduction",
-                "description": "80% reduction in manual data processing time."
+                "description": "80% reduction in manual data processing time.",
+                "icon": "⏱️"
             },
             {
                 "title": "Financial Report Accuracy",
-                "description": "Improved accuracy in financial report interpretation."
+                "description": "Improved accuracy in financial report interpretation.",
+                "icon": "📊"
             },
             {
                 "title": "Company Comparisons Enabled",
-                "description": "500+ company comparisons enabled for better insights."
+                "description": "500+ company comparisons enabled for better insights.",
+                "icon": "🏢"
             },
             {
                 "title": "Data Reliability Improvement",
-                "description": "60% improvement in data reliability."
+                "description": "60% improvement in data reliability.",
+                "icon": "🔍"
             }
         ],
         "audience": [],
@@ -397,19 +425,23 @@
         "benefits": [
             {
                 "title": "Convenience for Customers",
-                "description": "Provides a seamless and convenient experience for customers."
+                "description": "Provides a seamless and convenient experience for customers.",
+                "icon": "👍"
             },
             {
                 "title": "Speed and Efficiency",
-                "description": "Increases onboarding speed and operational efficiency."
+                "description": "Increases onboarding speed and operational efficiency.",
+                "icon": "⚡"
             },
             {
                 "title": "Robust Security Measures",
-                "description": "Strengthens security measures for secure data processing."
+                "description": "Strengthens security measures for secure data processing.",
+                "icon": "🔒"
             },
             {
                 "title": "Digital Transformation",
-                "description": "Accelerates digital transformation for financial institutions."
+                "description": "Accelerates digital transformation for financial institutions.",
+                "icon": "💻"
             }
         ],
         "audience": [],
@@ -459,15 +491,18 @@
         "benefits": [
             {
                 "title": "Advanced AWS Comprehend Model",
-                "description": "Classifies CVs using NLP for accurate analysis."
+                "description": "Classifies CVs using NLP for accurate analysis.",
+                "icon": "🧠"
             },
             {
                 "title": "State-of-the-Art NLP Integration",
-                "description": "Improves CV accuracy by extracting key details."
+                "description": "Improves CV accuracy by extracting key details.",
+                "icon": "📄"
             },
             {
                 "title": "Intelligent Folder Management",
-                "description": "Organizes CVs for efficient storage and retrieval."
+                "description": "Organizes CVs for efficient storage and retrieval.",
+                "icon": "📁"
             }
         ],
         "audience": [],
@@ -505,19 +540,23 @@
         "benefits": [
             {
                 "title": "Time Reduction",
-                "description": "Significantly reduces time spent on item listings."
+                "description": "Significantly reduces time spent on item listings.",
+                "icon": "⏱️"
             },
             {
                 "title": "High Accuracy",
-                "description": "Achieves high accuracy in item categorization."
+                "description": "Achieves high accuracy in item categorization.",
+                "icon": "🎯"
             },
             {
                 "title": "Increased Visibility",
-                "description": "Boosts listing visibility through optimized descriptions."
+                "description": "Boosts listing visibility through optimized descriptions.",
+                "icon": "👀"
             },
             {
                 "title": "Sales Growth",
-                "description": "Results in a boost in successful sales transactions."
+                "description": "Results in a boost in successful sales transactions.",
+                "icon": "📈"
             }
         ],
         "audience": [],
@@ -558,19 +597,23 @@
         "benefits": [
             {
                 "title": "Time Reduction",
-                "description": "Reduces inventory check time by 80%."
+                "description": "Reduces inventory check time by 80%.",
+                "icon": "⏱️"
             },
             {
                 "title": "Product Identification Accuracy",
-                "description": "Ensures high accuracy in product identification."
+                "description": "Ensures high accuracy in product identification.",
+                "icon": "🎯"
             },
             {
                 "title": "Stock Discrepancy Decrease",
-                "description": "Decreases stock discrepancies, improving inventory accuracy."
+                "description": "Decreases stock discrepancies, improving inventory accuracy.",
+                "icon": "📉"
             },
             {
                 "title": "Operational Efficiency",
-                "description": "Boosts operational efficiency, increasing sales potential."
+                "description": "Boosts operational efficiency, increasing sales potential.",
+                "icon": "⚙️"
             }
         ],
         "audience": [],
@@ -609,15 +652,18 @@
         "benefits": [
             {
                 "title": "Processing Time Reduction",
-                "description": "Reduces the time required to process financial reports."
+                "description": "Reduces the time required to process financial reports.",
+                "icon": "⏱️"
             },
             {
                 "title": "Accuracy in Salary Recommendations",
-                "description": "Improves the accuracy of salary recommendations for executives."
+                "description": "Improves the accuracy of salary recommendations for executives.",
+                "icon": "🎯"
             },
             {
                 "title": "Cost Reduction",
-                "description": "Decreases operational costs associated with document processing."
+                "description": "Decreases operational costs associated with document processing.",
+                "icon": "💰"
             }
         ],
         "audience": [],
@@ -656,15 +702,18 @@
         "benefits": [
             {
                 "title": "Processing Time Reduction",
-                "description": "Reduces case processing times for quicker actions."
+                "description": "Reduces case processing times for quicker actions.",
+                "icon": "⏱️"
             },
             {
                 "title": "Faster Protective Order Response",
-                "description": "Improves response times for protective orders."
+                "description": "Improves response times for protective orders.",
+                "icon": "⚡"
             },
             {
                 "title": "Increased Police Department Onboarding",
-                "description": "Onboards 10 new police departments, doubling the user base in one year."
+                "description": "Onboards 10 new police departments, doubling the user base in one year.",
+                "icon": "👮"
             }
         ],
         "audience": [],
@@ -712,15 +761,18 @@
         "benefits": [
             {
                 "title": "Routine Query Automation",
-                "description": "Automates responses to routine customer queries."
+                "description": "Automates responses to routine customer queries.",
+                "icon": "🤖"
             },
             {
                 "title": "Response Time Improvement",
-                "description": "Enhances customer support response times."
+                "description": "Enhances customer support response times.",
+                "icon": "⏱️"
             },
             {
                 "title": "Customer Support Cost Reduction",
-                "description": "Reduces operational costs associated with customer support."
+                "description": "Reduces operational costs associated with customer support.",
+                "icon": "💰"
             }
         ],
         "audience": [],
@@ -765,19 +817,23 @@
         "benefits": [
             {
                 "title": "Manual Data Entry Reduction",
-                "description": "Reduces manual data entry time by 70%."
+                "description": "Reduces manual data entry time by 70%.",
+                "icon": "⌨️"
             },
             {
                 "title": "Labor Cost Decrease",
-                "description": "Decreases labor costs by 30%."
+                "description": "Decreases labor costs by 30%.",
+                "icon": "💸"
             },
             {
                 "title": "Data Extraction Accuracy",
-                "description": "Achieves 90% accuracy in data extraction."
+                "description": "Achieves 90% accuracy in data extraction.",
+                "icon": "🎯"
             },
             {
                 "title": "Faster Ticket Resolution",
-                "description": "Reduces ticket resolution times by 50%."
+                "description": "Reduces ticket resolution times by 50%.",
+                "icon": "⏱️"
             }
         ],
         "audience": [],
@@ -821,23 +877,28 @@
         "benefits": [
             {
                 "title": "Room Type Identification",
-                "description": "Identifies room types from images using AI and image processing."
+                "description": "Identifies room types from images using AI and image processing.",
+                "icon": "🏠"
             },
             {
                 "title": "Condition Analysis",
-                "description": "Analyzes room conditions like age, damage, and cleanliness."
+                "description": "Analyzes room conditions like age, damage, and cleanliness.",
+                "icon": "🔍"
             },
             {
                 "title": "Based Image Processing",
-                "description": "Processes room images in Base64 format for accurate analysis."
+                "description": "Processes room images in Base64 format for accurate analysis.",
+                "icon": "🖼️"
             },
             {
                 "title": "Prompt Engineering",
-                "description": "Enhances AI predictions through optimized prompt engineering."
+                "description": "Enhances AI predictions through optimized prompt engineering.",
+                "icon": "🧠"
             },
             {
                 "title": "Real-Time Assessment",
-                "description": "Assesses room conditions in real time for faster decision-making."
+                "description": "Assesses room conditions in real time for faster decision-making.",
+                "icon": "⏱️"
             }
         ],
         "audience": [],

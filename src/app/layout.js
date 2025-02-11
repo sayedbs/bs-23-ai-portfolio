@@ -1,6 +1,7 @@
 import { AuthProvider } from "./context/AuthContext";
 import ProtectedRoute from "./components/ProtectedRoute";
 import "./globals.css";
+import { Head } from "next/document";
 
 export const metadata = {
     title: "BS23 - AI Portfolio",
@@ -10,6 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
+            <Head>
+                <link rel="icon" href="/favicon.ico" />
+            </Head>
             <body>
                 <AuthProvider>
                     <ProtectedRoute>{children}</ProtectedRoute>

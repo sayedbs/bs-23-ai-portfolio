@@ -50,13 +50,13 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                 <ScrollArea className="h-full">
                     <div className="px-6 py-4 space-y-8">
                         <div className="prose prose-gray dark:prose-invert max-w-none">
-                            <p className="text-muted-foreground leading-relaxed text-justify">
+                            <p className="leading-relaxed text-justify">
                                 {project.description}
                             </p>
                         </div>
 
                         <div className="space-y-4">
-                            <h3 className="text-lg font-semibold tracking-tight">
+                            <h3 className="text-xl font-semibold tracking-tight">
                                 🚀 Features
                             </h3>
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -81,7 +81,7 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
 
                         {project.youtube ? (
                             <div className="space-y-4">
-                                <h3 className="text-lg font-semibold tracking-tight">
+                                <h3 className="text-xl font-semibold tracking-tight">
                                     Demo Video
                                 </h3>
                                 <div className="relative aspect-video rounded-lg overflow-hidden bg-black/5 dark:bg-white/5">
@@ -103,7 +103,7 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                         <Separator className="bg-border/50" />
 
                         <div className="space-y-4">
-                            <h3 className="text-lg font-semibold tracking-tight">
+                            <h3 className="text-xl font-semibold tracking-tight">
                                 💡 Business Benefits
                             </h3>
                             <div className="grid sm:grid-cols-2 gap-4">
@@ -113,7 +113,7 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                                         className="p-4 rounded-lg border bg-card hover:bg-accent transition-colors group"
                                     >
                                         <div className="font-medium font-bold text-primary group-hover:text-primary/80 transition-colors">
-                                            {benefit.title}
+                                            {benefit.title} {benefit.icon}
                                         </div>
                                         <div className="text-sm text-muted-foreground">
                                             {benefit.description}
@@ -124,7 +124,7 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                         </div>
 
                         <div className="space-y-4 pb-8">
-                            <h3 className="text-lg font-semibold tracking-tight">
+                            <h3 className="text-xl font-semibold tracking-tight">
                                 🛠️ Tech Stack
                             </h3>
                             <div className="flex flex-wrap gap-2">
@@ -142,7 +142,7 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                         {project.audience.length > 0 ? (
                             <>
                                 <div className="space-y-4">
-                                    <h3 className="text-lg font-semibold tracking-tight">
+                                    <h3 className="text-xl font-semibold tracking-tight">
                                         🎯 Target Audience
                                     </h3>
                                     <div className="grid gap-2 pb-8">
