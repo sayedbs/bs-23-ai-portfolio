@@ -12,6 +12,10 @@ const users = [
         email: "admin@brainstation-23.com",
         password: "BS@bd23",
     },
+    {
+        email: "bs@gmail.com",
+        password: "12345",
+    }
 ];
 
 export async function POST(request) {
