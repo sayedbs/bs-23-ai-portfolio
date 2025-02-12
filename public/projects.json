@@ -393,6 +393,113 @@
         "youtube": ""
     },
     {
+        "id": 18,
+        "title": "ALTIUS RFP",
+        "type": "Artificial Intelligence",
+        "thumbnail": "/images/project/ALTIUS RFP.png",
+        "description": "ALTIUS RFP involves creating a scalable and integrated RFP system, with distinct functionalities for Admin, Client, and Vendor roles, streamlining the request-for-proposal process and enhancing collaboration across all stakeholders.",
+        "length": "",
+        "tech": [
+            "FastAPI",
+            "Python",
+            "OpenAI",
+            "Milvus"
+        ],
+        "features": [
+            {
+                "title": "SharePoint Framework",
+                "description": "Provides a scalable and integrated RFP system."
+            },
+            {
+                "title": "Monitor RFP Progress",
+                "description": "Tracks and manages RFP stages efficiently."
+            },
+            {
+                "title": "Vendor Functionality",
+                "description": "Enhances vendor participation and proposal submission."
+            },
+            {
+                "title": "Proposal Evaluation",
+                "description": "Streamlines the assessment of submitted proposals."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "40% Faster RFP Processing",
+                "description": "Speeds up the overall proposal workflow.",
+                "icon": "⚡"
+            },
+            {
+                "title": "30% Improvement in Collaboration",
+                "description": "Enhances teamwork among stakeholders.",
+                "icon": "🤝"
+            },
+            {
+                "title": "20% Reduction in Manual Errors",
+                "description": "Minimizes inaccuracies in the RFP process.",
+                "icon": "❌"
+            },
+            {
+                "title": "50% Boost in Platform Scalability",
+                "description": "Supports growing RFP demands efficiently.",
+                "icon": "📈"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 22,
+        "title": "Hightime AI",
+        "type": "Artificial Intelligence",
+        "thumbnail": "/images/project/Hightime AI.jpg",
+        "description": "Hightime AI is a solution developed for a SaaS startup to address the inefficiencies in analyzing meeting summaries and follow-up actions within a data call platform. The system enhances the process by automating analysis, improving accuracy, and ensuring timely follow-ups.",
+        "length": "",
+        "tech": [
+            "Faiss",
+            "Lang Chain",
+            "OpenAI"
+        ],
+        "features": [
+            {
+                "title": "Speech To Text",
+                "description": "Converts spoken content into accurate text format."
+            },
+            {
+                "title": "Summarization",
+                "description": "Generates concise summaries from meeting content."
+            },
+            {
+                "title": "Insight Generation",
+                "description": "Extracts key insights and actionable items from meetings."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Accuracy in Meeting Summary",
+                "description": "Improves precision of meeting summaries.",
+                "icon": "🎯"
+            },
+            {
+                "title": "Reduction in Time Spent Creating Follow-Up Questionnaires",
+                "description": "Automates follow-up creation, saving time.",
+                "icon": "⏱️"
+            },
+            {
+                "title": "Higher Response Rate on Generated Questionnaires",
+                "description": "Boosts engagement with follow-up actions.",
+                "icon": "📈"
+            },
+            {
+                "title": "Faster Implementation of Action Items",
+                "description": "Accelerates the execution of decisions and tasks.",
+                "icon": "🚀"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
         "id": 8,
         "title": "E-KYC FOR FINTECH ",
         "type": "Computer Vision",
@@ -1009,62 +1116,6 @@
         "youtube": ""
     },
     {
-        "id": 18,
-        "title": "ALTIUS RFP",
-        "type": "Artificial Intelligence",
-        "thumbnail": "/images/project/ALTIUS RFP.png",
-        "description": "ALTIUS RFP involves creating a scalable and integrated RFP system, with distinct functionalities for Admin, Client, and Vendor roles, streamlining the request-for-proposal process and enhancing collaboration across all stakeholders.",
-        "length": "",
-        "tech": [
-            "FastAPI",
-            "Python",
-            "OpenAI",
-            "Milvus"
-        ],
-        "features": [
-            {
-                "title": "SharePoint Framework",
-                "description": "Provides a scalable and integrated RFP system."
-            },
-            {
-                "title": "Monitor RFP Progress",
-                "description": "Tracks and manages RFP stages efficiently."
-            },
-            {
-                "title": "Vendor Functionality",
-                "description": "Enhances vendor participation and proposal submission."
-            },
-            {
-                "title": "Proposal Evaluation",
-                "description": "Streamlines the assessment of submitted proposals."
-            }
-        ],
-        "benefits": [
-            {
-                "title": "40% Faster RFP Processing",
-                "description": "Speeds up the overall proposal workflow.",
-                "icon": "⚡"
-            },
-            {
-                "title": "30% Improvement in Collaboration",
-                "description": "Enhances teamwork among stakeholders.",
-                "icon": "🤝"
-            },
-            {
-                "title": "20% Reduction in Manual Errors",
-                "description": "Minimizes inaccuracies in the RFP process.",
-                "icon": "❌"
-            },
-            {
-                "title": "50% Boost in Platform Scalability",
-                "description": "Supports growing RFP demands efficiently.",
-                "icon": "📈"
-            }
-        ],
-        "audience": [],
-        "youtube": ""
-    },
-    {
         "id": 19,
         "title": "Donor Management System ",
         "type": "Data Analysis",
@@ -1177,57 +1228,6 @@
                 "title": "Accurate Tagging",
                 "description": "Ensures proper categorization and tagging of meetings.",
                 "icon": "🏷️"
-            }
-        ],
-        "audience": [],
-        "youtube": ""
-    },
-    {
-        "id": 22,
-        "title": "Hightime AI",
-        "type": "Artificial Intelligence",
-        "thumbnail": "/images/project/Hightime AI.jpg",
-        "description": "Hightime AI is a solution developed for a SaaS startup to address the inefficiencies in analyzing meeting summaries and follow-up actions within a data call platform. The system enhances the process by automating analysis, improving accuracy, and ensuring timely follow-ups.",
-        "length": "",
-        "tech": [
-            "Faiss",
-            "Lang Chain",
-            "OpenAI"
-        ],
-        "features": [
-            {
-                "title": "Speech To Text",
-                "description": "Converts spoken content into accurate text format."
-            },
-            {
-                "title": "Summarization",
-                "description": "Generates concise summaries from meeting content."
-            },
-            {
-                "title": "Insight Generation",
-                "description": "Extracts key insights and actionable items from meetings."
-            }
-        ],
-        "benefits": [
-            {
-                "title": "Accuracy in Meeting Summary",
-                "description": "Improves precision of meeting summaries.",
-                "icon": "🎯"
-            },
-            {
-                "title": "Reduction in Time Spent Creating Follow-Up Questionnaires",
-                "description": "Automates follow-up creation, saving time.",
-                "icon": "⏱️"
-            },
-            {
-                "title": "Higher Response Rate on Generated Questionnaires",
-                "description": "Boosts engagement with follow-up actions.",
-                "icon": "📈"
-            },
-            {
-                "title": "Faster Implementation of Action Items",
-                "description": "Accelerates the execution of decisions and tasks.",
-                "icon": "🚀"
             }
         ],
         "audience": [],

@@ -1,0 +1,28 @@
+.onepager-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #5368bb; /* Modern green color */
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.onepager-btn:hover {
+    background-color: #7385cc; /* Slightly darker green on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transform: scale(1.05);
+}
+
+.onepager-btn .lucide-icon {
+    font-size: 24px; /* Adjust icon size if needed */
+}

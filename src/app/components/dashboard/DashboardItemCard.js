@@ -12,7 +12,6 @@ import {
 import ProjectModal from "./ProjectModal";
 
 function DashboardItemCard({ project }) {
-    console.log(project.thumbnail);
     const [isOpen, setIsOpen] = useState(false);
     return (
         <motion.div
@@ -34,7 +33,7 @@ function DashboardItemCard({ project }) {
                         width={200}
                         height={100}
                         alt="Thumbnail"
-                        className="rounded-lg group-hover:scale-105 transition-transform duration-300"
+                        className="rounded-lg p-3 group-hover:scale-105 transition-transform duration-300"
                     />
                 </CardHeader>
                 <CardContent className="px-3 lg:px-6 py-0 pt-5 text-sm ">
