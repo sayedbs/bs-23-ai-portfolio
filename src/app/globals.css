@@ -114,6 +114,9 @@
     }
 }
 
+body {
+    background-color: rgb(21, 20, 23);
+}
 .custom-scrollbar {
     scrollbar-width: thin;
     scrollbar-color: var(--primary) var(--background);
