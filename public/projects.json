@@ -903,5 +903,422 @@
         ],
         "audience": [],
         "youtube": ""
+    },
+    {
+        "id": 25,
+        "title": "Content Compliance Summarization",
+        "type": "Artificial Intelligence",
+        "thumbnail": "/",
+        "description": "The Content Compliance Summarization for MJ Hudson project automates the collection and classification of public and private documents, such as ESG policies, using targeted Google queries. It employs advanced NLP techniques, including question-answering, named entity recognition, and document classification, to validate the authenticity of documents. The processed data is attributed to relevant entities, validated for accuracy, and stored in a data mart for reporting and exporting purposes.",
+        "length": "",
+        "tech": [
+            "Python",
+            "FastAPI",
+            "LangChain",
+            "S3 Bucket",
+            "MS SQL Server",
+            "NLP",
+            "Google Search API"
+        ],
+        "features": [
+            {
+                "title": "Automated Document Collection",
+                "description": "Gathers public and private documents using targeted Google queries."
+            },
+            {
+                "title": "Document Validation",
+                "description": "Ensures document authenticity using NLP techniques."
+            },
+            {
+                "title": "Data Parsing Capabilities",
+                "description": "Extracts and processes key information from documents."
+            },
+            {
+                "title": "Accurate Data Attribution",
+                "description": "Links processed data to relevant entities with high precision."
+            },
+            {
+                "title": "Data Storage and Reporting",
+                "description": "Stores validated data for easy reporting and exporting."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Reduction in Manual Effort",
+                "description": "Cuts down manual document processing by 70%.",
+                "icon": "📝"
+            },
+            {
+                "title": "High Document Validation Accuracy",
+                "description": "Achieves 90% accuracy in verifying document authenticity.",
+                "icon": "✔️"
+            },
+            {
+                "title": "Operational Cost Savings",
+                "description": "Reduces costs by 60% through automation.",
+                "icon": "💰"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 17,
+        "title": "Stella Risk Monitor ",
+        "type": "Data Analysis",
+        "thumbnail": "/",
+        "description": "Stella Risk Monitor focuses on ensuring robust security for financial asset management platforms, safeguarding sensitive data and preventing vulnerabilities to enhance system integrity and protect user information.",
+        "length": "",
+        "tech": [
+            "FastAPI",
+            "Python",
+            "OpenAI"
+        ],
+        "features": [
+            {
+                "title": "Secure Infrastructure",
+                "description": "Ensures robust security for financial asset management platforms."
+            },
+            {
+                "title": "Automated Reporting",
+                "description": "Generates automated reports for better insights and decision-making."
+            },
+            {
+                "title": "Customizable Analytics",
+                "description": "Provides customizable analytics to meet specific business needs."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "100% Success in Penetration Testing",
+                "description": "Passed all security tests without vulnerabilities.",
+                "icon": "🔒"
+            },
+            {
+                "title": "Ethical Hacking Assessment",
+                "description": "4 ethical hackers tested the system for 3 days.",
+                "icon": "🛡️"
+            },
+            {
+                "title": "Proactive Security Updates",
+                "description": "Identifies and resolves risks before exploitation.",
+                "icon": "🚀"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 18,
+        "title": "ALTIUS RFP",
+        "type": "Artificial Intelligence",
+        "thumbnail": "/",
+        "description": "ALTIUS RFP involves creating a scalable and integrated RFP system, with distinct functionalities for Admin, Client, and Vendor roles, streamlining the request-for-proposal process and enhancing collaboration across all stakeholders.",
+        "length": "",
+        "tech": [
+            "FastAPI",
+            "Python",
+            "OpenAI",
+            "Milvus"
+        ],
+        "features": [
+            {
+                "title": "SharePoint Framework",
+                "description": "Provides a scalable and integrated RFP system."
+            },
+            {
+                "title": "Monitor RFP Progress",
+                "description": "Tracks and manages RFP stages efficiently."
+            },
+            {
+                "title": "Vendor Functionality",
+                "description": "Enhances vendor participation and proposal submission."
+            },
+            {
+                "title": "Proposal Evaluation",
+                "description": "Streamlines the assessment of submitted proposals."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "40% Faster RFP Processing",
+                "description": "Speeds up the overall proposal workflow.",
+                "icon": "⚡"
+            },
+            {
+                "title": "30% Improvement in Collaboration",
+                "description": "Enhances teamwork among stakeholders.",
+                "icon": "🤝"
+            },
+            {
+                "title": "20% Reduction in Manual Errors",
+                "description": "Minimizes inaccuracies in the RFP process.",
+                "icon": "❌"
+            },
+            {
+                "title": "50% Boost in Platform Scalability",
+                "description": "Supports growing RFP demands efficiently.",
+                "icon": "📈"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 19,
+        "title": "Donor Management System ",
+        "type": "Data Analysis",
+        "thumbnail": "/",
+        "description": "The Donor Management System was developed to address the challenges faced by a non-profit organization in managing donor information, fund allocation, and financial reporting. The previous system led to inefficiencies and hindered transparency and accountability. This solution streamlined operations, ensuring better management and reporting capabilities.",
+        "length": "",
+        "tech": [
+            ".Net",
+            "Angular",
+            "SQL Server"
+        ],
+        "features": [
+            {
+                "title": "Donor Profiles & Behavior Tracking",
+                "description": "Monitors donor activities and preferences."
+            },
+            {
+                "title": "Automated Fund Allocation",
+                "description": "Distributes funds efficiently based on predefined rules."
+            },
+            {
+                "title": "Real-time Financial Reporting",
+                "description": "Provides up-to-date financial insights."
+            },
+            {
+                "title": "Donor Segmentation",
+                "description": "Categorizes donors for targeted engagement."
+            },
+            {
+                "title": "Large Dataset Management",
+                "description": "Handles extensive donor and transaction data."
+            },
+            {
+                "title": "Accurate Expense Tracking",
+                "description": "Ensures transparency in fund utilization."
+            },
+            {
+                "title": "Communication Tools",
+                "description": "Facilitates donor engagement and outreach."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Increase in Donor Engagement",
+                "description": "Improves interaction and retention.",
+                "icon": "📈"
+            },
+            {
+                "title": "Reduction in Administrative Workload",
+                "description": "Automates tasks to save time.",
+                "icon": "🗂️"
+            },
+            {
+                "title": "Growth in Fundraising Revenue Annually",
+                "description": "Enhances financial contributions.",
+                "icon": "💰"
+            },
+            {
+                "title": "Financial Reporting Accuracy",
+                "description": "Ensures precise and transparent reports.",
+                "icon": "📊"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 20,
+        "title": "TACKLE",
+        "type": "Data Analysis",
+        "thumbnail": "/",
+        "description": "Tackle is a solution developed for a SaaS startup to address inefficiencies in Google Calendar management, caused by manual entry and the absence of tagging. The system automates meeting categorization, streamlining the process and improving organization.",
+        "length": "",
+        "tech": [
+            "Faiss",
+            "Lang Chain",
+            "OpenAI"
+        ],
+        "features": [
+            {
+                "title": "Meeting Priorities Dashboard",
+                "description": "Displays and categorizes meetings based on priority."
+            },
+            {
+                "title": "Track & Analyze Meeting Entries",
+                "description": "Monitors and evaluates meeting data for insights."
+            },
+            {
+                "title": "Performance Evaluation Tools",
+                "description": "Assesses meeting effectiveness and participation."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Reduction in Time Spent Organizing Meetings",
+                "description": "Automates categorization and organization.",
+                "icon": "⏱️"
+            },
+            {
+                "title": "Decrease in Missed or Overlapping Meetings",
+                "description": "Improves scheduling accuracy.",
+                "icon": "📅"
+            },
+            {
+                "title": "Actionable Insights from Meetings",
+                "description": "Provides valuable feedback on meeting outcomes.",
+                "icon": "💡"
+            },
+            {
+                "title": "Accurate Tagging",
+                "description": "Ensures proper categorization and tagging of meetings.",
+                "icon": "🏷️"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 22,
+        "title": "Hightime AI",
+        "type": "Artificial Intelligence",
+        "thumbnail": "/",
+        "description": "Hightime AI is a solution developed for a SaaS startup to address the inefficiencies in analyzing meeting summaries and follow-up actions within a data call platform. The system enhances the process by automating analysis, improving accuracy, and ensuring timely follow-ups.",
+        "length": "",
+        "tech": [
+            "Faiss",
+            "Lang Chain",
+            "OpenAI"
+        ],
+        "features": [
+            {
+                "title": "Speech To Text",
+                "description": "Converts spoken content into accurate text format."
+            },
+            {
+                "title": "Summarization",
+                "description": "Generates concise summaries from meeting content."
+            },
+            {
+                "title": "Insight Generation",
+                "description": "Extracts key insights and actionable items from meetings."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Accuracy in Meeting Summary",
+                "description": "Improves precision of meeting summaries.",
+                "icon": "🎯"
+            },
+            {
+                "title": "Reduction in Time Spent Creating Follow-Up Questionnaires",
+                "description": "Automates follow-up creation, saving time.",
+                "icon": "⏱️"
+            },
+            {
+                "title": "Higher Response Rate on Generated Questionnaires",
+                "description": "Boosts engagement with follow-up actions.",
+                "icon": "📈"
+            },
+            {
+                "title": "Faster Implementation of Action Items",
+                "description": "Accelerates the execution of decisions and tasks.",
+                "icon": "🚀"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 21,
+        "title": "Nikles Chatbot",
+        "type": "Chatbot",
+        "thumbnail": "/",
+        "description": "A chatbot developed for Nikles Group, a prominent Swiss manufacturer of shower equipment. The bot enhances customer interaction, offering personalized shopping experiences and product suggestions.",
+        "length": "",
+        "tech": [
+            "FastAPI",
+            "OpenAI",
+            "React.js",
+            "Postgres",
+            "LangChain",
+            "Semantic Routing"
+        ],
+        "features": [
+            {
+                "title": "Multilingual Support (English, French, German)",
+                "description": "Supports multiple languages for global customer interactions."
+            },
+            {
+                "title": "Product Card Generation",
+                "description": "Generates detailed product cards for better product view."
+            },
+            {
+                "title": "Context-Aware Chat",
+                "description": "Maintains conversation flow based on previous interactions."
+            },
+            {
+                "title": "UI Localization for Multiple Languages",
+                "description": "Localizes user interface to accommodate various languages."
+            },
+            {
+                "title": "Smart Routing",
+                "description": "Routes greeting questions intelligently to avoid redundancy."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Streamlines Customer Engagement",
+                "description": "Improves efficiency in customer interactions.",
+                "icon": "🤝"
+            },
+            {
+                "title": "Provides Intelligent Product Recommendations",
+                "description": "Suggests relevant products to customers based on their needs.",
+                "icon": "🛍️"
+            },
+            {
+                "title": "Enhances Multilingual Support",
+                "description": "Improves support for customers in different languages.",
+                "icon": "🌐"
+            },
+            {
+                "title": "Improves User Experience for Global Customers",
+                "description": "Offers a seamless, personalized experience for international users.",
+                "icon": "🌍"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 23,
+        "title": "",
+        "type": "",
+        "thumbnail": "/",
+        "description": "",
+        "length": "",
+        "tech": [],
+        "features": [],
+        "benefits": [],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 24,
+        "title": "",
+        "type": "",
+        "thumbnail": "/",
+        "description": "",
+        "length": "",
+        "tech": [],
+        "features": [],
+        "benefits": [],
+        "audience": [],
+        "youtube": ""
     }
 ]
