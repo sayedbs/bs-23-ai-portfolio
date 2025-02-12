@@ -31,7 +31,7 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
 
     return (
         <Dialog open={isOpen} onOpenChange={(open) => setIsOpen(open)}>
-            <DialogContent className="max-w-4xl h-[90vh] p-0 bg-[#f9fafb] dark:bg-background">
+            <DialogContent className="max-w-4xl h-[90vh] p-0 bg-[#f9fafb] dark:bg-background overflow-hidden">
                 <DialogHeader className="px-6 py-4 sticky top-0 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-10 border-b">
                     <div className="flex items-center justify-between">
                         <DialogTitle className="text-2xl font-bold text-[#3b82f6]">
