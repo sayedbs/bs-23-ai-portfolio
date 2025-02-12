@@ -1,7 +1,7 @@
 import { AuthProvider } from "./context/AuthContext";
 import ProtectedRoute from "./components/ProtectedRoute";
 import "./globals.css";
-import { Head } from "next/document";
+import Head from "next/head";
 
 export const metadata = {
     title: "BS23 - AI Portfolio",
