@@ -3,7 +3,7 @@
         "id": 1,
         "title": "UPENDNOW",
         "type": "Artificial Intelligence",
-        "thumbnail": "/",
+        "thumbnail": "/images/project/UPENDNOW.jpg",
         "description": "Upendnow is an AI-driven co-pilot that transforms video production for content creators. By automating key processes—from creative briefs and story scripts to storyboards and music—it streamlines workflows, accelerates production, and enhances creative output. Leveraging cutting-edge AI, Upendnow empowers creators to focus on strategy and storytelling while maximizing efficiency and impact.",
         "length": "5 months",
         "tech": [
@@ -65,7 +65,7 @@
         "id": 2,
         "title": "CMC Legal AI",
         "type": "Artificial Intelligence",
-        "thumbnail": "/",
+        "thumbnail": "/images/project/CMC Legal AI.png",
         "description": "CMC Legal AI revolutionized contract management by integrating an AI-powered chatbot for contract-related inquiries, an admin portal for seamless oversight, and an optimized system for contract review. This transformation enhanced user experience, increased operational efficiency, and streamlined workflows, enabling faster, more intelligent decision-making.",
         "length": "6 months",
         "features": [
@@ -110,7 +110,7 @@
         "id": 3,
         "title": "Maruboshi OM CMS",
         "type": "Artificial Intelligence",
-        "thumbnail": "/",
+        "thumbnail": "/images/project/Maruboshi.jpg",
         "description": "Maroboshi OM partnered on a data transformation initiative, embedding advanced SEO keyword extraction to maximize searchability and discoverability. By structuring and optimizing large-scale document management, the project enhanced accessibility, streamlined organization, and significantly improved operational efficiency.",
         "length": "2 months",
         "tech": [
@@ -148,7 +148,7 @@
         "id": 4,
         "title": "LEADRS",
         "type": "Artificial Intelligence",
-        "thumbnail": "/",
+        "thumbnail": "/images/project/LEADRS.jpg",
         "description": "LEADRS is an AI-driven incident reporting platform designed to optimize road accident and traffic law enforcement reporting in the USA. By automating key processes, it enhances efficiency, accuracy, and speed, eliminating the inefficiencies of manual report generation for law enforcement agencies.",
         "length": "",
         "tech": [
@@ -211,7 +211,7 @@
         "id": 5,
         "title": "Toyota Hilux OM",
         "type": "Chatbot",
-        "thumbnail": "/",
+        "thumbnail": "/images/project/Toyota Hilux OM.jpg",
         "description": "We developed an AI-driven customer support app for Toyota Hilux, featuring an intelligent Owner’s Manual (OM) designed to enhance the vehicle ownership experience. With a multilingual chatbot, voice assistant, and advanced search capabilities, the solution provides instant support, proactive troubleshooting, and personalized recommendations. This innovation improves accessibility, accelerates issue resolution, and strengthens customer engagement, driving efficiency and brand loyalty.",
         "length": "",
         "tech": [
@@ -281,7 +281,7 @@
         "id": 6,
         "title": "LIONOBYTES",
         "type": "Artificial Intelligence",
-        "thumbnail": "/",
+        "thumbnail": "/images/project/LIONOBYTES.png",
         "description": "LIONOBYTES is an AI-powered CRM enhancement tool designed to improve lead scoring, sentiment analysis, and sales forecasting for B2B businesses. It helps CRM providers overcome challenges related to manual lead scoring, inaccurate sales forecasting, and inefficient email communication with clients.",
         "length": "",
         "tech": [
@@ -340,7 +340,7 @@
         "id": 7,
         "title": "NLP Platform",
         "type": "Data Analysis",
-        "thumbnail": "/",
+        "thumbnail": "/images/project/NLP Platform.webp",
         "description": "The NLP Platform is a SaaS-based AI solution designed for financial data aggregation and comparative analysis. It helps businesses parse, interpret, and analyze vast amounts of financial data from multiple sources to derive accurate insights efficiently.",
         "length": "",
         "tech": [
@@ -396,7 +396,7 @@
         "id": 8,
         "title": "E-KYC FOR FINTECH ",
         "type": "Computer Vision",
-        "thumbnail": "/",
+        "thumbnail": "",
         "description": "We developed an AI-powered E-KYC solution for FinTech, transforming customer onboarding by digitizing identity verification and automating document processing. By eliminating manual paperwork, the system enhances speed, efficiency, and compliance while strengthening security measures. This innovation delivers a seamless onboarding experience, improves customer convenience, and accelerates digital transformation for financial institutions, ensuring a smarter, more scalable approach to regulatory compliance.",
         "length": "",
         "tech": [
@@ -451,7 +451,7 @@
         "id": 9,
         "title": "HR Automation Solution",
         "type": "Artificial Intelligence",
-        "thumbnail": "/",
+        "thumbnail": "",
         "description": "The HR Automation Solution project is designed to revolutionize the traditional recruitment process by leveraging cutting-edge technologies to automate and optimize various HR tasks. The primary goal is to reduce manual effort, accelerate hiring timelines, and enhance the overall efficiency of talent acquisition.",
         "length": "",
         "tech": [
@@ -512,7 +512,7 @@
         "id": 10,
         "title": "Product Description Generator",
         "type": "Artificial Intelligence",
-        "thumbnail": "/",
+        "thumbnail": "",
         "description": "The Product Description Generator project was developed to address the challenges faced by an e-commerce platform in managing and uploading thousands of product listings regularly. The solution leverages advanced technologies to automate the creation of product descriptions, improve SEO, and enhance the overall efficiency of the listing process.",
         "length": "",
         "tech": [
@@ -566,7 +566,7 @@
         "id": 11,
         "title": "Product & Brand Identification",
         "type": "Computer Vision",
-        "thumbnail": "/",
+        "thumbnail": "",
         "description": "The Product & Brand Identification project was developed to revolutionize retail inventory management by leveraging advanced image and data processing technologies. The solution enables real-time detection of shelf status, accurate product identification, and efficient inventory management, ultimately enhancing operational efficiency and sales potential.",
         "length": "",
         "tech": [
@@ -623,7 +623,7 @@
         "id": 12,
         "title": "C Suite Comp",
         "type": "Data Analysis",
-        "thumbnail": "/",
+        "thumbnail": "",
         "description": "The project aimed to streamline the process of generating salary recommendations for C-suite executives by automating the extraction and analysis of financial data from thousands of reports. The goal was to enhance efficiency, accuracy, and cost-effectiveness in handling large volumes of financial documents",
         "length": "",
         "tech": [
@@ -673,7 +673,7 @@
         "id": 13,
         "title": "SAFVIC",
         "type": "Data Analysis",
-        "thumbnail": "/",
+        "thumbnail": "",
         "description": "The SAFVIC project aimed to address the inefficiencies in victim protection and case management within the US government's traditional victim assistance programs. The primary goal was to implement a unified, automated system to streamline case management, enhance victim protection, and improve overall response times for protective orders.",
         "length": "",
         "tech": [
@@ -723,7 +723,7 @@
         "id": 14,
         "title": "CHATBOT 23",
         "type": "Chatbot",
-        "thumbnail": "/",
+        "thumbnail": "/images/project/chatbot23.png",
         "description": "The AI-powered chatbot is designed to revolutionize customer support by adapting to business needs. Fully configurable, it can be tailored to meet any specific requirement, enhancing efficiency and personalization in customer interactions.",
         "length": "",
         "tech": [
@@ -782,7 +782,7 @@
         "id": 15,
         "title": "OCR on Tickets",
         "type": "Computer Vision",
-        "thumbnail": "/",
+        "thumbnail": "",
         "description": "OCR on Tickets focuses on developing a multi-LLM chatbot solution that extracts and processes information from handwritten tickets using Optical Character Recognition (OCR) technology. Leveraging OpenAI Vision for image-to-text conversion, the system decodes and interprets handwritten content with high accuracy. By integrating Generative AI and Prompt Engineering, the solution enhances data extraction and automates workflows. The FastAPI framework ensures efficient backend processing, while Base64 is utilized for secure image handling.",
         "length": "",
         "tech": [
@@ -843,7 +843,7 @@
         "id": 16,
         "title": "Room Condition and Category Prediction",
         "type": "Computer Vision",
-        "thumbnail": "/",
+        "thumbnail": "",
         "description": "The Room Condition and Category Prediction project uses AI to analyze room images in Base64 format, categorizing them into 40+ room types. It also assesses room conditions, such as age, wall damage, and cleanliness. The solution integrates OpenAI Vision, Generative AI, and prompt engineering, with a tech stack that includes Flask and Base64 encoding for accurate classification and analysis.",
         "length": "",
         "tech": [
@@ -908,7 +908,7 @@
         "id": 25,
         "title": "Content Compliance Summarization",
         "type": "Artificial Intelligence",
-        "thumbnail": "/",
+        "thumbnail": "",
         "description": "The Content Compliance Summarization for MJ Hudson project automates the collection and classification of public and private documents, such as ESG policies, using targeted Google queries. It employs advanced NLP techniques, including question-answering, named entity recognition, and document classification, to validate the authenticity of documents. The processed data is attributed to relevant entities, validated for accuracy, and stored in a data mart for reporting and exporting purposes.",
         "length": "",
         "tech": [
@@ -966,7 +966,7 @@
         "id": 17,
         "title": "Stella Risk Monitor ",
         "type": "Data Analysis",
-        "thumbnail": "/",
+        "thumbnail": "",
         "description": "Stella Risk Monitor focuses on ensuring robust security for financial asset management platforms, safeguarding sensitive data and preventing vulnerabilities to enhance system integrity and protect user information.",
         "length": "",
         "tech": [
@@ -1012,7 +1012,7 @@
         "id": 18,
         "title": "ALTIUS RFP",
         "type": "Artificial Intelligence",
-        "thumbnail": "/",
+        "thumbnail": "/images/project/ALTIUS RFP.png",
         "description": "ALTIUS RFP involves creating a scalable and integrated RFP system, with distinct functionalities for Admin, Client, and Vendor roles, streamlining the request-for-proposal process and enhancing collaboration across all stakeholders.",
         "length": "",
         "tech": [
@@ -1068,7 +1068,7 @@
         "id": 19,
         "title": "Donor Management System ",
         "type": "Data Analysis",
-        "thumbnail": "/",
+        "thumbnail": "",
         "description": "The Donor Management System was developed to address the challenges faced by a non-profit organization in managing donor information, fund allocation, and financial reporting. The previous system led to inefficiencies and hindered transparency and accountability. This solution streamlined operations, ensuring better management and reporting capabilities.",
         "length": "",
         "tech": [
@@ -1135,7 +1135,7 @@
         "id": 20,
         "title": "TACKLE",
         "type": "Data Analysis",
-        "thumbnail": "/",
+        "thumbnail": "/images/project/TACKLE.png",
         "description": "Tackle is a solution developed for a SaaS startup to address inefficiencies in Google Calendar management, caused by manual entry and the absence of tagging. The system automates meeting categorization, streamlining the process and improving organization.",
         "length": "",
         "tech": [
@@ -1186,7 +1186,7 @@
         "id": 22,
         "title": "Hightime AI",
         "type": "Artificial Intelligence",
-        "thumbnail": "/",
+        "thumbnail": "/images/project/Hightime AI.jpg",
         "description": "Hightime AI is a solution developed for a SaaS startup to address the inefficiencies in analyzing meeting summaries and follow-up actions within a data call platform. The system enhances the process by automating analysis, improving accuracy, and ensuring timely follow-ups.",
         "length": "",
         "tech": [
@@ -1231,13 +1231,13 @@
             }
         ],
         "audience": [],
-        "youtube": " "
+        "youtube": ""
     },
     {
         "id": 21,
         "title": "Nikles Chatbot",
         "type": "Chatbot",
-        "thumbnail": "/",
+        "thumbnail": "/images/project/Nikles Chatbot.png",
         "description": "A chatbot developed for Nikles Group, a prominent Swiss manufacturer of shower equipment. The bot enhances customer interaction, offering personalized shopping experiences and product suggestions.",
         "length": "",
         "tech": [
@@ -1299,7 +1299,7 @@
         "id": 23,
         "title": "",
         "type": "",
-        "thumbnail": "/",
+        "thumbnail": "",
         "description": "",
         "length": "",
         "tech": [],
@@ -1312,7 +1312,7 @@
         "id": 24,
         "title": "",
         "type": "",
-        "thumbnail": "/",
+        "thumbnail": "",
         "description": "",
         "length": "",
         "tech": [],

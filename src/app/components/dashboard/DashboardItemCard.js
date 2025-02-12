@@ -12,6 +12,7 @@ import {
 import ProjectModal from "./ProjectModal";
 
 function DashboardItemCard({ project }) {
+    console.log(project.thumbnail);
     const [isOpen, setIsOpen] = useState(false);
     return (
         <motion.div
@@ -25,7 +26,11 @@ function DashboardItemCard({ project }) {
             >
                 <CardHeader className="p-3 bg-gray-900 h-[200px] flex items-center justify-center">
                     <Image
-                        src="/images/placeholder.png"
+                        src={
+                            project.thumbnail
+                                ? project.thumbnail
+                                : "/images/placeholder.png"
+                        }
                         width={200}
                         height={100}
                         alt="Thumbnail"
