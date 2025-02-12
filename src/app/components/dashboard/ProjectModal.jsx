@@ -20,6 +20,7 @@ import {
 } from "@/components/ui/dialog";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
+import TechIcon, { TecHiconList } from "../TechIcon";
 
 export default function ProjectModal({ isOpen, setIsOpen, project }) {
     console.log(project.features);
@@ -50,7 +51,7 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                 <ScrollArea className="h-full">
                     <div className="px-6 py-4 space-y-8">
                         <div className="prose prose-gray dark:prose-invert max-w-none">
-                            <p className="leading-relaxed text-justify">
+                            <p className="leading-relaxed text-left">
                                 {project.description}
                             </p>
                         </div>
@@ -132,13 +133,17 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                                     <Badge
                                         key={i}
                                         variant="secondary"
-                                        className="text-xs bg-primary/10 hover:bg-primary/20 transition-colors"
+                                        className="text-sm bg-primary/10 hover:bg-primary/20 transition-colors"
                                     >
-                                        {tech}
+                                        <span className="flex items-center gap-1 transform scale-110">
+                                            <TechIcon iconName={tech} />
+                                        </span>
+                                        <span className="ml-1">{tech}</span>
                                     </Badge>
                                 ))}
                             </div>
                         </div>
+
                         {project.audience.length > 0 ? (
                             <>
                                 <div className="space-y-4">
