@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Header from "../components/Header";
 import DashboardItemCard from "../components/dashboard/DashboardItemCard";
+import OnePager from "../components/onepager/OnePager";
 
 const DataAnalysis = () => {
     const [projects, setProjects] = useState([]);
@@ -30,7 +31,7 @@ const DataAnalysis = () => {
             <div>
                 <div>
                     <Header />
-                    <div className="max-w-[1500px] mx-auto p-4">
+                    <div className="max-w-[1500px] mx-auto p-4 relative">
                         <div className="grid grid-cols-3 lg:grid-cols-4  gap-5">
                             {projects.map((project) => (
                                 <DashboardItemCard
@@ -39,6 +40,7 @@ const DataAnalysis = () => {
                                 />
                             ))}
                         </div>
+                        <OnePager />
                     </div>
                 </div>
             </div>

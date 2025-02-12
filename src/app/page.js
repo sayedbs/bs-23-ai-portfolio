@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import ComputerVisionComponent from "./components/ComputerVision";
+import ArtificialIntelligenceComponent from "./components/ArtificialIntelligence";
 
 export default function Dashboard() {
     const [message, setMessage] = useState("");
@@ -36,7 +37,7 @@ export default function Dashboard() {
 
     return (
         <>
-            <ComputerVisionComponent />
+            <ArtificialIntelligenceComponent />
         </>
     );
 }

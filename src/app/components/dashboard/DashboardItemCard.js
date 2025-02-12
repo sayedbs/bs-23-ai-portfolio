@@ -25,11 +25,15 @@ function DashboardItemCard({ project }) {
             >
                 <CardHeader className="p-3 bg-gray-900 h-[200px] flex items-center justify-center">
                     <Image
-                        src="/images/placeholder.png"
+                        src={
+                            project.thumbnail
+                                ? project.thumbnail
+                                : "/images/placeholder.png"
+                        }
                         width={200}
                         height={100}
                         alt="Thumbnail"
-                        className="rounded-lg group-hover:scale-105 transition-transform duration-300"
+                        className="rounded-lg p-3 group-hover:scale-105 transition-transform duration-300"
                     />
                 </CardHeader>
                 <CardContent className="px-3 lg:px-6 py-0 pt-5 text-sm ">

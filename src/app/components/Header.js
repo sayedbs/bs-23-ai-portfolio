@@ -15,7 +15,7 @@ function Header() {
     };
 
     const isActive = (path) => {
-        if (path === "/computer-vision" && pathname === "/") {
+        if (path === "/artificial-intelligence" && pathname === "/") {
             return true;
         }
         return pathname === path;
@@ -44,16 +44,16 @@ function Header() {
                 className=""
                 src={"/images/bs23.png"}
                 alt="ai"
-                width={window.innerWidth <= 991 ? 60 : 100}
+                width={window.innerWidth <= 991 ? 60 : 80}
                 height={window.innerWidth <= 991 ? 60 : 100}
             />
 
             <div className="flex-1 flex items-center gap-4 justify-center">
-                <NavButton path="/computer-vision" label="Computer Vision" />
                 <NavButton
                     path="/artificial-intelligence"
                     label="Artificial Intelligence"
                 />
+                <NavButton path="/computer-vision" label="Computer Vision" />
                 <NavButton path="/chatbot" label="Chatbot" />
                 <NavButton path="/data-analysis" label="Data Analysis" />
             </div>
