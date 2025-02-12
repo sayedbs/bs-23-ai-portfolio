@@ -9,6 +9,7 @@ import { Loader2 } from "lucide-react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
+import ColourfulText from "@/components/ui/colourful-text";
 
 export default function Login() {
     const [email, setEmail] = useState("");
@@ -71,18 +72,20 @@ export default function Login() {
                             className="text-center space-y-4"
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
-                            transition={{ duration: 3 }}
+                            transition={{ duration: 1 }}
                         >
-                            <h2 className="text-4xl font-bold text-white flex items-center justify-center space-x-2">
+                            <h2 className="text-4xl font-bold text-white flex flex-col items-center justify-center space-x-2 mb-8">
                                 <Image
+                                    className="rounded-full mb-4"
                                     src="/bs23logo.png"
                                     alt="Logo"
-                                    width={45}
-                                    height={45}
+                                    width={150}
+                                    height={150}
                                 />
-                                <span style={{ color: "#00A0DE" }}>
-                                    Brain Station 23
-                                </span>
+
+                                <h1 className="text-5xl" style={{ color: "#00A0DE" }}>
+                                    <ColourfulText text="Brain Station 23" />
+                                </h1>
                             </h2>
                             <p className="text-4xl text-white">
                                 <TextGenerateEffect words={textEffectWords} />
@@ -91,7 +94,7 @@ export default function Login() {
                     </div>
 
                     {/* Right Column (Login Form) */}
-                    <div className="flex items-center justify-center xl:mt-0 mt-[75px]">
+                    <div className="flex items-center justify-center xl:mt-0 mt-[40px]">
                         <motion.div
                             className="w-full max-w-sm overflow-hidden"
                             initial={{ scale: 0.9, y: -50, opacity: 0 }}
