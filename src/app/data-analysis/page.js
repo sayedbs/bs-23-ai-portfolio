@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import Header from "../components/Header";
 import DashboardItemCard from "../components/dashboard/DashboardItemCard";
 import OnePager from "../components/onepager/OnePager";
+import Footer from "../components/Footer";
 
 const DataAnalysis = () => {
     const [projects, setProjects] = useState([]);
@@ -42,6 +43,8 @@ const DataAnalysis = () => {
                         </div>
                         <OnePager />
                     </div>
+
+                    <Footer />
                 </div>
             </div>
         </div>

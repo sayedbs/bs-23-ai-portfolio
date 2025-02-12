@@ -2,6 +2,7 @@ import React, { use, useEffect, useState } from "react";
 import Header from "./Header";
 import DashboardItemCard from "./dashboard/DashboardItemCard";
 import OnePager from "./onepager/OnePager";
+import Footer from "./Footer";
 
 const ComputerVisionComponent = () => {
     const [projects, setProjects] = useState([]);
@@ -43,6 +44,7 @@ const ComputerVisionComponent = () => {
                         </div>
                         <OnePager />
                     </div>
+                    <Footer />
                 </div>
             </div>
         </div>

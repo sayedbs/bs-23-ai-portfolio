@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Header from "../components/Header";
 import DashboardItemCard from "../components/dashboard/DashboardItemCard";
 import OnePager from "../components/onepager/OnePager";
+import Footer from "./Footer";
 
 const ArtificialIntelligenceComponent = () => {
     const [projects, setProjects] = useState([]);
@@ -41,6 +42,7 @@ const ArtificialIntelligenceComponent = () => {
                         </div>
                         <OnePager />
                     </div>
+                    <Footer />
                 </div>
             </div>
         </div>

@@ -6,6 +6,7 @@ import { GlowingEffect } from "../components/Card";
 import { GlareCard } from "../components/GlareCard";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import Footer from "../components/Footer";
 
 function Dashboard2() {
     return (
@@ -84,7 +85,9 @@ function Dashboard2() {
                 <Button className="my-4">Button</Button>
               </GlareCard>
 
-              </div>
+            </div>
+
+            <Footer />
         </div>
     );
 }
