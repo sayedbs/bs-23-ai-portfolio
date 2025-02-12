@@ -55,25 +55,7 @@ const techIcons = {
 };
 
 const TechIcon = ({ iconName }) => {
-  return techIcons[iconName] || <span>Icon not found</span>;
+  return <span className="flex items-center gap-1 text-xl transform scale-110">{techIcons[iconName]}</span> || '';
 };
 
 export default TechIcon;
-
-
-export const TecHiconList = () => {
-  return (
-    <div className="flex flex-wrap gap-2">
-      {Object.entries(techIcons).map(([iconName, IconComponent], i) => (
-        <Badge
-        key={i}
-        variant="secondary"
-        className="text-xs bg-primary/10 hover:bg-primary/20 transition-colors"
-        >
-        {IconComponent}
-        <span className="ml-1">{iconName}</span>
-        </Badge>
-      ))}
-    </div>
-  );
-}

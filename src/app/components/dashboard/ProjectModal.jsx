@@ -20,7 +20,7 @@ import {
 } from "@/components/ui/dialog";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
-import TechIcon, { TecHiconList } from "../TechIcon";
+import TechIcon from "../TechIcon";
 
 export default function ProjectModal({ isOpen, setIsOpen, project }) {
     console.log(project.features);
@@ -133,12 +133,13 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                                     <Badge
                                         key={i}
                                         variant="secondary"
-                                        className="text-sm bg-primary/10 hover:bg-primary/20 transition-colors"
+                                        className="text-sm p-2 bg-primary/10 hover:bg-primary/20 transition-colors"
                                     >
-                                        <span className="flex items-center gap-1 transform scale-110">
-                                            <TechIcon iconName={tech} />
+                                        <TechIcon iconName={tech} />
+
+                                        <span className="mx-1 text-md">
+                                            {tech}
                                         </span>
-                                        <span className="ml-1">{tech}</span>
                                     </Badge>
                                 ))}
                             </div>
