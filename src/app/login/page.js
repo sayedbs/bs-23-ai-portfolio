@@ -62,7 +62,7 @@ export default function Login() {
     };
 
     return (
-        <div className="h-screen bg-cover bg-center bg-[url('/images/login.jpg')] flex items-center justify-center">
+        <div className="min-h-screen bg-cover bg-center bg-[url('/images/login.jpg')] flex items-center justify-center pb-20 xl-pb-0">
             {/* Inner Box with Two Columns */}
             <div className="w-full max-w-[90%] md:max-w-[650px] xl:max-w-7xl p-8 min-h-64">
                 <div className="grid grid-cols-1 xl:grid-cols-2 gap-8">
@@ -84,7 +84,8 @@ export default function Login() {
                                 />
 
                                 <h1 className="text-5xl" style={{ color: "#00A0DE" }}>
-                                    <ColourfulText text="Brain Station 23" />
+                                    {/* <ColourfulText text="Brain Station 23" /> */}
+                                    <span>Brain Station 23</span>
                                 </h1>
                             </h2>
                             <p className="text-4xl text-white">
