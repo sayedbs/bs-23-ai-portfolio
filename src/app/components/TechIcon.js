@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaDesktop, FaCloud, FaRobot, FaLink, FaPython, FaChartLine, FaEye, FaAws, FaAngular } from 'react-icons/fa';
+import { FaDesktop, FaCloud, FaRobot, FaLink, FaPython, FaChartLine, FaEye, FaAws, FaAngular, FaBitbucket } from 'react-icons/fa';
 import { IoLogoJavascript, IoCodeSlashOutline } from "react-icons/io5";
 import { SiNextdotjs, SiServerless, SiFastapi, SiOllama, SiScikitlearn, SiRoboflow, SiElasticsearch, SiOpencv, SiLangchain } from "react-icons/si";
 import { AiFillOpenAI, AiOutlineDotNet, AiOutlineRobot } from "react-icons/ai";
@@ -8,13 +8,16 @@ import { TbBrandLaravel } from "react-icons/tb";
 import { VscAzure } from "react-icons/vsc";
 import { FaFlutter } from "react-icons/fa6";
 import { RiFirebaseFill, RiFlowChart } from "react-icons/ri";
-import { MdOutlineDocumentScanner } from "react-icons/md";
+import { MdOutlineDocumentScanner, MdOutlineScreenSearchDesktop } from "react-icons/md";
 import { PiLineSegmentsBold } from "react-icons/pi";
 import { LuDatabaseZap } from "react-icons/lu";
-import { Badge } from '@/components/ui/badge';
-
+import { DiMsqlServer } from "react-icons/di";
 
 const techIcons = {
+  'S3 Bucket': <FaBitbucket />,
+  'MS SQL Server': <DiMsqlServer />,
+  'Microsoft SQL Server': <DiMsqlServer />,
+  'Google Search API': <MdOutlineScreenSearchDesktop />,
   'Serverless': <SiServerless />,
   'Next.js': <SiNextdotjs />,
   'AWS': <FaAws />,
@@ -54,8 +57,8 @@ const techIcons = {
   'Vision Transformer': <FaRobot />,
 };
 
-const TechIcon = ({ iconName }) => {
-  return <span className="flex items-center gap-1 text-xl transform scale-110">{techIcons[iconName]}</span> || '';
+const TechIcon = ({ iconName,className="" }) => {
+  return <span className={`flex items-center gap-1 text-xl transform scale-110 transition-all ${className}`}>{techIcons[iconName]}</span> || '';
 };
 
 export default TechIcon;
