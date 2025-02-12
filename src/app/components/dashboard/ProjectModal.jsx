@@ -20,11 +20,9 @@ import {
 } from "@/components/ui/dialog";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator";
-import TechIcon, { TecHiconList } from "../TechIcon";
+import TechIcon from "../TechIcon";
 
 export default function ProjectModal({ isOpen, setIsOpen, project }) {
-    console.log(project.features);
-
     const targetAudience = [
         { name: "Toyota Hilux Owners" },
         { name: "Toyota Service Centers" },
@@ -33,10 +31,10 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
 
     return (
         <Dialog open={isOpen} onOpenChange={(open) => setIsOpen(open)}>
-            <DialogContent className="max-w-4xl h-[90vh] p-0">
+            <DialogContent className="max-w-4xl h-[90vh] p-0 bg-[#f9fafb] dark:bg-background overflow-hidden">
                 <DialogHeader className="px-6 py-4 sticky top-0 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 z-10 border-b">
                     <div className="flex items-center justify-between">
-                        <DialogTitle className="text-2xl font-bold">
+                        <DialogTitle className="text-2xl font-bold text-[#3b82f6]">
                             {project.title}
                         </DialogTitle>
                         <Button
@@ -44,7 +42,7 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                             size="icon"
                             onClick={() => setIsOpen(false)}
                         >
-                            <X className="h-4 w-4" />
+                            <X className="h-4 w-4 text-3xl" />
                         </Button>
                     </div>
                 </DialogHeader>
@@ -57,17 +55,16 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                         </div>
 
                         <div className="space-y-4">
-                            <h3 className="text-xl font-semibold tracking-tight">
+                            <h3 className="text-xl font-semibold tracking-tight text-[#3b82f6]">
                                 🚀 Features
                             </h3>
                             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                                 {project.features.map((feature, i) => (
                                     <div
                                         key={i}
-                                        className="group p-4 rounded-lg border bg-card hover:bg-accent transition-colors space-y-2"
+                                        className="group p-4 rounded-lg border bg-card hover:bg-white hover:shadow-xl hover:border-[#3b82f6] transition-all hover:border-opacity-40 space-y-2"
                                     >
                                         <div className="flex items-center space-x-2">
-                                            {/* <feature.icon className="w-5 h-5 text-primary group-hover:text-primary/80 transition-colors" /> */}
                                             <h4 className="font-medium">
                                                 {feature.title}
                                             </h4>
@@ -82,10 +79,10 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
 
                         {project.youtube ? (
                             <div className="space-y-4">
-                                <h3 className="text-xl font-semibold tracking-tight">
+                                <h3 className="text-xl font-semibold tracking-tight text-[#3b82f6]">
                                     Demo Video
                                 </h3>
-                                <div className="relative aspect-video rounded-lg overflow-hidden bg-black/5 dark:bg-white/5">
+                                <div className="relative aspect-video rounded-lg overflow-hidden bg-black/5 dark:bg-white/5 ">
                                     <iframe
                                         width="100%"
                                         height="100%"
@@ -104,28 +101,34 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                         <Separator className="bg-border/50" />
 
                         <div className="space-y-4">
-                            <h3 className="text-xl font-semibold tracking-tight">
+                            <h3 className="text-xl font-semibold tracking-tight text-[#3b82f6]">
                                 💡 Business Benefits
                             </h3>
                             <div className="grid sm:grid-cols-2 gap-4">
                                 {project.benefits.map((benefit, i) => (
                                     <div
-                                        key={i}
-                                        className="p-4 rounded-lg border bg-card hover:bg-accent transition-colors group"
+                                        key={i + benefit}
+                                        className="p-4 rounded-lg border bg-card hover:bg-accent group relative overflow-hidden  hover:bg-white hover:shadow-xl hover:border-[#3b82f6] transition-all hover:border-opacity-40"
                                     >
-                                        <div className="font-medium font-bold text-primary group-hover:text-primary/80 transition-colors">
-                                            {benefit.title} {benefit.icon}
-                                        </div>
-                                        <div className="text-sm text-muted-foreground">
+                                        <h4 className="font-medium text-primary group-hover:text-primary/80 transition-colors relative z-10">
+                                            {benefit.title}
+                                        </h4>
+                                        <div className="text-sm text-muted-foreground relative z-10">
                                             {benefit.description}
                                         </div>
+
+                                        {benefit.icon && (
+                                            <div className="absolute bottom-[-30px] opacity-30 right-[-30px] z-0 p-2 rounded-full bg-transparent text-7xl transition-transform duration-300 ease-in-out transform group-hover:scale-110">
+                                                {benefit.icon}
+                                            </div>
+                                        )}
                                     </div>
                                 ))}
                             </div>
                         </div>
 
                         <div className="space-y-4 pb-8">
-                            <h3 className="text-xl font-semibold tracking-tight">
+                            <h3 className="text-xl font-semibold tracking-tight text-[#3b82f6]">
                                 🛠️ Tech Stack
                             </h3>
                             <div className="flex flex-wrap gap-2">
@@ -133,12 +136,15 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                                     <Badge
                                         key={i}
                                         variant="secondary"
-                                        className="text-sm bg-primary/10 hover:bg-primary/20 transition-colors"
+                                        className="text-sm group p-2 bg-primary/10 border-2 border-transparent transition-colors hover:bg-transparent hover:shadow-xl hover:border-primary/40"
                                     >
-                                        <span className="flex items-center gap-1 transform scale-110">
-                                            <TechIcon iconName={tech} />
+                                        <TechIcon
+                                            iconName={tech}
+                                            className="group-hover:scale-125"
+                                        />
+                                        <span className="mx-1 text-md">
+                                            {tech}
                                         </span>
-                                        <span className="ml-1">{tech}</span>
                                     </Badge>
                                 ))}
                             </div>

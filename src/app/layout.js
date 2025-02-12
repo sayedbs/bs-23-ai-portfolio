@@ -12,6 +12,7 @@ export default function RootLayout({ children }) {
         <html lang="en">
             <head>
                 <link rel="icon" href="/android-chrome-512x512.png" sizes="any" />
+                <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
             </head>
             <body>
                 <AuthProvider>
