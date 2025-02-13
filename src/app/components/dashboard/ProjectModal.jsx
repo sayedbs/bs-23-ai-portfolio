@@ -1,15 +1,5 @@
 "use client";
-import {
-    X,
-    MessageSquare,
-    Mic,
-    Globe,
-    Image,
-    HelpCircle,
-    BarChart,
-    RefreshCw,
-    UserCheck,
-} from "lucide-react";
+import { X } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import {
@@ -23,12 +13,6 @@ import { Separator } from "@/components/ui/separator";
 import TechIcon from "../TechIcon";
 
 export default function ProjectModal({ isOpen, setIsOpen, project }) {
-    const targetAudience = [
-        { name: "Toyota Hilux Owners" },
-        { name: "Toyota Service Centers" },
-        { name: "Automotive Support Teams" },
-    ];
-
     return (
         <Dialog open={isOpen} onOpenChange={(open) => setIsOpen(open)}>
             <DialogContent className="max-w-4xl h-[90vh] p-0 bg-[#f9fafb] dark:bg-background overflow-hidden">

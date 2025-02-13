@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { FaVideo } from "react-icons/fa";
 import "./DashboardItemCard.css";
 import { Button } from "../../../../@/components/ui/button";
 import {
@@ -23,7 +24,7 @@ function DashboardItemCard({ project }) {
                 onClick={() => setIsOpen(true)}
                 className="transform hover:shadow-2xl bg-black bg-opacity-30 border-2 border-gray-800 hover:bg-gray-300 hover:text-gray-900 text-gray-300 hover:shadow-indigo-500/50 rounded-lg overflow-hidden backdrop-blur-3xl group transition-colors duration-300 hover:border-[#6366f1]"
             >
-                <CardHeader className="p-3 bg-gray-900 h-[200px] flex items-center justify-center">
+                <CardHeader className="relative p-3 bg-gray-900 h-[200px] flex items-center justify-center">
                     <Image
                         src={
                             project.thumbnail
@@ -35,6 +36,7 @@ function DashboardItemCard({ project }) {
                         alt="Thumbnail"
                         className="rounded-lg p-3 group-hover:scale-105 transition-transform duration-300"
                     />
+                    { project?.youtube &&<span className="absolute right-2 bottom-1 z-50 group-hover:text-white text-3xl opacity-50"><FaVideo /></span> }
                 </CardHeader>
                 <CardContent className="px-3 lg:px-6 py-0 pt-5 text-sm ">
                     <h2 className="text-3xl font-bold mb-3 two-line-title-ellipsis">
