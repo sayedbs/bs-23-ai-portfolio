@@ -38,11 +38,13 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                             {project.title}
                         </DialogTitle>
                         <Button
+                            className="p-2 pr-3 text-red-600 hover:bg-red-600 hover:text-white"
                             variant="ghost"
-                            size="icon"
+                            size="medium"
                             onClick={() => setIsOpen(false)}
                         >
                             <X className="h-4 w-4 text-3xl" />
+                            <span>Close</span>
                         </Button>
                     </div>
                 </DialogHeader>
@@ -110,12 +112,12 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                                         key={i + benefit}
                                         className="p-4 rounded-lg border bg-card hover:bg-accent group relative overflow-hidden  hover:bg-white hover:shadow-xl hover:border-[#3b82f6] transition-all hover:border-opacity-40"
                                     >
-                                        <h4 className="font-medium text-primary group-hover:text-primary/80 transition-colors relative z-10">
+                                        <h4 className="font-medium pb-2 text-primary group-hover:text-primary/80 transition-colors relative z-10">
                                             {benefit.title}
                                         </h4>
-                                        <div className="text-sm text-muted-foreground relative z-10">
+                                        <p className="text-sm text-muted-foreground group-hover:text-foreground transition-colors">
                                             {benefit.description}
-                                        </div>
+                                        </p>
 
                                         {benefit.icon && (
                                             <div className="absolute bottom-[-30px] opacity-30 right-[-30px] z-0 p-2 rounded-full bg-transparent text-7xl transition-transform duration-300 ease-in-out transform group-hover:scale-110">

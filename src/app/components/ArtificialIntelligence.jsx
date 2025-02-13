@@ -26,14 +26,14 @@ const ArtificialIntelligenceComponent = () => {
                 backgroundRepeat: "no-repeat",
             }}
         >
-            <main className="max-w-[1500px] mx-auto p-4 relative">
+            <div className="max-w-[1500px] mx-auto p-4 relative">
                 <div className="grid grid-cols-3 lg:grid-cols-4  gap-5">
                     {projects.map((project) => (
                         <DashboardItemCard key={project.id} project={project} />
                     ))}
                 </div>
                 <OnePager />
-            </main>
+            </div>
         </MainWrapper>
     );
 };

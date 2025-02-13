@@ -5,9 +5,9 @@ import Header from './Header'
 function MainWrapper({ className, children, style='', ...props}) {
   return (
     <>
-    <div className={`min-h-[100vh]  ${className}`} style={style} {...props}>
+    <div className={`flex flex-wrap flex-col min-h-[100vh]  ${className || ''}`} style={style||''} {...props}>
         <Header />
-        {children}
+        <main className='flex-1 pt-10 pb-16 min-h-[400px]'>{children}</main>
         <Footer />
     </div>
     </>

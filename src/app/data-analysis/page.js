@@ -27,7 +27,7 @@ const DataAnalysis = () => {
                 backgroundRepeat: "no-repeat",
             }}
         >
-            <main className="max-w-[1500px] mx-auto p-4 relative">
+            <div className="max-w-[1500px] mx-auto p-4 relative">
                 <div className="grid grid-cols-3 lg:grid-cols-4  gap-5">
                     {projects.map((project) => (
                         <DashboardItemCard
@@ -37,7 +37,7 @@ const DataAnalysis = () => {
                     ))}
                 </div>
                 <OnePager />
-            </main>
+            </div>
         </MainWrapper>
     );
 };
