@@ -22,7 +22,7 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                             {project.title}
                         </DialogTitle>
                         <Button
-                            className="p-2 pr-3 text-red-600 hover:bg-red-600 hover:text-white"
+                            className="p-2 pr-3 "
                             variant="ghost"
                             size="medium"
                             onClick={() => setIsOpen(false)}
@@ -38,29 +38,6 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                             <p className="leading-relaxed text-left">
                                 {project.description}
                             </p>
-                        </div>
-
-                        <div className="space-y-4">
-                            <h3 className="text-xl font-semibold tracking-tight text-[#3b82f6]">
-                                🚀 Features
-                            </h3>
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                                {project.features.map((feature, i) => (
-                                    <div
-                                        key={i}
-                                        className="group p-4 rounded-lg border bg-card hover:bg-white hover:shadow-xl hover:border-[#3b82f6] transition-all hover:border-opacity-40 space-y-2"
-                                    >
-                                        <div className="flex items-center space-x-2">
-                                            <h4 className="font-medium">
-                                                {feature.title}
-                                            </h4>
-                                        </div>
-                                        <p className="text-sm text-muted-foreground group-hover:text-foreground transition-colors">
-                                            {feature.description}
-                                        </p>
-                                    </div>
-                                ))}
-                            </div>
                         </div>
 
                         {project.youtube ? (
@@ -107,6 +84,29 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                                                 {benefit.icon}
                                             </div>
                                         )}
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+
+                        <div className="space-y-4">
+                            <h3 className="text-xl font-semibold tracking-tight text-[#3b82f6]">
+                                🚀 Features
+                            </h3>
+                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                                {project.features.map((feature, i) => (
+                                    <div
+                                        key={i}
+                                        className="group p-4 rounded-lg border bg-card hover:bg-white hover:shadow-xl hover:border-[#3b82f6] transition-all hover:border-opacity-40 space-y-2"
+                                    >
+                                        <div className="flex items-center space-x-2">
+                                            <h4 className="font-medium">
+                                                {feature.title}
+                                            </h4>
+                                        </div>
+                                        <p className="text-sm text-muted-foreground group-hover:text-foreground transition-colors">
+                                            {feature.description}
+                                        </p>
                                     </div>
                                 ))}
                             </div>

@@ -17,6 +17,7 @@ export default function ImageModal({ isOpen, setIsOpen }) {
     const [position, setPosition] = useState({ x: 0, y: 0 });
     const [isDragging, setIsDragging] = useState(false);
     const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
+    const [touchZoom, setTouchZoom] = useState(false);
     const containerRef = useRef(null);
     const imageRef = useRef(null);
 
@@ -71,6 +72,35 @@ export default function ImageModal({ isOpen, setIsOpen }) {
         setIsDragging(false);
     };
 
+    const handleWheel = (event) => {
+        event.preventDefault();
+        if (event.deltaY < 0) {
+            handleZoomIn();
+        } else {
+            handleZoomOut();
+        }
+    };
+
+    const handleTouchZoom = (event) => {
+        event.preventDefault(); // Prevent default browser zoom
+        if (event.touches.length === 2) {
+            const touch1 = event.touches[0];
+            const touch2 = event.touches[1];
+            const distance = Math.hypot(
+                touch2.clientX - touch1.clientX,
+                touch2.clientY - touch1.clientY
+            );
+            if (touchZoom) {
+                setScale((prev) => Math.max(0.1, Math.min(prev + 0.01, 3)));
+            }
+            setTouchZoom(true);
+        }
+    };
+
+    const handleTouchEndZoom = () => {
+        setTouchZoom(false);
+    };
+
     useEffect(() => {
         if (containerRef.current && imageRef.current) {
             const container = containerRef.current;
@@ -102,11 +132,13 @@ export default function ImageModal({ isOpen, setIsOpen }) {
                     <div className="flex justify-between items-center p-4">
                         <DialogTitle>Image Viewer</DialogTitle>
                         <Button
+                            className="p-2 pr-3 "
                             variant="ghost"
-                            size="icon"
+                            size="medium"
                             onClick={() => setIsOpen(false)}
                         >
-                            <X className="h-4 w-4" />
+                            <X className="h-4 w-4 text-3xl" />
+                            <span>Close</span>
                         </Button>
                     </div>
                 </DialogHeader>
@@ -119,6 +151,9 @@ export default function ImageModal({ isOpen, setIsOpen }) {
                     onTouchStart={handleTouchStart}
                     onTouchMove={handleTouchMove}
                     onTouchEnd={handleTouchEnd}
+                    onWheel={handleWheel}
+                    onTouchMove={handleTouchZoom}
+                    onTouchEnd={handleTouchEndZoom}
                 >
                     <div
                         className="absolute inset-0 flex items-center justify-center"

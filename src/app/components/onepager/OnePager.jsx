@@ -11,7 +11,7 @@ const OnePager = () => {
         // Start animation after 1 minute (60,000 ms)
         const timer = setTimeout(() => {
             setStartAnimation(true);
-        }, 60000);
+        }, 10000);
 
         // Set interval to toggle animation every 30 seconds
         const interval = setInterval(() => {
