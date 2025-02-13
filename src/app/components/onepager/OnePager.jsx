@@ -29,7 +29,7 @@ const OnePager = () => {
         <div>
             <motion.button
                 onClick={() => setIsOpen(true)}
-                className="fixed right-5 bottom-5 w-16 h-16 flex items-center justify-center rounded-full bg-blue-500 text-white shadow-lg opacity-75 hover:opacity-100"
+                className="fixed right-5 bottom-5 w-16 h-16 flex items-center justify-center rounded-full bg-blue-500 text-white shadow-lg bg-opacity-75 hover:bg-opacity-100"
                 whileHover={{
                     scale: 1.1,
                     boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.3)",
@@ -37,7 +37,7 @@ const OnePager = () => {
                 whileTap={{ scale: 0.9 }}
                 transition={{ type: "spring", stiffness: 300, damping: 10 }}
             >
-                <BookText />
+                <BookText className="relative z-20" />
                 {startAnimation && (
                     <motion.div
                         className="absolute w-full h-full bg-blue-500 opacity-30 rounded-full"

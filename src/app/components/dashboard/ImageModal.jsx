@@ -33,15 +33,6 @@ export default function ImageModal({ isOpen, setIsOpen }) {
         });
     };
 
-    const handleTouchStart = (event) => {
-        const touch = event.touches[0];
-        setIsDragging(true);
-        setDragStart({
-            x: touch.clientX - position.x,
-            y: touch.clientY - position.y,
-        });
-    };
-
     const handleMouseMove = (event) => {
         if (!isDragging) return;
 
@@ -51,38 +42,29 @@ export default function ImageModal({ isOpen, setIsOpen }) {
         setPosition({ x: newX, y: newY });
     };
 
-    const handleTouchMove = (event) => {
-        if (!isDragging) return;
-        if (event.touches.length > 1) {
-            event.preventDefault();
-            return;
-        }
-        const touch = event.touches[0];
-        const newX = touch.clientX - dragStart.x;
-        const newY = touch.clientY - dragStart.y;
-
-        setPosition({ x: newX, y: newY });
-    };
-
     const handleMouseUp = () => {
         setIsDragging(false);
     };
 
-    const handleTouchEnd = () => {
-        setIsDragging(false);
+    const handleTouchStart = (event) => {
+        const touch = event.touches[0];
+        setIsDragging(true);
+        setDragStart({
+            x: touch.clientX - position.x,
+            y: touch.clientY - position.y,
+        });
     };
 
-    const handleWheel = (event) => {
-        event.preventDefault();
-        if (event.deltaY < 0) {
-            handleZoomIn();
-        } else {
-            handleZoomOut();
+    const handleTouchMoveAndZoom = (event) => {
+        // Handle dragging with one finger
+        if (isDragging && event.touches.length === 1) {
+            const touch = event.touches[0];
+            const newX = touch.clientX - dragStart.x;
+            const newY = touch.clientY - dragStart.y;
+            setPosition({ x: newX, y: newY });
         }
-    };
 
-    const handleTouchZoom = (event) => {
-        event.preventDefault(); // Prevent default browser zoom
+        // Handle zooming with two fingers (pinch-to-zoom)
         if (event.touches.length === 2) {
             const touch1 = event.touches[0];
             const touch2 = event.touches[1];
@@ -90,15 +72,26 @@ export default function ImageModal({ isOpen, setIsOpen }) {
                 touch2.clientX - touch1.clientX,
                 touch2.clientY - touch1.clientY
             );
-            if (touchZoom) {
-                setScale((prev) => Math.max(0.1, Math.min(prev + 0.01, 3)));
-            }
+            const scaleChange = distance / 100;
+            setScale((prev) => Math.max(0.1, Math.min(prev + scaleChange, 3)));
             setTouchZoom(true);
         }
     };
 
-    const handleTouchEndZoom = () => {
+    const handleTouchEnd = () => {
+        setIsDragging(false);
         setTouchZoom(false);
+    };
+
+    const handleWheel = (event) => {
+        // Prevent default browser zoom behavior
+        event.preventDefault();
+
+        if (event.deltaY < 0) {
+            setScale((prev) => Math.min(prev + 0.1, 3));
+        } else {
+            setScale((prev) => Math.max(prev - 0.1, 0.1));
+        }
     };
 
     useEffect(() => {
@@ -149,11 +142,9 @@ export default function ImageModal({ isOpen, setIsOpen }) {
                     onMouseMove={handleMouseMove}
                     onMouseUp={handleMouseUp}
                     onTouchStart={handleTouchStart}
-                    onTouchMove={handleTouchMove}
+                    onTouchMove={handleTouchMoveAndZoom}
                     onTouchEnd={handleTouchEnd}
                     onWheel={handleWheel}
-                    onTouchMove={handleTouchZoom}
-                    onTouchEnd={handleTouchEndZoom}
                 >
                     <div
                         className="absolute inset-0 flex items-center justify-center"

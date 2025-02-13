@@ -36,7 +36,7 @@ function DashboardItemCard({ project }) {
                         alt="Thumbnail"
                         className="rounded-lg p-3 group-hover:scale-105 transition-transform duration-300"
                     />
-                    { project?.youtube &&<span className="absolute right-2 bottom-1 z-50 group-hover:text-white text-3xl opacity-50"><FaVideo /></span> }
+                    { project?.youtube &&<span className="absolute right-0 bottom-0 z-50 group-hover:text-white text-xl lg:text-3xl opacity-50 bg-gray-500 p-2 rounded-tl-lg bg-inherit"><FaVideo /></span> }
                 </CardHeader>
                 <CardContent className="px-3 lg:px-6 py-0 pt-5 text-sm ">
                     <h2 className="text-3xl font-bold mb-3 two-line-title-ellipsis">
