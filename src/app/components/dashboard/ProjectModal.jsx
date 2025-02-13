@@ -66,15 +66,14 @@ export default function ProjectModal({ isOpen, setIsOpen, project }) {
                         {project.youtube ? (
                             <div className="space-y-4">
                                 <h3 className="text-xl font-semibold tracking-tight text-[#3b82f6]">
-                                    Demo Video
+                                    🎬 Application demo
                                 </h3>
                                 <div className="relative aspect-video rounded-lg overflow-hidden bg-black/5 dark:bg-white/5 ">
                                     <iframe
                                         width="100%"
                                         height="100%"
-                                        src={`https://www.youtube.com/embed/${project.videoId}`}
+                                        src={`https://www.youtube.com/embed/${project.youtube}?modestbranding=0&rel=0&showinfo=0&controls=1`}
                                         title="YouTube video player"
-                                        frameBorder="0"
                                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                         allowFullScreen
                                     ></iframe>
