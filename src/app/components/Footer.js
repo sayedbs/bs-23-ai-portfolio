@@ -51,7 +51,7 @@ const Footer = () => {
 
       {/* Left Section: Copyright */}
       <div className=" text-gray-100 py-4 pt-8 text-center px-3 text-xl">
-          &copy; {new Date().getFullYear()} <a href="Brainstation 23" target="__blank" className="underline hover:text-white text-[#bdedff]">Brainstation 23</a>. All rights reserved.
+          &copy; {new Date().getFullYear()} <a href="https://brainstation-23.com" target="__blank" className="underline hover:text-white text-[#bdedff]">Brainstation 23</a>. All rights reserved.
         </div>
     </footer>
   );
