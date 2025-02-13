@@ -1,9 +1,8 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import Header from "../components/Header";
 import DashboardItemCard from "../components/dashboard/DashboardItemCard";
 import OnePager from "../components/onepager/OnePager";
-import Footer from "../components/Footer";
+import MainWrapper from "../components/MainWrapper";
 
 const Chatbot = () => {
     const [projects, setProjects] = useState([]);
@@ -20,8 +19,7 @@ const Chatbot = () => {
     }, []);
 
     return (
-        <div
-            className="min-h-[100vh]"
+        <MainWrapper
             style={{
                 backgroundImage: "url('/images/chatbot-bg.jpg')",
                 backgroundSize: "cover",
@@ -29,24 +27,18 @@ const Chatbot = () => {
                 backgroundRepeat: "no-repeat",
             }}
         >
-            <div>
-                <div className="">
-                    <Header />
-                    <div className="max-w-[1500px] mx-auto p-4 relative">
-                        <div className="grid grid-cols-3 lg:grid-cols-4 gap-5">
-                            {projects.map((project) => (
-                                <DashboardItemCard
-                                    key={project.id}
-                                    project={project}
-                                />
-                            ))}
-                        </div>
-                        <OnePager />
-                    </div>
-                    <Footer />
+            <main className="max-w-[1500px] mx-auto p-4 relative">
+                <div className="grid grid-cols-3 lg:grid-cols-4 gap-5">
+                    {projects.map((project) => (
+                        <DashboardItemCard
+                            key={project.id}
+                            project={project}
+                        />
+                    ))}
                 </div>
-            </div>
-        </div>
+                <OnePager />
+            </main>   
+        </MainWrapper>
     );
 };
 
