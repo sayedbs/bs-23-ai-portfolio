@@ -54,22 +54,7 @@ export default {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		},
-		  
-		keyframes: {
-		  zoom: {
-			'0%, 100%': { transform: 'scale(1)' },
-			'50%': { transform: 'scale(1.1)' },
-		  },
-		  wave: {
-			'0%, 100%': { transform: 'translateX(0)' },
-			'50%': { transform: 'translateX(10px)' },
-		  },
-		},
-		animation: {
-		  'zoom-in-out': 'zoom 1s ease-in-out infinite',
-		  'wave-effect': 'wave 1s ease-in-out infinite',
-		}
+  		}
 		  
   	}
   },
