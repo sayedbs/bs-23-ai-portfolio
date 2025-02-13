@@ -1297,6 +1297,458 @@
     },
     {
         "id": 23,
+        "title": "Violent Object Detector ",
+        "type": "Computer Vision",
+        "thumbnail": "",
+        "description": "Increasing criminal activities necessitate effective surveillance systems to identify violent objects and respond swiftly to threats",
+        "length": "",
+        "tech": [
+            "Python"
+        ],
+        "features": [
+            {
+                "title": "Real-time Violent Object Detection",
+                "description": "AI-powered system that identifies weapons or aggressive actions in live video feeds, enhancing security and threat response."
+            },
+            {
+                "title": "Home Assistant Integration",
+                "description": "Smart automation that connects security systems with home assistants like Alexa or Google Home for real-time alerts and control."
+            },
+            {
+                "title": "Facial Recognition System",
+                "description": "AI-driven technology that identifies individuals from images or video, used for security, authentication, and personalized experiences."
+            },
+            {
+                "title": "License Plate Recognition (LPR)",
+                "description": "Automated system that detects and reads vehicle license plates for security, parking management, and law enforcement applications."
+            },
+            {
+                "title": "Pose Estimation Technology",
+                "description": "AI-based system that tracks and analyzes human body movements for applications in fitness, healthcare, gaming, and security."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Reduction in Response Time to Violent Incidents",
+                "description": "Real-time detection enables faster alerts and intervention, minimizing potential harm.",
+                "icon": "⏱️"
+            },
+            {
+                "title": "Increase in Detection Accuracy of Violent Objects",
+                "description": "AI-driven models enhance precision in identifying weapons and aggressive actions, reducing false alarms.",
+                "icon": "🎯"
+            },
+            {
+                "title": "Improving Incident Reporting",
+                "description": "Automated logging and detailed analytics improve documentation and investigation of security events.",
+                "icon": "📝"
+            },
+            {
+                "title": "Improvement in the Identification of Suspicious Individuals",
+                "description": "Advanced facial recognition and behavior analysis help detect and flag potential threats more effectively.",
+                "icon": "🔍"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 24,
+        "title": "GLPG - PPI",
+        "type": "Computer Vision",
+        "thumbnail": "",
+        "description": "The GLPG - PPI project aimed to address the challenges faced by a pharmaceutical research company in collecting, analyzing, and deriving actionable insights from data related to healthcare professionals (HCPs) and key opinion leaders (KOLs). The primary goal was to enhance data accuracy, streamline data collection processes, and improve the identification and ranking of HCPs and KOLs to support strategic decision-making.",
+        "length": "",
+        "tech": [
+            "Python",
+            "React"
+        ],
+        "features": [
+            {
+                "title": "Data Collection from Publication Sites",
+                "description": "Automated extraction of research articles, clinical studies, and medical publications for analysis."
+            },
+            {
+                "title": "Scoring and Ranking of HCPs",
+                "description": "Evaluation of Healthcare Professionals (HCPs) based on research contributions, clinical expertise, and influence."
+            },
+            {
+                "title": "Conference Data Collection",
+                "description": "Aggregation of key insights, speaker details, and trends from medical and scientific conferences."
+            },
+            {
+                "title": "Insights from Heterogeneous Sources",
+                "description": "Integration and analysis of data from multiple sources, including journals, social media, and clinical databases, for comprehensive decision-making."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Improvement in Data Accuracy for HCP Profiles",
+                "description": "Ensures precise and up-to-date information by leveraging automated data extraction and validation.",
+                "icon": "✔️"
+            },
+            {
+                "title": "Reduction in Time Spent on Manual Data Collection",
+                "description": "Automates data gathering processes, minimizing manual effort and increasing efficiency.",
+                "icon": "⏱️"
+            },
+            {
+                "title": "Increase in the Ability to Identify Potential KOLs",
+                "description": "Advanced scoring and ranking systems help recognize emerging Key Opinion Leaders (KOLs) in the medical field.",
+                "icon": "🔍"
+            },
+            {
+                "title": "Enhancement in the Quality of Insights",
+                "description": "Combines data from diverse sources to provide deeper, more actionable intelligence for decision-making.",
+                "icon": "📊"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 29,
+        "title": "RadAssist",
+        "type": "Computer Vision",
+        "thumbnail": "",
+        "description": "RadAssist enhances radiology services with AI-driven lung disease detection and automated reporting, reducing turnaround time, improving accuracy, and enabling remote collaboration.",
+        "length": "",
+        "tech": [
+            "Python",
+            "React",
+            "dcm4che"
+        ],
+        "features": [
+            {
+                "title": "Remote Access",
+                "description": "Enables users to access systems, data, or tools from any location. Supports secure connectivity for remote work or troubleshooting."
+            },
+            {
+                "title": "Automatic File Draft Preservation",
+                "description": "Automatically saves file drafts at regular intervals to prevent data loss. Ensures version control and easy recovery of unsaved work."
+            },
+            {
+                "title": "Centralized Report Management",
+                "description": "Consolidates all reports into a single, unified platform for easy access. Streamlines report generation, storage, and retrieval processes."
+            },
+            {
+                "title": "AI-Driven Disease Detection",
+                "description": "Utilizes artificial intelligence to identify and diagnose diseases from medical data. Enhances accuracy and speed in detecting health conditions."
+            },
+            {
+                "title": "User Management Portal",
+                "description": "Provides a centralized interface for managing user accounts, roles, and permissions. Simplifies user onboarding, offboarding, and access control."
+            },
+            {
+                "title": "Customizable Reporting Templates",
+                "description": "Offers flexible templates that can be tailored to specific reporting needs. Allows users to create personalized reports with relevant metrics and formats."
+            },
+            {
+                "title": "Eye-Tracking Alert System",
+                "description": "Monitors user eye movements to detect fatigue or lack of focus. Sends alerts or notifications to ensure user engagement and safety."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Reduction in Report Turnaround Time",
+                "description": "Streamlines the process of generating and delivering diagnostic reports. Reduces waiting times for patients and healthcare providers.",
+                "icon": "⏱️"
+            },
+            {
+                "title": "Increase in Radiologist Productivity Through Remote Access",
+                "description": "Enables radiologists to access imaging systems and patient data from any location. Allows for flexible work schedules and reduces dependency on physical presence.",
+                "icon": "📈"
+            },
+            {
+                "title": "Decrease in Report Versioning Errors",
+                "description": "Implements systems to track and manage report versions effectively. Reduces confusion and errors caused by outdated or duplicate reports.",
+                "icon": "❌"
+            },
+            {
+                "title": "Improvement in Collaboration Between Diagnostic Centers and Radiologists",
+                "description": "Facilitates real-time communication and data sharing between diagnostic centers and radiologists. Enhances teamwork and coordination for faster and more accurate diagnoses.",
+                "icon": "🤝"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 26,
+        "title": "Diabetic Retinopathy ",
+        "type": "Computer Vision",
+        "thumbnail": "",
+        "description": "Optomed's AI-powered solution enhances early detection of diabetic retinopathy through automated retina image analysis, reducing blindness risks and improving accessibility in remote areas.",
+        "length": "",
+        "tech": [
+            "Python",
+            "React",
+            "PyTorch"
+        ],
+        "features": [
+            {
+                "title": "Detection Application",
+                "description": "A software tool designed to identify and analyze specific conditions or patterns. Provides actionable insights based on data analysis."
+            },
+            {
+                "title": "Digital Early-Stage Detection",
+                "description": "Uses advanced algorithms to identify diseases or conditions at their initial stages. Enables timely intervention and improves treatment outcomes."
+            },
+            {
+                "title": "Retinopathy Score Calculation",
+                "description": "Computes a quantitative score to assess the severity of retinopathy. Assists healthcare providers in making informed diagnostic and treatment decisions."
+            },
+            {
+                "title": "User Metadata Storage",
+                "description": "Securely stores user-related information, such as demographics, usage patterns, and preferences. Supports personalized experiences and data-driven decision-making."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Increase in Early Detection of Diabetic Retinopathy Cases",
+                "description": "Enhances the ability to identify diabetic retinopathy at its initial stages. Enables timely intervention and treatment to prevent disease progression.",
+                "icon": "👁️"
+            },
+            {
+                "title": "Reduction in Preventable Blindness Incidents",
+                "description": "Lowers the number of blindness cases caused by untreated or late-detected diabetic retinopathy. Promotes better eye health through early diagnosis and management.",
+                "icon": "🩺"
+            },
+            {
+                "title": "Accessibility for Remote and Underserved Areas",
+                "description": "Enables patients in remote or underserved regions to access screening services. Eliminates the need for patients to travel to specialized clinics for eye examinations.",
+                "icon": "🌍"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 27,
+        "title": "TELI-MEDICINE",
+        "type": "Computer Vision",
+        "thumbnail": "",
+        "description": "TELI-MEDICINE enhances teletherapy with avatar-based privacy, AI-driven symptom analysis, and a comprehensive platform for patient management, prescriptions, and video consultations.",
+        "length": "",
+        "tech": [
+            "jitsi.org",
+            "Google cloud speech API",
+            "JS",
+            "Jeeliz"
+        ],
+        "features": [
+            {
+                "title": "Avatar-Based Camera Filters",
+                "description": "Uses avatar technology to create interactive and engaging visual filters for camera applications. Enhances user experience by providing fun and personalized virtual representations."
+            },
+            {
+                "title": "Patient Management System",
+                "description": "A centralized platform to manage patient records, appointments, and treatment plans. Streamlines administrative tasks and improves workflow efficiency for healthcare providers."
+            },
+            {
+                "title": "Symptom Analysis with AI",
+                "description": "Utilizes artificial intelligence to analyze patient-reported symptoms and provide potential diagnoses. Improves accuracy and speed in identifying health conditions."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Enhanced Patient Privacy & Comfort",
+                "description": "Ensures patient data is securely stored and handled in compliance with privacy regulations. Provides a comfortable and non-intrusive experience for patients during consultations.",
+                "icon": "🔒"
+            },
+            {
+                "title": "Comprehensive Telemedicine Solution",
+                "description": "Offers a complete platform for virtual consultations, diagnostics, and follow-ups. Integrates various tools like video calls, chat, and file sharing for seamless healthcare delivery.",
+                "icon": "💻"
+            },
+            {
+                "title": "Improved Diagnosis & Treatment",
+                "description": "Leverages advanced tools and technologies to enhance diagnostic accuracy. Enables personalized treatment plans based on detailed patient data and analysis.",
+                "icon": "🩺"
+            },
+            {
+                "title": "Efficient Prescription & Medicine Tracking",
+                "description": "Simplifies the process of generating, sharing, and managing electronic prescriptions. Allows patients to track medication schedules and refills through the platform.",
+                "icon": "💊"
+            },
+            {
+                "title": "User-Friendly & Scalable Platform",
+                "description": "Designed with an intuitive interface for easy navigation by both patients and healthcare providers. Adapts to growing user bases and evolving healthcare needs without compromising performance.",
+                "icon": "📈"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 30,
+        "title": "Audio Signal Processing ",
+        "type": "Computer Vision",
+        "thumbnail": "",
+        "description": "Noisy environments hinder effective communication and understanding of speech, affecting user experience in audio interactions",
+        "length": "",
+        "tech": [
+            "Python",
+            "Azure",
+            "Plotly"
+        ],
+        "features": [
+            {
+                "title": "Noise Cancellation",
+                "description": "Removes background noise for clearer audio input and output."
+            },
+            {
+                "title": "Speech-to-Text Conversion",
+                "description": "Converts spoken words into accurate written text in real-time."
+            },
+            {
+                "title": "Text-to-Speech Generation",
+                "description": "Transforms text into natural-sounding speech for various applications."
+            },
+            {
+                "title": "Pronunciation Correction",
+                "description": "Identifies and corrects mispronunciations to improve language accuracy."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Reduction in Background Noise During Conversations",
+                "description": "Minimizes distracting noises to ensure clear and uninterrupted communication. Enhances the quality of audio for both speakers and listeners.",
+                "icon": "🔊"
+            },
+            {
+                "title": "Accuracy in Speech-to-Text Transcription",
+                "description": "Ensures precise conversion of spoken words into written text. Reduces errors and improves reliability for applications like transcription and voice commands.",
+                "icon": "📝"
+            },
+            {
+                "title": "Improvement in User Satisfaction Ratings Regarding Audio Clarity",
+                "description": "Delivers high-quality audio experiences that meet user expectations. Increases overall satisfaction by providing clear and understandable sound.",
+                "icon": "😊"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 31,
+        "title": "CMC USA - LEXUS",
+        "type": "Computer Vision",
+        "thumbnail": "",
+        "description": "Lexus needed to enhance their mobile app by addressing incomplete functionality, outdated UI, and the lack of support for diverse language models, specifically Arabic, while ensuring an elevated user experience.",
+        "length": "",
+        "tech": [
+            "FastAPI",
+            "Python",
+            "OpenAI"
+        ],
+        "features": [
+            {
+                "title": "Data Uploading",
+                "description": "Enables seamless import of various data types for processing and analysis."
+            },
+            {
+                "title": "Customization Options",
+                "description": "Allows users to tailor features, settings, and interfaces to meet specific needs."
+            },
+            {
+                "title": "Image Orientation",
+                "description": "Supports automatic and manual adjustments to image alignment for better visualization."
+            },
+            {
+                "title": "Language Integration",
+                "description": "Implements multi-language support for a more inclusive user experience."
+            },
+            {
+                "title": "New Car Features",
+                "description": "Introduces advanced automotive functionalities, enhancing user convenience and safety."
+            },
+            {
+                "title": "UI Modernization",
+                "description": "Upgrades the user interface with a sleek, intuitive, and user-friendly design."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Data Uploading Efficiency",
+                "description": "25% increase in data uploading efficiency.",
+                "icon": "📈"
+            },
+            {
+                "title": "Boost App Usage",
+                "description": "19% boost in app usage.",
+                "icon": "📱"
+            },
+            {
+                "title": "Expand App Reach",
+                "description": "Expanding app reach to new markets by 15%.",
+                "icon": "🌍"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 32,
+        "title": "Fraud Detection",
+        "type": "Artificial Intelligence",
+        "thumbnail": "",
+        "description": "Banks & financial organisations approve the loan after a rigorous process of verification and validation but still, there is no surety whether the chosen applicant is the deserving or not.",
+        "length": "",
+        "tech": [
+            "Jupyter",
+            "Learn",
+            "Pandas"
+        ],
+        "features": [
+            {
+                "title": "Loan Eligibility Prediction",
+                "description": "Uses AI models to analyze applicant data and determine eligibility based on financial history and risk factors."
+            },
+            {
+                "title": "Risk Factor Analysis",
+                "description": "Assesses potential financial risks by evaluating credit scores, transaction history, and market conditions."
+            },
+            {
+                "title": "Risk Mitigation",
+                "description": "Implements proactive strategies to minimize loan defaults and enhance financial security."
+            },
+            {
+                "title": "Automated Loan Granting",
+                "description": "Enhances efficiency by automating the approval process, reducing manual intervention."
+            },
+            {
+                "title": "Loan Application Processing",
+                "description": "Streamlines application review, verification, and approval for a faster and smoother experience."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Optimized Loan Approval Process",
+                "description": "Streamlines evaluation and approval, ensuring faster and more reliable loan decisions.",
+                "icon": "⚡"
+            },
+            {
+                "title": "Improved Accuracy & Fairness",
+                "description": "Reduces biases and enhances precision in assessing loan applications, promoting fair lending practices.",
+                "icon": "🎯"
+            },
+            {
+                "title": "Enhanced Efficiency for Banks & Financial Institutions",
+                "description": "Automates risk assessment and decision-making, reducing operational workload and improving productivity.",
+                "icon": "🏦"
+            },
+            {
+                "title": "Better Customer Experience",
+                "description": "Speeds up application processing, providing a seamless and transparent loan journey for customers.",
+                "icon": "😊"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 33,
         "title": "",
         "type": "",
         "thumbnail": "",
@@ -1309,7 +1761,72 @@
         "youtube": ""
     },
     {
-        "id": 24,
+        "id": 34,
+        "title": "",
+        "type": "",
+        "thumbnail": "",
+        "description": "",
+        "length": "",
+        "tech": [],
+        "features": [],
+        "benefits": [],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 35,
+        "title": "",
+        "type": "",
+        "thumbnail": "",
+        "description": "",
+        "length": "",
+        "tech": [],
+        "features": [],
+        "benefits": [],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 36,
+        "title": "",
+        "type": "",
+        "thumbnail": "",
+        "description": "",
+        "length": "",
+        "tech": [],
+        "features": [],
+        "benefits": [],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 37,
+        "title": "",
+        "type": "",
+        "thumbnail": "",
+        "description": "",
+        "length": "",
+        "tech": [],
+        "features": [],
+        "benefits": [],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 38,
+        "title": "",
+        "type": "",
+        "thumbnail": "",
+        "description": "",
+        "length": "",
+        "tech": [],
+        "features": [],
+        "benefits": [],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 39,
         "title": "",
         "type": "",
         "thumbnail": "",
