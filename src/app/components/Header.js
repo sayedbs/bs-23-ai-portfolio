@@ -23,7 +23,7 @@ function Header() {
 
     const NavButton = ({ path, label }) => (
         <button
-            className={`relative px-3 lg:px-4 py-2 rounded-full transition duration-300 ${
+            className={`relative px-3 min-w-[70px] lg:px-4 py-2 rounded-full transition duration-300 ${
                 isActive(path) ? "bg-blue-500 bg-opacity-50" : "bg-opacity-20"
             } hover:bg-white hover:bg-opacity-30 active:bg-opacity-50`}
             style={{
@@ -51,7 +51,7 @@ function Header() {
             <div className="flex-1 flex items-center gap-4 justify-center">
                 <NavButton
                     path="/artificial-intelligence"
-                    label="Artificial Intelligence"
+                    label="AI"
                 />
                 <NavButton path="/computer-vision" label="Computer Vision" />
                 <NavButton path="/chatbot" label="Chatbot" />

@@ -48,9 +48,11 @@ function DashboardItemCard({ project }) {
                     </p>
                 </CardContent>
                 <CardFooter className="relative p-3 lg:p-6 flex justify-between items-center">
+                    
                     { project?.youtube && 
-                        <span className="absolute left-1 bottom-2 z-50 text-2xl lg:text-3xl opacity-50 p-2 group-hover:text-gray-500"><FaVideo /></span> 
+                        <span className="absolute left-1 xl:left-[17px] bottom-2 xl:bottom-[18px] z-50 text-2xl  opacity-50 p-2 group-hover:text-gray-500"><FaVideo /></span> 
                     }
+
                     <Button
                         onClick={() => setIsOpen(true)}
                         className="bg-indigo-500 text-white max-w-[180px] ml-auto hover:bg-gray-800 group-hover:bg-gray-800 p-4 rounded-full flex items-center justify-center transition-transform duration-300"
