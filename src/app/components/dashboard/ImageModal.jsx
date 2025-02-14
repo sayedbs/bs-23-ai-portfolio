@@ -17,7 +17,6 @@ export default function ImageModal({ isOpen, setIsOpen }) {
     const [position, setPosition] = useState({ x: 0, y: 0 });
     const [isDragging, setIsDragging] = useState(false);
     const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
-    const [touchZoom, setTouchZoom] = useState(false);
     const containerRef = useRef(null);
     const imageRef = useRef(null);
 
@@ -33,19 +32,6 @@ export default function ImageModal({ isOpen, setIsOpen }) {
         });
     };
 
-    const handleMouseMove = (event) => {
-        if (!isDragging) return;
-
-        const newX = event.clientX - dragStart.x;
-        const newY = event.clientY - dragStart.y;
-
-        setPosition({ x: newX, y: newY });
-    };
-
-    const handleMouseUp = () => {
-        setIsDragging(false);
-    };
-
     const handleTouchStart = (event) => {
         const touch = event.touches[0];
         setIsDragging(true);
@@ -55,43 +41,34 @@ export default function ImageModal({ isOpen, setIsOpen }) {
         });
     };
 
-    const handleTouchMoveAndZoom = (event) => {
-        // Handle dragging with one finger
-        if (isDragging && event.touches.length === 1) {
-            const touch = event.touches[0];
-            const newX = touch.clientX - dragStart.x;
-            const newY = touch.clientY - dragStart.y;
-            setPosition({ x: newX, y: newY });
-        }
+    const handleMouseMove = (event) => {
+        if (!isDragging) return;
 
-        // Handle zooming with two fingers (pinch-to-zoom)
-        if (event.touches.length === 2) {
-            const touch1 = event.touches[0];
-            const touch2 = event.touches[1];
-            const distance = Math.hypot(
-                touch2.clientX - touch1.clientX,
-                touch2.clientY - touch1.clientY
-            );
-            const scaleChange = distance / 100;
-            setScale((prev) => Math.max(0.1, Math.min(prev + scaleChange, 3)));
-            setTouchZoom(true);
+        const newX = event.clientX - dragStart.x;
+        const newY = event.clientY - dragStart.y;
+
+        setPosition({ x: newX, y: newY });
+    };
+
+    const handleTouchMove = (event) => {
+        if (!isDragging) return;
+        if (event.touches.length > 1) {
+            event.preventDefault();
+            return;
         }
+        const touch = event.touches[0];
+        const newX = touch.clientX - dragStart.x;
+        const newY = touch.clientY - dragStart.y;
+
+        setPosition({ x: newX, y: newY });
+    };
+
+    const handleMouseUp = () => {
+        setIsDragging(false);
     };
 
     const handleTouchEnd = () => {
         setIsDragging(false);
-        setTouchZoom(false);
-    };
-
-    const handleWheel = (event) => {
-        // Prevent default browser zoom behavior
-        event.preventDefault();
-
-        if (event.deltaY < 0) {
-            setScale((prev) => Math.min(prev + 0.1, 3));
-        } else {
-            setScale((prev) => Math.max(prev - 0.1, 0.1));
-        }
     };
 
     useEffect(() => {
@@ -122,8 +99,8 @@ export default function ImageModal({ isOpen, setIsOpen }) {
         <Dialog open={isOpen} onOpenChange={setIsOpen}>
             <DialogContent className="max-w-full max-h-full w-screen h-screen p-0">
                 <DialogHeader className="absolute top-0 left-0 right-0 z-10 bg-background/80 backdrop-blur-sm">
-                    <div className="flex justify-between items-center p-4">
-                        <DialogTitle>Image Viewer</DialogTitle>
+                    <div className="flex justify-between items-center px-4 py-1">
+                        <DialogTitle className="">Image Viewer</DialogTitle>
                         <Button
                             className="p-2 pr-3 "
                             variant="ghost"
@@ -135,6 +112,7 @@ export default function ImageModal({ isOpen, setIsOpen }) {
                         </Button>
                     </div>
                 </DialogHeader>
+
                 <div
                     ref={containerRef}
                     className="relative w-full h-full overflow-hidden cursor-move"
@@ -142,9 +120,8 @@ export default function ImageModal({ isOpen, setIsOpen }) {
                     onMouseMove={handleMouseMove}
                     onMouseUp={handleMouseUp}
                     onTouchStart={handleTouchStart}
-                    onTouchMove={handleTouchMoveAndZoom}
+                    onTouchMove={handleTouchMove}
                     onTouchEnd={handleTouchEnd}
-                    onWheel={handleWheel}
                 >
                     <div
                         className="absolute inset-0 flex items-center justify-center"
