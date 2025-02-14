@@ -100,7 +100,7 @@ export default function ImageModal({ isOpen, setIsOpen }) {
             <DialogContent className="max-w-full max-h-full w-screen h-screen p-0">
                 <DialogHeader className="absolute top-0 left-0 right-0 z-10 bg-background/80 backdrop-blur-sm">
                     <div className="flex justify-between items-center px-4 py-1">
-                        <DialogTitle className="">Image Viewer</DialogTitle>
+                        <DialogTitle className=""></DialogTitle>
                         <Button
                             className="p-2 pr-3 "
                             variant="ghost"
