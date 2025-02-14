@@ -281,7 +281,7 @@
         "id": 6,
         "title": "LIONOBYTES",
         "type": "Artificial Intelligence",
-        "thumbnail": "/images/project/lionobytes.png",
+        "thumbnail": "/images/project/lionobytes2.png",
         "description": "LIONOBYTES is an AI-powered CRM enhancement tool designed to improve lead scoring, sentiment analysis, and sales forecasting for B2B businesses. It helps CRM providers overcome challenges related to manual lead scoring, inaccurate sales forecasting, and inefficient email communication with clients.",
         "length": "",
         "tech": [
@@ -1752,7 +1752,7 @@
         "id": 36,
         "title": "JTi",
         "type": "Data Analysis",
-        "thumbnail": "",
+        "thumbnail": "/images/project/jti.png",
         "description": "JTI aimed to deliver advanced data storage and Business Intelligence (BI) solutions. The system centralizes data from various sources, providing insightful analysis and advanced reports to stakeholders. Using Power BI, the solution encompasses data collection, transformation, ETL processes, and the creation of data marts for specific departments such as Sales and Inventory. The implementation of custom dashboards and reports enhances decision-making, supporting the company’s growth and sustainability by enabling better business insights and identifying new opportunities.",
         "length": "",
         "tech": [
@@ -1813,7 +1813,7 @@
         "id": 37,
         "title": "Van Dervalk International",
         "type": "Data Analysis",
-        "thumbnail": "",
+        "thumbnail": "/images/project/company.png",
         "description": "Van Dervalk International focused on creating a unified data management system for a European hotel company with multiple locations. The company utilized various software solutions (ERP, HR, CRM) to manage workforce, supplies, and sales. The solution centralized all data into a single destination, established a data warehouse, and provided structured data insights. This integration streamlined operations, improved data accessibility, and enhanced decision-making across the organization.",
         "length": "",
         "tech": [
@@ -1914,7 +1914,7 @@
         "id": 39,
         "title": "DNA Growth",
         "type": "Data Analysis",
-        "thumbnail": "",
+        "thumbnail": "/images/project/dna_groth.png",
         "description": "DNA Growth automates the extraction of financial data from QuickBooks, processes it using Power BI, and provides dashboards for cash flow, income statements, and balance sheet analysis. This solution enhances financial reporting and supports better decision-making.",
         "length": "",
         "tech": [
@@ -1958,7 +1958,7 @@
         "id": 40,
         "title": "Data Growers",
         "type": "Data Analysis",
-        "thumbnail": "",
+        "thumbnail": "/images/project/data_grow.png",
         "description": "Data Grower manages key plant-related information, including sales data, plant color, client details, and plant categories. The goal is to efficiently process and report this data to enhance decision-making and provide better operational visibility.",
         "length": "",
         "tech": [
@@ -2022,7 +2022,7 @@
         "id": 41,
         "title": "CDP: Clinical Development Program",
         "type": "Data Analysis",
-        "thumbnail": "",
+        "thumbnail": "/images/project/clinic.png",
         "description": "CDP is a data management and visualization portal that integrates clinical trial data from IQVIA and Salesforce. It ensures accurate data correction, provides a central source of truth, and includes country-wide access control for data stewards.",
         "length": "",
         "tech": [
@@ -2094,7 +2094,7 @@
         "id": 42,
         "title": "GLPG",
         "type": "Data Analysis",
-        "thumbnail": "",
+        "thumbnail": "/images/project/glpg.png",
         "description": "GLPG, a Germany-based pharmaceutical company, focuses on profiling Healthcare Professionals (HCPs) and executing targeted marketing for their revolutionary drug, Filgotinib. Using our solutions, they are able to conduct global marketing campaigns effectively.",
         "length": "",
         "tech": [
@@ -2238,7 +2238,7 @@
         "id": 44,
         "title": "Synspective Inc",
         "type": "Data Analysis",
-        "thumbnail": "",
+        "thumbnail": "/images/project/synspective_inc.png",
         "description": "Synspective Inc. is a Japanese satellite service provider specializing in the development and operation of small Synthetic Aperture Radar (SAR) satellites. The company offers advanced remote monitoring systems that integrate various types of satellite data. These systems are designed to monitor activities and detect abnormalities in selected facilities, providing a comprehensive view on a single platform. Synspective Inc. delivers intuitive software solutions to enhance the efficiency and effectiveness of facility monitoring using their satellite services.",
         "length": "",
         "tech": [
@@ -2300,7 +2300,7 @@
         "id": 12,
         "title": "C Suite Comp",
         "type": "Data Analysis",
-        "thumbnail": "",
+        "thumbnail": "/images/project/ceo_project.png",
         "description": "The project aimed to streamline the process of generating salary recommendations for C-suite executives by automating the extraction and analysis of financial data from thousands of reports. The goal was to enhance efficiency, accuracy, and cost-effectiveness in handling large volumes of financial documents",
         "length": "",
         "tech": [

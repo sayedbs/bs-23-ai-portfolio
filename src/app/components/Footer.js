@@ -81,6 +81,22 @@ const Footer = () => {
                                 height={72}
                             />
                         </div>
+                        <div className="bg-white border-2 border-gray-800 rounded">
+                            <Image
+                                src="/images/partner/sap.png"
+                                alt="sap"
+                                width={140}
+                                height={72}
+                            />
+                        </div>
+                        <div className="bg-white border-2 border-gray-800 rounded">
+                            <Image
+                                src="/images/partner/shopify.png"
+                                alt="shopify"
+                                width={140}
+                                height={72}
+                            />
+                        </div>
                     </div>
                 </div>
 
