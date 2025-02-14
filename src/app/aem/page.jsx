@@ -8,13 +8,10 @@ const AEM = () => {
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
-        fetch("projects.json")
+        fetch("aem.json")
             .then((res) => res.json())
             .then((data) => {
-                const filteredProjects = data.filter(
-                    (project) => project.type === "AEM"
-                );
-                setProjects(filteredProjects);
+                setProjects(data);
             });
     }, []);
 
@@ -29,8 +26,12 @@ const AEM = () => {
         >
             <div className="max-w-[1500px] mx-auto p-4 relative">
                 <div className="grid grid-cols-3 lg:grid-cols-4  gap-5">
-                    {projects.map((project) => (
-                        <DashboardItemCard key={project.id} project={project} />
+                    {projects?.map((project) => (
+                        <DashboardItemCard
+                            key={project.id}
+                            project={project}
+                            aem={true}
+                        />
                     ))}
                 </div>
                 <OnePager />

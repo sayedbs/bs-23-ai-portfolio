@@ -1,0 +1,85 @@
+[
+    {
+        "id": 1,
+        "title": "HCP Portal",
+        "type": "aem",
+        "thumbnail": "/images/project/abbvie.png",
+        "description": "A global pharmaceutical leader, faced challenges in developing and scaling their HCP portal to meet the needs of 40+ countries while maintaining cost efficiency and high performance.",
+        "challenges": [
+            "High costs for deploying country-specific portals, averaging $50K+ per rollout.",
+            "Complex integrations across diverse systems to support global operations.",
+            "The need for improved web accessibility and SEO performance to ensure compliance and visibility.",
+            "Inefficiencies in cloud migration and data handling processes, risking delays and operational overhead."
+        ],
+        "milestones": [
+            {
+                "title": "Successfully launched the HCP Portal (Version 1.0) from POC in less than 6 months",
+                "icon": "🚀"
+            },
+            {
+                "title": "Deployed the HCP portal across 40+ countries, ensuring global access for healthcare professionals",
+                "icon": "🌍"
+            },
+            {
+                "title": "Implemented 15+ complex integrations, including PIAP, ICC, LMS, Coveo, On24, AWS S3, Veeva Vault, Kafka, MuleSoft, Google Analytics, and more",
+                "icon": "🔗"
+            },
+            {
+                "title": "Completed AMS on prem to AEM Cloud migration within 3 months, transferring 110+ GB of critical content",
+                "icon": "☁️"
+            },
+            {
+                "title": "Reduced portal launch costs from $50K to $5K per country, achieving a 90% cost savings",
+                "icon": "💰"
+            },
+            {
+                "title": "Maintained a consistent 90+ SEO and Web Accessibility score, ensuring compliance and increased engagement",
+                "icon": "📈"
+            },
+            {
+                "title": "Consolidated 80+ domains in 3 months, ensuring robust and unified global operations",
+                "icon": "🌐"
+            },
+            {
+                "title": "Trained 400+ HCP content authors globally, promoting collaboration and CMS knowledge sharing",
+                "icon": "👨‍🏫"
+            }
+        ],
+        "tech": [
+            {
+                "title": "Adobe Experience Manager",
+                "thumbnail": ""
+            },
+            {
+                "title": "React",
+                "thumbnail": ""
+            },
+            {
+                "title": "Veeva",
+                "thumbnail": ""
+            },
+            {
+                "title": "NodeJS",
+                "thumbnail": ""
+            },
+            {
+                "title": "Moodle",
+                "thumbnail": ""
+            },
+            {
+                "title": "Tosca",
+                "thumbnail": ""
+            },
+            {
+                "title": "Playwright",
+                "thumbnail": ""
+            },
+            {
+                "title": "Salesforce",
+                "thumbnail": ""
+            }
+        ],
+        "youtube": "",
+        "link": ""
+    }
+]

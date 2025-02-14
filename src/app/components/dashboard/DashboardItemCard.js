@@ -11,8 +11,9 @@ import {
     CardHeader,
 } from "@/components/ui/card";
 import ProjectModal from "./ProjectModal";
+import ProjectModalAEM from "./ProjectModalAEM";
 
-function DashboardItemCard({ defaultImage="", project }) {
+function DashboardItemCard({ defaultImage = "", project, aem = false }) {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <motion.div
@@ -36,7 +37,6 @@ function DashboardItemCard({ defaultImage="", project }) {
                         alt="Thumbnail"
                         className="rounded-lg bg-white max-h-[100%] w-auto h-auto max-w-[100%] group-hover:scale-105 transition-transform duration-300"
                     />
-
                 </CardHeader>
                 <CardContent className="px-3 lg:px-6 py-0 pt-5 text-sm ">
                     <h2 className="text-3xl font-bold mb-3 two-line-title-ellipsis">
@@ -48,10 +48,11 @@ function DashboardItemCard({ defaultImage="", project }) {
                     </p>
                 </CardContent>
                 <CardFooter className="relative p-3 lg:p-6 flex justify-between items-center">
-                    
-                    { project?.youtube && 
-                        <span className="absolute left-1 xl:left-[17px] bottom-2 xl:bottom-[18px] z-50 text-2xl  opacity-50 p-2 group-hover:text-gray-500"><FaVideo /></span> 
-                    }
+                    {project?.youtube && (
+                        <span className="absolute left-1 xl:left-[17px] bottom-2 xl:bottom-[18px] z-50 text-2xl  opacity-50 p-2 group-hover:text-gray-500">
+                            <FaVideo />
+                        </span>
+                    )}
 
                     <Button
                         onClick={() => setIsOpen(true)}
@@ -78,11 +79,19 @@ function DashboardItemCard({ defaultImage="", project }) {
                 </CardFooter>
             </Card>
 
-            <ProjectModal
-                isOpen={isOpen}
-                setIsOpen={setIsOpen}
-                project={project}
-            />
+            {aem ? (
+                <ProjectModalAEM
+                    isOpen={isOpen}
+                    setIsOpen={setIsOpen}
+                    project={project}
+                />
+            ) : (
+                <ProjectModal
+                    isOpen={isOpen}
+                    setIsOpen={setIsOpen}
+                    project={project}
+                />
+            )}
         </motion.div>
     );
 }

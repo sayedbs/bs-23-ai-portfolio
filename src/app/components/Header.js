@@ -53,7 +53,7 @@ function Header() {
                 <NavButton path="/computer-vision" label="Computer Vision" />
                 <NavButton path="/chatbot" label="Chatbot" />
                 <NavButton path="/data-analysis" label="Data Analysis" />
-                {/* <NavButton path="/aem" label="AEM" /> */}
+                <NavButton path="/aem" label="AEM" />
             </div>
 
             <div>
