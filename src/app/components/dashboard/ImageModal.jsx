@@ -149,24 +149,24 @@ export default function ImageModal({ isOpen, setIsOpen }) {
                 <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex justify-center space-x-2 z-10">
                     <Button
                         variant="secondary"
-                        size="icon"
+                        size="lg"
                         onClick={handleZoomIn}
                     >
-                        <ZoomIn className="h-4 w-4" />
+                        <ZoomIn className="h-6 w-6" />
                     </Button>
                     <Button
                         variant="secondary"
-                        size="icon"
+                        size="lg"
                         onClick={handleZoomOut}
                     >
-                        <ZoomOut className="h-4 w-4" />
+                        <ZoomOut className="h-6 w-6" />
                     </Button>
                     <Button
                         variant="secondary"
-                        size="icon"
+                        size="lg"
                         onClick={handleRotate}
                     >
-                        <RotateCw className="h-4 w-4" />
+                        <RotateCw className="h-6 w-6" />
                     </Button>
                 </div>
             </DialogContent>
