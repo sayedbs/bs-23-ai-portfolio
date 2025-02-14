@@ -727,106 +727,6 @@
         "youtube": ""
     },
     {
-        "id": 12,
-        "title": "C Suite Comp",
-        "type": "Data Analysis",
-        "thumbnail": "",
-        "description": "The project aimed to streamline the process of generating salary recommendations for C-suite executives by automating the extraction and analysis of financial data from thousands of reports. The goal was to enhance efficiency, accuracy, and cost-effectiveness in handling large volumes of financial documents",
-        "length": "",
-        "tech": [
-            "OpenAI",
-            "Lang Chain",
-            "Information Retrieval"
-        ],
-        "features": [
-            {
-                "title": "Data Scraping",
-                "description": "Extracts data from financial reports efficiently."
-            },
-            {
-                "title": "Extracting Data from Documents",
-                "description": "Automates data extraction from large volumes of documents."
-            },
-            {
-                "title": "Report Generation",
-                "description": "Generates financial reports with minimal manual effort."
-            },
-            {
-                "title": "Business Insight Generation",
-                "description": "Derives valuable insights from financial data to support decision-making."
-            }
-        ],
-        "benefits": [
-            {
-                "title": "Processing Time Reduction",
-                "description": "Reduces the time required to process financial reports.",
-                "icon": "⏱️"
-            },
-            {
-                "title": "Accuracy in Salary Recommendations",
-                "description": "Improves the accuracy of salary recommendations for executives.",
-                "icon": "🎯"
-            },
-            {
-                "title": "Cost Reduction",
-                "description": "Decreases operational costs associated with document processing.",
-                "icon": "💰"
-            }
-        ],
-        "audience": [],
-        "youtube": ""
-    },
-    {
-        "id": 13,
-        "title": "SAFVIC",
-        "type": "Data Analysis",
-        "thumbnail": "",
-        "description": "The SAFVIC project aimed to address the inefficiencies in victim protection and case management within the US government's traditional victim assistance programs. The primary goal was to implement a unified, automated system to streamline case management, enhance victim protection, and improve overall response times for protective orders.",
-        "length": "",
-        "tech": [
-            "FastAPI",
-            "Python",
-            "OpenAI"
-        ],
-        "features": [
-            {
-                "title": "Incident Reporting Integration",
-                "description": "Integrates incident reporting to streamline case management."
-            },
-            {
-                "title": "Electronic Protective Order (EPO)",
-                "description": "Digitizes protective order processing for faster response."
-            },
-            {
-                "title": "Case Documentation",
-                "description": "Automates case documentation to improve accuracy and efficiency."
-            },
-            {
-                "title": "Centralized Person Tracking",
-                "description": "Centralizes tracking of individuals involved in cases for easier access."
-            }
-        ],
-        "benefits": [
-            {
-                "title": "Processing Time Reduction",
-                "description": "Reduces case processing times for quicker actions.",
-                "icon": "⏱️"
-            },
-            {
-                "title": "Faster Protective Order Response",
-                "description": "Improves response times for protective orders.",
-                "icon": "⚡"
-            },
-            {
-                "title": "Increased Police Department Onboarding",
-                "description": "Onboards 10 new police departments, doubling the user base in one year.",
-                "icon": "👮"
-            }
-        ],
-        "audience": [],
-        "youtube": ""
-    },
-    {
         "id": 14,
         "title": "CHATBOT 23",
         "type": "Chatbot",
@@ -1064,52 +964,6 @@
                 "title": "Operational Cost Savings",
                 "description": "Reduces costs by 60% through automation.",
                 "icon": "💰"
-            }
-        ],
-        "audience": [],
-        "youtube": ""
-    },
-    {
-        "id": 17,
-        "title": "Stella Risk Monitor ",
-        "type": "Data Analysis",
-        "thumbnail": "",
-        "description": "Stella Risk Monitor focuses on ensuring robust security for financial asset management platforms, safeguarding sensitive data and preventing vulnerabilities to enhance system integrity and protect user information.",
-        "length": "",
-        "tech": [
-            "FastAPI",
-            "Python",
-            "OpenAI"
-        ],
-        "features": [
-            {
-                "title": "Secure Infrastructure",
-                "description": "Ensures robust security for financial asset management platforms."
-            },
-            {
-                "title": "Automated Reporting",
-                "description": "Generates automated reports for better insights and decision-making."
-            },
-            {
-                "title": "Customizable Analytics",
-                "description": "Provides customizable analytics to meet specific business needs."
-            }
-        ],
-        "benefits": [
-            {
-                "title": "100% Success in Penetration Testing",
-                "description": "Passed all security tests without vulnerabilities.",
-                "icon": "🔒"
-            },
-            {
-                "title": "Ethical Hacking Assessment",
-                "description": "4 ethical hackers tested the system for 3 days.",
-                "icon": "🛡️"
-            },
-            {
-                "title": "Proactive Security Updates",
-                "description": "Identifies and resolves risks before exploitation.",
-                "icon": "🚀"
             }
         ],
         "audience": [],
@@ -1749,71 +1603,847 @@
     },
     {
         "id": 33,
-        "title": "",
-        "type": "",
-        "thumbnail": "",
-        "description": "",
+        "title": "Dataresultz",
+        "type": "Data Analysis",
+        "thumbnail": "/images/project/data-resultz-t.webp",
+        "description": "Dataresultz is a data management system developed for a flower manufacturer, offering sales insights to flower growers. The system automates data collection from clients' ERP and CRM systems, streamlines the onboarding process for new clients, and delivers structured data insights. It also establishes the infrastructure necessary for a future SAAS model, ensuring scalability and operational efficiency. The outcome includes enhanced operational efficiency, accelerated client acquisition, and preparedness for future growth.",
         "length": "",
-        "tech": [],
-        "features": [],
-        "benefits": [],
+        "tech": [
+            "Microsoft SQL Server"
+        ],
+        "features": [
+            {
+                "title": "Efficient Data Warehousing",
+                "description": "Implementing an automated scheduler for seamless data processing."
+            },
+            {
+                "title": "Optimized Data Management",
+                "description": "Enhancing data storage, retrieval, and organization efficiency."
+            },
+            {
+                "title": "Automated Report Generation",
+                "description": "Streamlining report creation with minimal manual intervention."
+            },
+            {
+                "title": "Faster Database Operation",
+                "description": "Accelerating database performance by 6X."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Automated Data Management",
+                "description": "Streamlining data processes for efficiency and accuracy.",
+                "icon": "⚙️"
+            },
+            {
+                "title": "Faster Client Onboarding",
+                "description": "Accelerating the onboarding process for new clients.",
+                "icon": "🚀"
+            },
+            {
+                "title": "Enhanced Data Insights",
+                "description": "Gaining deeper, more actionable business intelligence.",
+                "icon": "📊"
+            },
+            {
+                "title": "Structured Tables for SaaS",
+                "description": "Organizing data architecture to support a scalable SaaS model.",
+                "icon": "📁"
+            }
+        ],
         "audience": [],
         "youtube": ""
     },
     {
         "id": 34,
-        "title": "",
-        "type": "",
-        "thumbnail": "",
-        "description": "",
+        "title": "United Healthcare",
+        "type": "Data Analysis",
+        "thumbnail": "/images/project/unitedhealthcare-logo.png",
+        "description": "United Healthcare developed a system to enhance price transparency in healthcare by automating the processing of large volumes of healthcare services data. Key solutions included the implementation of cloud-based data processing, the use of BigQuery for efficient data quantification, and the creation of an interactive dashboard with Power BI for cost comparison. The system features efficient data warehousing, optimized data management, automated report generation, and significantly faster database operations. The impact includes streamlined user onboarding through automated NID verification, improving accessibility and usability for end users.",
         "length": "",
-        "tech": [],
-        "features": [],
-        "benefits": [],
+        "tech": [
+            "Microsoft SQL Server",
+            "Power BI",
+            "Google Big Query"
+        ],
+        "features": [
+            {
+                "title": "Automated Data Warehousing",
+                "description": "Enhancing efficiency with a scheduled data processing system."
+            },
+            {
+                "title": "Optimized Data Management",
+                "description": "Improving data organization, storage, and accessibility."
+            },
+            {
+                "title": "Automated Report Generation",
+                "description": "Simplifying reporting with auto-generated insights."
+            },
+            {
+                "title": "Faster Database Operation",
+                "description": "Accelerating database performance by 6X."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Cloud-Based Data Processing",
+                "description": "Leveraging cloud technology for efficient data handling.",
+                "icon": "☁️"
+            },
+            {
+                "title": "BigQuery Integration",
+                "description": "Enabling fast and scalable data querying.",
+                "icon": "🔍"
+            },
+            {
+                "title": "Interactive Dashboards",
+                "description": "Visualizing insights with Power BI for better decision-making.",
+                "icon": "📊"
+            }
+        ],
         "audience": [],
         "youtube": ""
     },
     {
         "id": 35,
-        "title": "",
-        "type": "",
-        "thumbnail": "",
-        "description": "",
+        "title": "Horeca",
+        "type": "Data Analysis",
+        "thumbnail": "/images/project/Horeca.png",
+        "description": "Horeca is a B2B data profile management platform that allows users to search and connect with business professionals' profiles relevant to their business domains.",
         "length": "",
-        "tech": [],
-        "features": [],
-        "benefits": [],
+        "tech": [
+            "Microsoft SQL Server"
+        ],
+        "features": [
+            {
+                "title": "Data Processing",
+                "description": "Transforming raw data into structured, usable formats."
+            },
+            {
+                "title": "Data Analysis",
+                "description": "Extracting meaningful patterns and trends from data."
+            },
+            {
+                "title": "Data Insights",
+                "description": "Driving informed decisions with actionable intelligence."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Scalable Big Data Architecture",
+                "description": "Optimized for efficient data management and growth.",
+                "icon": "📈"
+            },
+            {
+                "title": "Search Efficiency Boost",
+                "description": "Significantly faster query performance by 200X.",
+                "icon": "⚡"
+            },
+            {
+                "title": "Optimized Query Performance",
+                "description": "Reduced SQL-like query cost from 3000RU to 34RU for main search, with 1000RU for data aggregation.",
+                "icon": "💡"
+            }
+        ],
         "audience": [],
         "youtube": ""
     },
     {
         "id": 36,
-        "title": "",
-        "type": "",
+        "title": "JTi",
+        "type": "Data Analysis",
         "thumbnail": "",
-        "description": "",
+        "description": "JTI aimed to deliver advanced data storage and Business Intelligence (BI) solutions. The system centralizes data from various sources, providing insightful analysis and advanced reports to stakeholders. Using Power BI, the solution encompasses data collection, transformation, ETL processes, and the creation of data marts for specific departments such as Sales and Inventory. The implementation of custom dashboards and reports enhances decision-making, supporting the company’s growth and sustainability by enabling better business insights and identifying new opportunities.",
         "length": "",
-        "tech": [],
-        "features": [],
-        "benefits": [],
+        "tech": [
+            "Power BI"
+        ],
+        "features": [
+            {
+                "title": "Data Collection & Integration",
+                "description": "Aggregating data from multiple sources into a unified system."
+            },
+            {
+                "title": "Data Transformation & Processing",
+                "description": "Centralizing data in a structured warehouse."
+            },
+            {
+                "title": "ETL & Pipeline Automation",
+                "description": "Designing and automating data extraction, transformation, and loading."
+            },
+            {
+                "title": "Data Mart Implementation",
+                "description": "Creating department-specific data repositories (e.g., Sales, Inventory, Credit)."
+            },
+            {
+                "title": "Custom Reports & Dashboards",
+                "description": "Developing tailored visual insights for data-driven decisions."
+            },
+            {
+                "title": "Data Warehouse Maintenance",
+                "description": "Ensuring reliability and performance through continuous monitoring."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Centralized Data Warehouse",
+                "description": "Serving as the single source of truth for data management.",
+                "icon": "🏢"
+            },
+            {
+                "title": "Advanced Analytics & Reporting",
+                "description": "Delivering deep insights for better business understanding.",
+                "icon": "📊"
+            },
+            {
+                "title": "Enhanced Growth & Sustainability",
+                "description": "Driving long-term business efficiency and scalability.",
+                "icon": "🌱"
+            },
+            {
+                "title": "Data-Driven Decision Making",
+                "description": "Enabling smarter strategies and new opportunity identification.",
+                "icon": "🧠"
+            }
+        ],
         "audience": [],
         "youtube": ""
     },
     {
         "id": 37,
-        "title": "",
-        "type": "",
+        "title": "Van Dervalk International",
+        "type": "Data Analysis",
         "thumbnail": "",
-        "description": "",
+        "description": "Van Dervalk International focused on creating a unified data management system for a European hotel company with multiple locations. The company utilized various software solutions (ERP, HR, CRM) to manage workforce, supplies, and sales. The solution centralized all data into a single destination, established a data warehouse, and provided structured data insights. This integration streamlined operations, improved data accessibility, and enhanced decision-making across the organization.",
         "length": "",
-        "tech": [],
-        "features": [],
-        "benefits": [],
+        "tech": [
+            "Microsoft SQL Server"
+        ],
+        "features": [
+            {
+                "title": "Data Analytics Dashboard",
+                "description": "Visualizing key insights for informed decision-making."
+            },
+            {
+                "title": "Data Processing",
+                "description": "Transforming raw data into meaningful information."
+            },
+            {
+                "title": "Data Warehousing",
+                "description": "Centralized storage for structured data management."
+            },
+            {
+                "title": "ETL (Extract, Transform, Load)",
+                "description": "Automating data flow for efficient integration."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Unified Data Destination",
+                "description": "Consolidating all data into a single repository.",
+                "icon": "📂"
+            },
+            {
+                "title": "Efficient Data Warehousing",
+                "description": "Structuring and managing data for optimized storage.",
+                "icon": "🏢"
+            },
+            {
+                "title": "Advanced Analytics & Visibility",
+                "description": "Providing deeper insights for better decision-making.",
+                "icon": "📊"
+            },
+            {
+                "title": "Automated User Onboarding",
+                "description": "Enabling seamless onboarding with NID verification.",
+                "icon": "🚀"
+            }
+        ],
         "audience": [],
         "youtube": ""
     },
     {
         "id": 38,
+        "title": "Unitronic",
+        "type": "Data Analysis",
+        "thumbnail": "",
+        "description": "Unitronic aimed to enhance operational efficiency for Unitronics, a provider of high-quality medical equipment servicing across the Nordics and Europe. The solution centralized data from Microsoft Field Service and APIs using Azure Data Factory and Azure SQL. Power BI dashboards were developed to track key metrics such as utilization, hours per HQE, and revenue per hour. The system optimized resource allocation based on location and service demands, providing real-time insights for proactive decision-making and ensuring consistent service quality across regions.",
+        "length": "",
+        "tech": [
+            "Power BI"
+        ],
+        "features": [
+            {
+                "title": "Data Integration",
+                "description": "Seamless collection and storage of data from multiple sources."
+            },
+            {
+                "title": "Advanced Dashboards",
+                "description": "Power BI reports for metrics such as utilization, hours per HQE, and revenue per hour."
+            },
+            {
+                "title": "Resource Allocation",
+                "description": "Optimized resource deployment based on location, hours, and service demands."
+            },
+            {
+                "title": "Real-Time Insights",
+                "description": "Live tracking of key performance indicators for proactive decision-making."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Centralized Data Integration",
+                "description": "Unified data from Microsoft Field Service and APIs using Azure Data Factory and Azure SQL.",
+                "icon": "🔗"
+            },
+            {
+                "title": "Power BI Dashboards",
+                "description": "Visualized key metrics like utilization, hours per HQE, and revenue per hour.",
+                "icon": "📊"
+            },
+            {
+                "title": "Efficient Resource Allocation",
+                "description": "Optimized resource distribution based on hours and location.",
+                "icon": "📈"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 39,
+        "title": "DNA Growth",
+        "type": "Data Analysis",
+        "thumbnail": "",
+        "description": "DNA Growth automates the extraction of financial data from QuickBooks, processes it using Power BI, and provides dashboards for cash flow, income statements, and balance sheet analysis. This solution enhances financial reporting and supports better decision-making.",
+        "length": "",
+        "tech": [
+            "Power BI"
+        ],
+        "features": [
+            {
+                "title": "Cash Flow Analytics",
+                "description": "Analyzing cash inflows and outflows to assess liquidity."
+            },
+            {
+                "title": "Income Statement Analysis",
+                "description": "Evaluating profitability through revenue and expense breakdowns."
+            },
+            {
+                "title": "Balance Sheet Analysis",
+                "description": "Reviewing assets, liabilities, and equity for financial health insights."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Automated Financial Data Extraction",
+                "description": "Extracting financial data from QuickBooks automatically.",
+                "icon": "🔄"
+            },
+            {
+                "title": "Data Structuring & Processing with Power BI",
+                "description": "Using DAX calculations to analyze key financial metrics.",
+                "icon": "📊"
+            },
+            {
+                "title": "Actionable Dashboards",
+                "description": "Consolidating data into dashboards for Cashflow, Income Statements, and Balance Sheets.",
+                "icon": "📈"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 40,
+        "title": "Data Growers",
+        "type": "Data Analysis",
+        "thumbnail": "",
+        "description": "Data Grower manages key plant-related information, including sales data, plant color, client details, and plant categories. The goal is to efficiently process and report this data to enhance decision-making and provide better operational visibility.",
+        "length": "",
+        "tech": [
+            "Power BI"
+        ],
+        "features": [
+            {
+                "title": "Data Extraction",
+                "description": "Collected plant info, sales data, and client details from API source servers."
+            },
+            {
+                "title": "Data Structuring",
+                "description": "Organized dumped data into staging, fact, and dimension tables."
+            },
+            {
+                "title": "Custom Dashboards",
+                "description": "Created dashboards for tracking plant sales and performance metrics."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Streamlined Data Access and Reporting",
+                "description": "Organizing raw data into structured tables ensures easy access and efficient report generation.",
+                "icon": "📊"
+            },
+            {
+                "title": "Improved Data Quality and Accuracy",
+                "description": "Structured data and transformation processes minimize errors, ensuring reliable, consistent reports.",
+                "icon": "✔️"
+            },
+            {
+                "title": "Optimized Operational Efficiencies",
+                "description": "Automation of ETL processes reduces manual work, handling large data volumes more efficiently.",
+                "icon": "⚙️"
+            },
+            {
+                "title": "Faster, Real-Time Insights",
+                "description": "Daily server-based data refreshes ensure up-to-date insights for timely decision-making.",
+                "icon": "⏱️"
+            },
+            {
+                "title": "Scalable and Flexible Reporting System",
+                "description": "The system can easily scale and adapt to new data sources or evolving business needs.",
+                "icon": "📈"
+            },
+            {
+                "title": "Enhanced Decision Support",
+                "description": "Custom dashboards deliver key performance insights, aiding better decision-making and strategy formulation.",
+                "icon": "🧠"
+            },
+            {
+                "title": "Increased Business Agility",
+                "description": "Real-time access to structured data enables quick adjustments to operations and strategies.",
+                "icon": "🚀"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 41,
+        "title": "CDP: Clinical Development Program",
+        "type": "Data Analysis",
+        "thumbnail": "",
+        "description": "CDP is a data management and visualization portal that integrates clinical trial data from IQVIA and Salesforce. It ensures accurate data correction, provides a central source of truth, and includes country-wide access control for data stewards.",
+        "length": "",
+        "tech": [
+            "Microsoft SQL Server",
+            "Power BI"
+        ],
+        "features": [
+            {
+                "title": "IQVIA Data Integration",
+                "description": "Integrated dermatologist and gastroenterologist data from European countries, primarily Germany, using Nifi."
+            },
+            {
+                "title": "Salesforce Data Sync",
+                "description": "Ensured seamless data synchronization with Salesforce."
+            },
+            {
+                "title": "Data Correction",
+                "description": "Addressed data quality issues requiring correction."
+            },
+            {
+                "title": "Clinical Trials Data",
+                "description": "Managed and analyzed clinical trials data."
+            },
+            {
+                "title": "Central Source of Truth",
+                "description": "Established a single reliable data source for all insights."
+            },
+            {
+                "title": "Country-Specific Access Control",
+                "description": "Implemented access control for country managers to steward data."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Improved Data Integration and Accessibility",
+                "description": "By integrating dermatologist and gastroenterologist data from European countries using Nifi, the system enables more comprehensive and easily accessible insights for stakeholders.",
+                "icon": "🔗"
+            },
+            {
+                "title": "Enhanced Sales and Customer Relationship Management",
+                "description": "Seamless synchronization with Salesforce ensures up-to-date and consistent customer and sales data, improving CRM effectiveness.",
+                "icon": "📈"
+            },
+            {
+                "title": "Higher Data Accuracy and Quality",
+                "description": "Addressing data quality issues ensures that the business operates on reliable and accurate information, leading to better decision-making and minimizing operational risks.",
+                "icon": "✔️"
+            },
+            {
+                "title": "Informed Clinical Trial Analysis",
+                "description": "Managing and analyzing clinical trials data allows for informed decision-making and supports efficient tracking of trial progress and outcomes.",
+                "icon": "🧪"
+            },
+            {
+                "title": "Centralized and Reliable Data Source",
+                "description": "Establishing a central source of truth ensures that all insights come from a single, trustworthy dataset, reducing discrepancies and improving reporting consistency.",
+                "icon": "📊"
+            },
+            {
+                "title": "Enhanced Data Security and Control",
+                "description": "Country-specific access control empowers local managers to steward data responsibly, ensuring data security and compliance with regional regulations.",
+                "icon": "🔒"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 42,
+        "title": "GLPG",
+        "type": "Data Analysis",
+        "thumbnail": "",
+        "description": "GLPG, a Germany-based pharmaceutical company, focuses on profiling Healthcare Professionals (HCPs) and executing targeted marketing for their revolutionary drug, Filgotinib. Using our solutions, they are able to conduct global marketing campaigns effectively.",
+        "length": "",
+        "tech": [
+            "AWS Lambda",
+            "Apache Nifi",
+            "AWS Fargate",
+            "Amazon CloudWatch",
+            "Amazon Athena",
+            "Tableau"
+        ],
+        "features": [
+            {
+                "title": "Data Aggregation",
+                "description": "Collected data from diverse sources into a unified system."
+            },
+            {
+                "title": "ETL with Nifi",
+                "description": "Utilized Nifi for efficient extraction, transformation, and loading of data."
+            },
+            {
+                "title": "Custom App Data Presentation",
+                "description": "Displayed processed data within a tailored application."
+            },
+            {
+                "title": "Mass Marketing with Mailchimp",
+                "description": "Leveraged Mailchimp for targeted email marketing campaigns."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Efficient Data Storage and Management",
+                "description": "AWS S3 and RDBMS store large volumes of HCP data, ensuring easy access and organization.",
+                "icon": "💾"
+            },
+            {
+                "title": "Real-Time Data Processing",
+                "description": "Lambda processes data in real-time, enabling timely availability for analysis and decision-making.",
+                "icon": "⏱️"
+            },
+            {
+                "title": "Scalable and Flexible ETL Pipeline",
+                "description": "Nifi efficiently aggregates and transforms data from diverse sources for HCP profile enrichment.",
+                "icon": "🔄"
+            },
+            {
+                "title": "Quick Data Querying",
+                "description": "Athena allows for fast, cost-effective querying of S3 data, providing rapid access to insights.",
+                "icon": "⚡"
+            },
+            {
+                "title": "Advanced Reporting and Visualization",
+                "description": "Tableau delivers global reports and visualizations to support strategic insights and performance tracking.",
+                "icon": "📊"
+            },
+            {
+                "title": "Targeted Marketing and Outreach",
+                "description": "Mailchimp integration enables mass marketing campaigns with personalized communication for HCPs.",
+                "icon": "📧"
+            },
+            {
+                "title": "Omni-Channel Support for Marketing",
+                "description": "The system ensures consistent and multi-channel marketing, improving HCP engagement and campaign effectiveness.",
+                "icon": "📣"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 43,
+        "title": "Augustus",
+        "type": "Data Analysis",
+        "thumbnail": "",
+        "description": "Augustus developed a scalable data solution for Augustus, a USA-based company focused on urbanization improvement. The system collects and processes heterogeneous surveillance data in both bulk and real-time. Utilizing AWS services such as AWS Data Lake, AWS Glue, and Lambda, the solution ensures efficient data storage, ETL processes, and real-time processing. The application, built with .NET and Angular, includes features like real-time surveillance, aerial data insights, bulk data processing, and data warehouse management, enabling comprehensive urban data analysis.",
+        "length": "",
+        "tech": [
+            "AWS Lambda",
+            "TS",
+            "AWS Glue",
+            "Amazon CloudWatch"
+        ],
+        "features": [
+            {
+                "title": "Real-Time Surveillance",
+                "description": "Monitoring data continuously for immediate insights."
+            },
+            {
+                "title": "Aerial Data Insights",
+                "description": "Analyzing aerial data for valuable insights."
+            },
+            {
+                "title": "Bulk Data Processing",
+                "description": "Handling and processing large volumes of data efficiently."
+            },
+            {
+                "title": "Data Warehouse Management",
+                "description": "Overseeing the organization and maintenance of data warehouses."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Scalable Data Storage",
+                "description": "Using AWS Data Lake allows for the efficient storage of large and heterogeneous data sources, offering flexibility and scalability as data grows.",
+                "icon": "💾"
+            },
+            {
+                "title": "Streamlined ETL Pipeline",
+                "description": "AWS Glue facilitates the primary ETL process, automating data transformation and loading, leading to faster and more efficient data processing.",
+                "icon": "🔄"
+            },
+            {
+                "title": "Real-Time Data Processing",
+                "description": "Lambda enables real-time data processing, ensuring that insights are quickly available for timely decision-making and operational responses.",
+                "icon": "⏱️"
+            },
+            {
+                "title": "Comprehensive Monitoring and Logging",
+                "description": "CloudWatch provides real-time logging and monitoring, enabling proactive identification and troubleshooting of issues across the system.",
+                "icon": "🔍"
+            },
+            {
+                "title": "Advanced Surveillance and Insight Generation",
+                "description": "Real-time surveillance and aerial data provide actionable insights into operations, helping to identify trends and make data-driven decisions.",
+                "icon": "📊"
+            },
+            {
+                "title": "Efficient Bulk Data Processing",
+                "description": "The solution supports bulk data processing, allowing for large-scale analysis while maintaining performance and scalability.",
+                "icon": "📈"
+            },
+            {
+                "title": "Optimized Data Warehouse Management",
+                "description": "Data warehouse management capabilities ensure that processed data is organized, accessible, and ready for deeper analytics and reporting.",
+                "icon": "🏢"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 44,
+        "title": "Synspective Inc",
+        "type": "Data Analysis",
+        "thumbnail": "",
+        "description": "Synspective Inc. is a Japanese satellite service provider specializing in the development and operation of small Synthetic Aperture Radar (SAR) satellites. The company offers advanced remote monitoring systems that integrate various types of satellite data. These systems are designed to monitor activities and detect abnormalities in selected facilities, providing a comprehensive view on a single platform. Synspective Inc. delivers intuitive software solutions to enhance the efficiency and effectiveness of facility monitoring using their satellite services.",
+        "length": "",
+        "tech": [
+            "Echarts",
+            "Cesium",
+            "Redux",
+            "Mapbox",
+            "Material UI",
+            "Axios",
+            "React",
+            "Typescript",
+            "Styled Components",
+            "Google Cloud"
+        ],
+        "features": [
+            {
+                "title": "Optical Images",
+                "description": "Capturing visual data for various facilities."
+            },
+            {
+                "title": "Thermal Status",
+                "description": "Monitoring thermal conditions across different facilities."
+            },
+            {
+                "title": "Historical Data Comparison",
+                "description": "Analyzing changes over time in both optical and thermal data."
+            },
+            {
+                "title": "Historical Facility Images",
+                "description": "Storing and reviewing past images of a facility."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Comprehensive Facility Monitoring",
+                "description": "Combines optical, thermal, and historical satellite data for complete facility insights."
+            },
+            {
+                "title": "Real-Time Facility Insights",
+                "description": "Provides real-time optical and thermal status for immediate detection of issues."
+            },
+            {
+                "title": "Historical Data Analysis",
+                "description": "Tracks changes over time with comparisons of historical optical and thermal data."
+            },
+            {
+                "title": "Informed Decision-Making",
+                "description": "Historical images help track long-term trends for proactive facility management."
+            },
+            {
+                "title": "Enhanced Efficiency",
+                "description": "Intuitive software streamlines satellite service management for better operational use."
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 12,
+        "title": "C Suite Comp",
+        "type": "Data Analysis",
+        "thumbnail": "",
+        "description": "The project aimed to streamline the process of generating salary recommendations for C-suite executives by automating the extraction and analysis of financial data from thousands of reports. The goal was to enhance efficiency, accuracy, and cost-effectiveness in handling large volumes of financial documents",
+        "length": "",
+        "tech": [
+            "OpenAI",
+            "Lang Chain",
+            "Information Retrieval"
+        ],
+        "features": [
+            {
+                "title": "Data Scraping",
+                "description": "Extracts data from financial reports efficiently."
+            },
+            {
+                "title": "Extracting Data from Documents",
+                "description": "Automates data extraction from large volumes of documents."
+            },
+            {
+                "title": "Report Generation",
+                "description": "Generates financial reports with minimal manual effort."
+            },
+            {
+                "title": "Business Insight Generation",
+                "description": "Derives valuable insights from financial data to support decision-making."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Processing Time Reduction",
+                "description": "Reduces the time required to process financial reports.",
+                "icon": "⏱️"
+            },
+            {
+                "title": "Accuracy in Salary Recommendations",
+                "description": "Improves the accuracy of salary recommendations for executives.",
+                "icon": "🎯"
+            },
+            {
+                "title": "Cost Reduction",
+                "description": "Decreases operational costs associated with document processing.",
+                "icon": "💰"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 13,
+        "title": "SAFVIC",
+        "type": "Data Analysis",
+        "thumbnail": "",
+        "description": "The SAFVIC project aimed to address the inefficiencies in victim protection and case management within the US government's traditional victim assistance programs. The primary goal was to implement a unified, automated system to streamline case management, enhance victim protection, and improve overall response times for protective orders.",
+        "length": "",
+        "tech": [
+            "FastAPI",
+            "Python",
+            "OpenAI"
+        ],
+        "features": [
+            {
+                "title": "Incident Reporting Integration",
+                "description": "Integrates incident reporting to streamline case management."
+            },
+            {
+                "title": "Electronic Protective Order (EPO)",
+                "description": "Digitizes protective order processing for faster response."
+            },
+            {
+                "title": "Case Documentation",
+                "description": "Automates case documentation to improve accuracy and efficiency."
+            },
+            {
+                "title": "Centralized Person Tracking",
+                "description": "Centralizes tracking of individuals involved in cases for easier access."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Processing Time Reduction",
+                "description": "Reduces case processing times for quicker actions.",
+                "icon": "⏱️"
+            },
+            {
+                "title": "Faster Protective Order Response",
+                "description": "Improves response times for protective orders.",
+                "icon": "⚡"
+            },
+            {
+                "title": "Increased Police Department Onboarding",
+                "description": "Onboards 10 new police departments, doubling the user base in one year.",
+                "icon": "👮"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 17,
+        "title": "Stella Risk Monitor ",
+        "type": "Data Analysis",
+        "thumbnail": "",
+        "description": "Stella Risk Monitor focuses on ensuring robust security for financial asset management platforms, safeguarding sensitive data and preventing vulnerabilities to enhance system integrity and protect user information.",
+        "length": "",
+        "tech": [
+            "FastAPI",
+            "Python",
+            "OpenAI"
+        ],
+        "features": [
+            {
+                "title": "Secure Infrastructure",
+                "description": "Ensures robust security for financial asset management platforms."
+            },
+            {
+                "title": "Automated Reporting",
+                "description": "Generates automated reports for better insights and decision-making."
+            },
+            {
+                "title": "Customizable Analytics",
+                "description": "Provides customizable analytics to meet specific business needs."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "100% Success in Penetration Testing",
+                "description": "Passed all security tests without vulnerabilities.",
+                "icon": "🔒"
+            },
+            {
+                "title": "Ethical Hacking Assessment",
+                "description": "4 ethical hackers tested the system for 3 days.",
+                "icon": "🛡️"
+            },
+            {
+                "title": "Proactive Security Updates",
+                "description": "Identifies and resolves risks before exploitation.",
+                "icon": "🚀"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 45,
         "title": "",
         "type": "",
         "thumbnail": "",
@@ -1826,7 +2456,33 @@
         "youtube": ""
     },
     {
-        "id": 39,
+        "id": 46,
+        "title": "",
+        "type": "",
+        "thumbnail": "",
+        "description": "",
+        "length": "",
+        "tech": [],
+        "features": [],
+        "benefits": [],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 47,
+        "title": "",
+        "type": "",
+        "thumbnail": "",
+        "description": "",
+        "length": "",
+        "tech": [],
+        "features": [],
+        "benefits": [],
+        "audience": [],
+        "youtube": ""
+    },
+    {
+        "id": 48,
         "title": "",
         "type": "",
         "thumbnail": "",

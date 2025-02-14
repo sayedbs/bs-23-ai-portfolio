@@ -29,10 +29,11 @@ const DataAnalysis = () => {
         >
             <div className="max-w-[1500px] mx-auto p-4 relative">
                 <div className="grid grid-cols-3 lg:grid-cols-4  gap-5">
-                    {projects.map((project) => (
+                    {projects.map((project, index) => (
                         <DashboardItemCard
-                            key={project.id}
+                            key={index}
                             project={project}
+                            defaultImage="/images/placeholder.png"
                         />
                     ))}
                 </div>
