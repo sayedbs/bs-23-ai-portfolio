@@ -117,14 +117,14 @@ const Footer = () => {
                             className="max-h-[60] w-auto"
                             src="/images/cirtification/iso27001.png"
                             alt="iso27001"
-                            width={223}
+                            width={336}
                             height={98}
                         />
                         <Image
                             className="max-h-[60] w-auto"
                             src="/images/cirtification/cmmi.png"
                             alt="CMMI"
-                            width={224}
+                            width={336}
                             height={98}
                         />
                     </div>
