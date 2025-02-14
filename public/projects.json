@@ -1410,7 +1410,7 @@
         "id": 29,
         "title": "RadAssist",
         "type": "Computer Vision",
-        "thumbnail": "",
+        "thumbnail": "/images/project/RadAssist.png",
         "description": "RadAssist enhances radiology services with AI-driven lung disease detection and automated reporting, reducing turnaround time, improving accuracy, and enabling remote collaboration.",
         "length": "",
         "tech": [
@@ -1477,7 +1477,7 @@
         "id": 26,
         "title": "Diabetic Retinopathy ",
         "type": "Computer Vision",
-        "thumbnail": "",
+        "thumbnail": "/images/project/Diabetic Retinopathy.webp",
         "description": "Optomed's AI-powered solution enhances early detection of diabetic retinopathy through automated retina image analysis, reducing blindness risks and improving accessibility in remote areas.",
         "length": "",
         "tech": [
