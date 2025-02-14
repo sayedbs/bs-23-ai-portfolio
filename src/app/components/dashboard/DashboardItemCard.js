@@ -36,7 +36,7 @@ function DashboardItemCard({ project }) {
                         alt="Thumbnail"
                         className="rounded-lg p-3 group-hover:scale-105 transition-transform duration-300"
                     />
-                    { project?.youtube &&<span className="absolute right-0 bottom-0 z-50 group-hover:text-white text-xl lg:text-3xl opacity-50 bg-gray-500 p-2 rounded-tl-lg bg-inherit"><FaVideo /></span> }
+
                 </CardHeader>
                 <CardContent className="px-3 lg:px-6 py-0 pt-5 text-sm ">
                     <h2 className="text-3xl font-bold mb-3 two-line-title-ellipsis">
@@ -47,7 +47,10 @@ function DashboardItemCard({ project }) {
                         {project.description}
                     </p>
                 </CardContent>
-                <CardFooter className="p-3 lg:p-6 flex justify-between items-center">
+                <CardFooter className="relative p-3 lg:p-6 flex justify-between items-center">
+                    { project?.youtube && 
+                        <span className="absolute left-1 bottom-2 z-50 text-2xl lg:text-3xl opacity-50 p-2 group-hover:text-gray-500"><FaVideo /></span> 
+                    }
                     <Button
                         onClick={() => setIsOpen(true)}
                         className="bg-indigo-500 text-white max-w-[180px] ml-auto hover:bg-gray-800 group-hover:bg-gray-800 p-4 rounded-full flex items-center justify-center transition-transform duration-300"

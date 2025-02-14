@@ -26,31 +26,15 @@ const OnePager = () => {
     }, []);
 
     return (
-        <div>
-            <motion.button
+        <div className="">
+            <button
+                type="button"
                 onClick={() => setIsOpen(true)}
-                className="fixed right-5 bottom-5 w-16 h-16 flex items-center justify-center rounded-full bg-blue-500 text-white shadow-lg bg-opacity-75 hover:bg-opacity-100"
-                whileHover={{
-                    scale: 1.1,
-                    boxShadow: "0px 10px 20px rgba(0, 0, 0, 0.3)",
-                }}
-                whileTap={{ scale: 0.9 }}
-                transition={{ type: "spring", stiffness: 300, damping: 10 }}
+                className="onepager-btn hover:scale-105 fixed right-5 bottom-5 w-16 h-16 flex items-center justify-center rounded-full bg-blue-500 text-white shadow-lg bg-opacity-75 hover:bg-opacity-100"
             >
                 <BookText className="relative z-20" />
-                {startAnimation && (
-                    <motion.div
-                        className="absolute w-full h-full bg-blue-500 opacity-30 rounded-full"
-                        initial={{ scale: 1, opacity: 0.6 }}
-                        animate={{ scale: 1.8, opacity: 0 }}
-                        transition={{
-                            duration: 1.5,
-                            repeat: Infinity,
-                            ease: "easeOut",
-                        }}
-                    />
-                )}
-            </motion.button>
+            </button>
+
             <ImageModal isOpen={isOpen} setIsOpen={setIsOpen} />
         </div>
     );
