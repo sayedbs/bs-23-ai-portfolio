@@ -37,7 +37,11 @@ export default function ProjectModalAEM({ isOpen, setIsOpen, project }) {
                     <div className="px-6 py-4 space-y-8">
                         <div className="prose prose-gray dark:prose-invert max-w-none">
                             <p className="leading-relaxed text-left">
-                                {project.description}
+                                <span
+                                    dangerouslySetInnerHTML={{
+                                        __html: project.description,
+                                    }}
+                                />
                             </p>
                         </div>
 
@@ -74,7 +78,11 @@ export default function ProjectModalAEM({ isOpen, setIsOpen, project }) {
                                         className="p-4 rounded-lg border bg-card hover:bg-accent group relative overflow-hidden  hover:bg-white hover:shadow-xl hover:border-[#3b82f6] transition-all hover:border-opacity-40"
                                     >
                                         <h4 className="font-sm pb-2 text-primary group-hover:text-primary/80 transition-colors relative z-10">
-                                            {challenge}
+                                            <span
+                                                dangerouslySetInnerHTML={{
+                                                    __html: challenge,
+                                                }}
+                                            />
                                         </h4>
                                     </div>
                                 ))}
@@ -92,7 +100,11 @@ export default function ProjectModalAEM({ isOpen, setIsOpen, project }) {
                                         className="p-4 rounded-lg border bg-card hover:bg-accent group relative overflow-hidden  hover:bg-white hover:shadow-xl hover:border-[#3b82f6] transition-all hover:border-opacity-40"
                                     >
                                         <h4 className="font-sm pb-2 text-primary group-hover:text-primary/80 transition-colors relative z-10">
-                                            {milestones.title}
+                                            <span
+                                                dangerouslySetInnerHTML={{
+                                                    __html: milestones.title,
+                                                }}
+                                            />
                                         </h4>
 
                                         {milestones.icon && (

@@ -166,6 +166,15 @@ const techIcons = {
     Tosca: <FaDesktop style={{ color: "#007ACC" }} />,
     Playwright: <FaDesktop style={{ color: "#2B6CB0" }} />,
     Salesforce: <FaDesktop style={{ color: "#00A1E0" }} />,
+    NiFi: <SiApachenifi style={{ color: "#6F8A96" }} />,
+    "Microsoft .NET": <AiOutlineDotNet style={{ color: "#512BD4" }} />,
+    "Oracle Siebel": <FaDesktop style={{ color: "#F80000" }} />,
+    Scrapy: <FaDesktop style={{ color: "#4B8BBE" }} />,
+    CloudFlare: <FaCloud style={{ color: "#F38020" }} />,
+    Typesense: <FaDesktop style={{ color: "#FF6F61" }} />,
+    "Adobe Analytics": <FaDesktop style={{ color: "#FF6F61" }} />,
+    Figma: <FaDesktop style={{ color: "#A259FF" }} />,
+    Redis: <FaDesktop style={{ color: "#D82C20" }} />,
 };
 
 const TechIcon = ({ iconName, className = "" }) => {

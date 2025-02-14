@@ -18,7 +18,7 @@ const AEM = () => {
     return (
         <MainWrapper
             style={{
-                backgroundImage: "url('/images/aem.jpg')",
+                backgroundImage: "url('/images/Adobe-manager.png')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 backgroundRepeat: "no-repeat",
