@@ -503,7 +503,7 @@
         "id": 8,
         "title": "E-KYC FOR FINTECH ",
         "type": "Computer Vision",
-        "thumbnail": "",
+        "thumbnail": "/images/project/key_fintech.png",
         "description": "We developed an AI-powered E-KYC solution for FinTech, transforming customer onboarding by digitizing identity verification and automating document processing. By eliminating manual paperwork, the system enhances speed, efficiency, and compliance while strengthening security measures. This innovation delivers a seamless onboarding experience, improves customer convenience, and accelerates digital transformation for financial institutions, ensuring a smarter, more scalable approach to regulatory compliance.",
         "length": "",
         "tech": [
@@ -673,7 +673,7 @@
         "id": 11,
         "title": "Product & Brand Identification",
         "type": "Computer Vision",
-        "thumbnail": "/image/project/product_Brand_Identification.png",
+        "thumbnail": "/images/project/product_Brand_Identification.png",
         "description": "The Product & Brand Identification project was developed to revolutionize retail inventory management by leveraging advanced image and data processing technologies. The solution enables real-time detection of shelf status, accurate product identification, and efficient inventory management, ultimately enhancing operational efficiency and sales potential.",
         "length": "",
         "tech": [
@@ -780,7 +780,7 @@
         "id": 13,
         "title": "SAFVIC",
         "type": "Data Analysis",
-        "thumbnail": "",
+        "thumbnail": "/images/project/lawer.png",
         "description": "The SAFVIC project aimed to address the inefficiencies in victim protection and case management within the US government's traditional victim assistance programs. The primary goal was to implement a unified, automated system to streamline case management, enhance victim protection, and improve overall response times for protective orders.",
         "length": "",
         "tech": [
@@ -889,7 +889,7 @@
         "id": 15,
         "title": "OCR on Tickets",
         "type": "Computer Vision",
-        "thumbnail": "",
+        "thumbnail": "/images/project/ocr.png",
         "description": "OCR on Tickets focuses on developing a multi-LLM chatbot solution that extracts and processes information from handwritten tickets using Optical Character Recognition (OCR) technology. Leveraging OpenAI Vision for image-to-text conversion, the system decodes and interprets handwritten content with high accuracy. By integrating Generative AI and Prompt Engineering, the solution enhances data extraction and automates workflows. The FastAPI framework ensures efficient backend processing, while Base64 is utilized for secure image handling.",
         "length": "",
         "tech": [
@@ -1073,7 +1073,7 @@
         "id": 17,
         "title": "Stella Risk Monitor ",
         "type": "Data Analysis",
-        "thumbnail": "",
+        "thumbnail": "/images/project/risk_monitor.png",
         "description": "Stella Risk Monitor focuses on ensuring robust security for financial asset management platforms, safeguarding sensitive data and preventing vulnerabilities to enhance system integrity and protect user information.",
         "length": "",
         "tech": [
@@ -1119,7 +1119,7 @@
         "id": 19,
         "title": "Donor Management System ",
         "type": "Data Analysis",
-        "thumbnail": "",
+        "thumbnail": "/images/project/donor_management.png",
         "description": "The Donor Management System was developed to address the challenges faced by a non-profit organization in managing donor information, fund allocation, and financial reporting. The previous system led to inefficiencies and hindered transparency and accountability. This solution streamlined operations, ensuring better management and reporting capabilities.",
         "length": "",
         "tech": [
@@ -1299,7 +1299,7 @@
         "id": 23,
         "title": "Violent Object Detector ",
         "type": "Computer Vision",
-        "thumbnail": "",
+        "thumbnail": "/images/project/eye_detect.png",
         "description": "Increasing criminal activities necessitate effective surveillance systems to identify violent objects and respond swiftly to threats",
         "length": "",
         "tech": [
@@ -1356,7 +1356,7 @@
         "id": 24,
         "title": "GLPG - PPI",
         "type": "Computer Vision",
-        "thumbnail": "",
+        "thumbnail": "/images/project/glpg.png",
         "description": "The GLPG - PPI project aimed to address the challenges faced by a pharmaceutical research company in collecting, analyzing, and deriving actionable insights from data related to healthcare professionals (HCPs) and key opinion leaders (KOLs). The primary goal was to enhance data accuracy, streamline data collection processes, and improve the identification and ranking of HCPs and KOLs to support strategic decision-making.",
         "length": "",
         "tech": [
@@ -1527,7 +1527,7 @@
         "id": 27,
         "title": "TELI-MEDICINE",
         "type": "Computer Vision",
-        "thumbnail": "",
+        "thumbnail": "/images/project/teli_medecine.png",
         "description": "TELI-MEDICINE enhances teletherapy with avatar-based privacy, AI-driven symptom analysis, and a comprehensive platform for patient management, prescriptions, and video consultations.",
         "length": "",
         "tech": [
@@ -1584,7 +1584,7 @@
         "id": 30,
         "title": "Audio Signal Processing ",
         "type": "Computer Vision",
-        "thumbnail": "",
+        "thumbnail": "/images/project/audio_signal.png",
         "description": "Noisy environments hinder effective communication and understanding of speech, affecting user experience in audio interactions",
         "length": "",
         "tech": [
@@ -1634,7 +1634,7 @@
         "id": 31,
         "title": "CMC USA - LEXUS",
         "type": "Computer Vision",
-        "thumbnail": "",
+        "thumbnail": "/images/project/cmc.png",
         "description": "Lexus needed to enhance their mobile app by addressing incomplete functionality, outdated UI, and the lack of support for diverse language models, specifically Arabic, while ensuring an elevated user experience.",
         "length": "",
         "tech": [
