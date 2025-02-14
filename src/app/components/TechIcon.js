@@ -47,6 +47,8 @@ import { CiRoute } from "react-icons/ci";
 import { BsVirus } from "react-icons/bs";
 import {
     SiCesium,
+    SiJupyter,
+    SiPandas,
     SiPayloadcms,
     SiPytorch,
     SiPlotly,
@@ -63,6 +65,8 @@ import {
 import { VscGraph } from "react-icons/vsc";
 
 const techIcons = {
+    Pandas: <SiPandas style={{ color: "#EC7425" }} />,
+    Jupyter: <SiJupyter style={{ color: "#EC7425" }} />,
     dcm4che: <SiPayloadcms style={{ color: "#121212" }} />,
     PyTorch: <SiPytorch style={{ color: "#E9492D" }} />,
     Plotly: <SiPlotly style={{ color: "#F23371" }} />,
@@ -140,6 +144,7 @@ const techIcons = {
     "Elastic Search": <SiElasticsearch style={{ color: "#005571" }} />,
     Echarts: <FaChartLine style={{ color: "#F89B89" }} />,
     LangGraph: <FaChartLine style={{ color: "#2B6CB0" }} />,
+    Learn: <FaChartLine style={{ color: "#2B6CB0" }} />,
     "Crew AI": <FaRobot style={{ color: "#FF9900" }} />,
     TS: <IoLogoJavascript style={{ color: "#428FE8" }} />,
     Typescript: <IoLogoJavascript style={{ color: "#428FE8" }} />,
@@ -155,12 +160,12 @@ const techIcons = {
     "Prompt Engineering": <FaDesktop style={{ color: "#0090CF" }} />,
     "Vision Transformer": <FaRobot style={{ color: "#FF9900" }} />,
     "Adobe Experience Manager": <FaDesktop style={{ color: "#FA0F00" }} />,
-    Veeva: <FaDesktop style={{ color: "#FF7F00" }} />,
+    Veeva: <FaDesktop style={{ color: "#FF9900" }} />,
     NodeJS: <IoLogoJavascript style={{ color: "#68A063" }} />,
-    Moodle: <FaDesktop style={{ color: "#F98012" }} />,
-    Tosca: <FaDesktop style={{ color: "#1A73E8" }} />,
-    Playwright: <FaDesktop style={{ color: "#2EAD33" }} />,
-    Salesforce: <FaCloud style={{ color: "#00A1E0" }} />,
+    Moodle: <FaDesktop style={{ color: "#F6B333" }} />,
+    Tosca: <FaDesktop style={{ color: "#007ACC" }} />,
+    Playwright: <FaDesktop style={{ color: "#2B6CB0" }} />,
+    Salesforce: <FaDesktop style={{ color: "#00A1E0" }} />,
 };
 
 const TechIcon = ({ iconName, className = "" }) => {
