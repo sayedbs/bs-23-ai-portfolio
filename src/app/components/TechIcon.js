@@ -15,10 +15,12 @@ import { DiMsqlServer , DiDotnet} from "react-icons/di";
 import { BiLogoPostgresql  } from "react-icons/bi";
 import { CiRoute } from "react-icons/ci";
 import { BsVirus } from "react-icons/bs";
-import { SiCesium, SiPayloadcms, SiPytorch, SiPlotly, SiTableau, SiAwsfargate, SiApachenifi, SiRedux, SiAmazoncloudwatch, SiMapbox, SiMaterialformkdocs, SiAxios, SiStyledcomponents } from "react-icons/si";
+import { SiCesium, SiJupyter, SiPandas, SiPayloadcms, SiPytorch, SiPlotly, SiTableau, SiAwsfargate, SiApachenifi, SiRedux, SiAmazoncloudwatch, SiMapbox, SiMaterialformkdocs, SiAxios, SiStyledcomponents } from "react-icons/si";
 import { VscGraph } from "react-icons/vsc";
 
 const techIcons = {
+  'Pandas': <SiPandas style={{ color: '#EC7425' }} />,
+  'Jupyter': <SiJupyter style={{ color: '#EC7425' }} />,
   'dcm4che': <SiPayloadcms style={{ color: '#121212' }} />,
   'PyTorch': <SiPytorch style={{ color: '#E9492D' }} />,
   'Plotly': <SiPlotly style={{ color: '#F23371' }} />,
@@ -78,6 +80,7 @@ const techIcons = {
   'Elastic Search': <SiElasticsearch style={{ color: '#005571' }} />,
   'Echarts': <FaChartLine style={{ color: '#F89B89' }} />,
   'LangGraph': <FaChartLine style={{ color: '#2B6CB0' }} />,
+  'Learn': <FaChartLine style={{ color: '#2B6CB0' }} />,
   'Crew AI': <FaRobot style={{ color: '#FF9900' }} />,
   'TS': <IoLogoJavascript style={{ color: '#428FE8' }} />,
   'Typescript': <IoLogoJavascript style={{ color: '#428FE8' }} />,
