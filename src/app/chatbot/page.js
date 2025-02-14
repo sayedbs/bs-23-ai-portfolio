@@ -33,6 +33,7 @@ const Chatbot = () => {
                         <DashboardItemCard
                             key={project.id}
                             project={project}
+                            defaultImage="/images/default/chatbot.png"
                         />
                     ))}
                 </div>

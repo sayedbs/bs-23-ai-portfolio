@@ -33,7 +33,7 @@ const DataAnalysis = () => {
                         <DashboardItemCard
                             key={index}
                             project={project}
-                            defaultImage="/images/placeholder.png"
+                            defaultImage="/images/default/data_analysis.png"
                         />
                     ))}
                 </div>
