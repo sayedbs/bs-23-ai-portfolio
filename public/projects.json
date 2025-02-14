@@ -281,7 +281,7 @@
         "id": 6,
         "title": "LIONOBYTES",
         "type": "Artificial Intelligence",
-        "thumbnail": "/images/project/LIONOBYTES.png",
+        "thumbnail": "/images/project/lionobytes.png",
         "description": "LIONOBYTES is an AI-powered CRM enhancement tool designed to improve lead scoring, sentiment analysis, and sales forecasting for B2B businesses. It helps CRM providers overcome challenges related to manual lead scoring, inaccurate sales forecasting, and inefficient email communication with clients.",
         "length": "",
         "tech": [
@@ -396,7 +396,7 @@
         "id": 18,
         "title": "ALTIUS RFP",
         "type": "Artificial Intelligence",
-        "thumbnail": "/images/project/ALTIUS RFP.png",
+        "thumbnail": "/images/project/altius_rfp.png",
         "description": "ALTIUS RFP involves creating a scalable and integrated RFP system, with distinct functionalities for Admin, Client, and Vendor roles, streamlining the request-for-proposal process and enhancing collaboration across all stakeholders.",
         "length": "",
         "tech": [
@@ -452,7 +452,7 @@
         "id": 22,
         "title": "Hightime AI",
         "type": "Artificial Intelligence",
-        "thumbnail": "/images/project/Hightime AI.jpg",
+        "thumbnail": "/images/project/hightime _ai.png",
         "description": "Hightime AI is a solution developed for a SaaS startup to address the inefficiencies in analyzing meeting summaries and follow-up actions within a data call platform. The system enhances the process by automating analysis, improving accuracy, and ensuring timely follow-ups.",
         "length": "",
         "tech": [
@@ -558,7 +558,7 @@
         "id": 9,
         "title": "HR Automation Solution",
         "type": "Artificial Intelligence",
-        "thumbnail": "",
+        "thumbnail": "/images/project/hr_admin.png",
         "description": "The HR Automation Solution project is designed to revolutionize the traditional recruitment process by leveraging cutting-edge technologies to automate and optimize various HR tasks. The primary goal is to reduce manual effort, accelerate hiring timelines, and enhance the overall efficiency of talent acquisition.",
         "length": "",
         "tech": [
@@ -619,7 +619,7 @@
         "id": 10,
         "title": "Product Description Generator",
         "type": "Artificial Intelligence",
-        "thumbnail": "",
+        "thumbnail": "/images/project/product_description.png",
         "description": "The Product Description Generator project was developed to address the challenges faced by an e-commerce platform in managing and uploading thousands of product listings regularly. The solution leverages advanced technologies to automate the creation of product descriptions, improve SEO, and enhance the overall efficiency of the listing process.",
         "length": "",
         "tech": [
@@ -673,7 +673,7 @@
         "id": 11,
         "title": "Product & Brand Identification",
         "type": "Computer Vision",
-        "thumbnail": "",
+        "thumbnail": "/image/project/product_Brand_Identification.png",
         "description": "The Product & Brand Identification project was developed to revolutionize retail inventory management by leveraging advanced image and data processing technologies. The solution enables real-time detection of shelf status, accurate product identification, and efficient inventory management, ultimately enhancing operational efficiency and sales potential.",
         "length": "",
         "tech": [
@@ -1015,7 +1015,7 @@
         "id": 25,
         "title": "Content Compliance Summarization",
         "type": "Artificial Intelligence",
-        "thumbnail": "",
+        "thumbnail": "/images/project/content-compliance.png",
         "description": "The Content Compliance Summarization for MJ Hudson project automates the collection and classification of public and private documents, such as ESG policies, using targeted Google queries. It employs advanced NLP techniques, including question-answering, named entity recognition, and document classification, to validate the authenticity of documents. The processed data is attributed to relevant entities, validated for accuracy, and stored in a data mart for reporting and exporting purposes.",
         "length": "",
         "tech": [
@@ -1692,7 +1692,7 @@
         "id": 32,
         "title": "Fraud Detection",
         "type": "Artificial Intelligence",
-        "thumbnail": "",
+        "thumbnail": "/images/project/fraud-detection.png",
         "description": "Banks & financial organisations approve the loan after a rigorous process of verification and validation but still, there is no surety whether the chosen applicant is the deserving or not.",
         "length": "",
         "tech": [

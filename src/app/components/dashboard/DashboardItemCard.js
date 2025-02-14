@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/card";
 import ProjectModal from "./ProjectModal";
 
-function DashboardItemCard({ project }) {
+function DashboardItemCard({ defaultImage="", project }) {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <motion.div
@@ -29,12 +29,12 @@ function DashboardItemCard({ project }) {
                         src={
                             project.thumbnail
                                 ? project.thumbnail
-                                : "/images/placeholder.png"
+                                : defaultImage || "/images/placeholder.png"
                         }
                         width={200}
                         height={100}
                         alt="Thumbnail"
-                        className="rounded-lg p-3 group-hover:scale-105 transition-transform duration-300"
+                        className="rounded-lg bg-white max-h-[100%] w-auto h-auto max-w-[100%] group-hover:scale-105 transition-transform duration-300"
                     />
 
                 </CardHeader>

@@ -33,6 +33,7 @@ const ComputerVisionComponent = () => {
                             <DashboardItemCard
                                 key={project.id}
                                 project={project}
+                                defaultImage="/images/default/computer_vision.png"
                             />
                         </>
                     ))}
