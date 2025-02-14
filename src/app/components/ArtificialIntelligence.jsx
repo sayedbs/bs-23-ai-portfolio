@@ -29,7 +29,11 @@ const ArtificialIntelligenceComponent = () => {
             <div className="max-w-[1500px] mx-auto p-4 relative">
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-5">
                     {projects.map((project) => (
-                        <DashboardItemCard key={project.id} project={project} />
+                        <DashboardItemCard
+                            key={project.id}
+                            project={project}
+                            defaultImage="/images/default/ai_default.png"
+                        />
                     ))}
                 </div>
                 <OnePager />
