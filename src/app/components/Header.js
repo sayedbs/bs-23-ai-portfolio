@@ -49,13 +49,11 @@ function Header() {
             />
 
             <div className="flex-1 flex items-center gap-4 justify-center">
-                <NavButton
-                    path="/artificial-intelligence"
-                    label="AI"
-                />
+                <NavButton path="/artificial-intelligence" label="AI" />
                 <NavButton path="/computer-vision" label="Computer Vision" />
                 <NavButton path="/chatbot" label="Chatbot" />
                 <NavButton path="/data-analysis" label="Data Analysis" />
+                {/* <NavButton path="/aem" label="AEM" /> */}
             </div>
 
             <div>
