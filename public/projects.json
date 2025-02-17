@@ -1,5 +1,71 @@
 [
     {
+        "id": 45,
+        "title": "AutoToll: License Plate Detection Tolling",
+        "type": "Computer Vision",
+        "thumbnail": "/images/project/car.png",
+        "description": "AutoToll is a PoC on advanced toll collection automation system that leverages AI-driven license plate recognition to streamline toll payments without the need for manual intervention. It is designed for highways, bridges, and urban toll booths to eliminate congestion, reduce human errors, and ensure a seamless, contactless toll collection experience. With real-time image processing and cloud-based payment integration, AutoToll can make tolling smarter, faster, and more efficient.",
+        "length": "",
+        "tech": [
+            "OpenCV",
+            "Pytorch",
+            "YOLO",
+            "Gemini"
+        ],
+        "features": [
+            {
+                "title": "Automatic License Plate Recognition (ALPR)",
+                "description": "AI-powered OCR technology detects and reads vehicle plates in real time."
+            },
+            {
+                "title": "Vehicle Classification & Pricing",
+                "description": "Identifies vehicle types (car, truck, bus) to apply correct toll rates."
+            },
+            {
+                "title": "Multi-Lane Support",
+                "description": "Handles high-speed, multi-lane tolling with 99% accuracy."
+            },
+            {
+                "title": "Multilingual License Plate Detection",
+                "description": ""
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Faster Traffic Flow",
+                "description": "Eliminates long queues by automating toll collection in real-time.",
+                "icon": "🚗"
+            },
+            {
+                "title": "Reduced Operational Costs",
+                "description": "Minimizes reliance on manual toll operators, cutting down labor costs.",
+                "icon": "💰"
+            },
+            {
+                "title": "Improved Revenue Collection",
+                "description": "Reduces toll evasion through AI-powered license plate verification.",
+                "icon": "📈"
+            },
+            {
+                "title": "Better User Experience",
+                "description": "Offers a frictionless and contactless payment system for drivers.",
+                "icon": "👍"
+            },
+            {
+                "title": "Scalability",
+                "description": "Can be deployed on highways, parking lots, and private toll booths.",
+                "icon": "🌐"
+            },
+            {
+                "title": "Seamless Payment Integration",
+                "description": "Can support multiple payment options (wallets, RFID, credit/debit cards, and UPI).",
+                "icon": "💳"
+            }
+        ],
+        "audience": [],
+        "youtube": ""
+    },
+    {
         "id": 1,
         "title": "UPENDNOW",
         "type": "Artificial Intelligence",
@@ -2439,19 +2505,6 @@
                 "icon": "🚀"
             }
         ],
-        "audience": [],
-        "youtube": ""
-    },
-    {
-        "id": 45,
-        "title": "",
-        "type": "",
-        "thumbnail": "",
-        "description": "",
-        "length": "",
-        "tech": [],
-        "features": [],
-        "benefits": [],
         "audience": [],
         "youtube": ""
     },

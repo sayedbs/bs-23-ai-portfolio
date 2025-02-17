@@ -175,6 +175,9 @@ const techIcons = {
     "Adobe Analytics": <FaDesktop style={{ color: "#FF6F61" }} />,
     Figma: <FaDesktop style={{ color: "#A259FF" }} />,
     Redis: <FaDesktop style={{ color: "#D82C20" }} />,
+    Pytorch: <SiPytorch style={{ color: "#EE4C2C" }} />,
+    YOLO: <FaEye style={{ color: "#FF9900" }} />,
+    Gemini: <FaRobot style={{ color: "#00A1E0" }} />,
 };
 
 const TechIcon = ({ iconName, className = "" }) => {
